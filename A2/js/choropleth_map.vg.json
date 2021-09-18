@@ -1,0 +1,63 @@
+
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Road Crashes in Australia (2015-2021)",
+    "width": 800,
+    "height": 600,
+    "projection": {
+        "type": "mercator"
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
+    "format": {
+            "type": "topojson",
+            "feature": "SA4_2016_AUST"
+        }
+    },
+    "transform": [
+        {
+            "lookup": "properties.SA4_NAME16",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
+                },
+                "key": "SA4",
+                "fields": ["Road Transport Crash Count"]
+            }
+        }
+    ],
+    "mark": {
+        "type": "geoshape"
+    },
+    "encoding": {
+        "color": {
+            "field": "Road Transport Crash Count",
+            "type": "quantitative",
+            "scale": {
+                "type": "threshold",
+                "domain": [
+                    0,
+                    50,
+                    100
+                ],
+                "range": [
+                    "#fdbe85",
+                    "#fd8d3c",
+                    "#e6550d",
+                    "#a63603"
+                ]
+            }
+        },
+        "tooltip": [
+            {
+                "field": "properties.SA4_NAME16",
+                "type": "nominal",
+                "title": "SA4"
+            },
+            {
+                "field": "Road Transport Crash Count",
+                "type": "quantitative"
+            }
+        ]
+    }
+}
