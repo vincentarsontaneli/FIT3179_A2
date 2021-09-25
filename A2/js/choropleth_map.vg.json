@@ -1,4 +1,3 @@
-
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Road Crashes in Australia (2015-2021)",
@@ -9,55 +8,79 @@
     },
     "data": {
         "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
-    "format": {
+        "format": {
             "type": "topojson",
             "feature": "SA4_2016_AUST"
         }
     },
-    "transform": [
+    "layer": [
         {
-            "lookup": "properties.SA4_NAME16",
-            "from": {
-                "data": {
-                    "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
-                },
-                "key": "SA4",
-                "fields": ["Crash Rate per 100,000 population"]
-            }
-        }
-    ],
-    "mark": {
-        "type": "geoshape"
-    },
-    "encoding": {
-        "color": {
-            "field": "Crash Rate per 100,000 population",
-            "type": "quantitative",
-            "scale": {
-                "type": "threshold",
-                "domain": [
-                    50,
-                    75,
-                    100
-                ],
-                "range": [
-                    "#fdbe85",
-                    "#fd8d3c",
-                    "#e6550d",
-                    "#a63603"
-                ]
+            "transform": [
+                {
+                    "calculate": "'Data is not available in ' + datum.properties.NAME",
+                    "as": "note"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightgray",
+                "stroke": "white"
+            },
+            "encoding": {
+                "tooltip": {
+                    "field": "note"
+                }
             }
         },
-        "tooltip": [
-            {
-                "field": "properties.SA4_NAME16",
-                "type": "nominal",
-                "title": "SA4"
+        {
+            "transform": [
+                {
+                    "lookup": "properties.SA4_NAME16",
+                    "from": {
+                        "data": {
+                            "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
+                        },
+                        "key": "SA4",
+                        "fields": [
+                            "Crash Rate per 100,000 population"
+                        ]
+                    }
+                }
+            ],
+            "mark": {
+                "type": "geoshape"
             },
-            {
-                "field": "Crash Rate per 100,000 population",
-                "type": "quantitative"
+            "encoding": {
+                "color": {
+                    "field": "Crash Rate per 100,000 population",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "threshold",
+                        "domain": [
+                            50,
+                            75,
+                            100
+                        ],
+                        "range": [
+                            "#fdbe85",
+                            "#fd8d3c",
+                            "#e6550d",
+                            "#a63603"
+                        ]
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "properties.SA4_NAME16",
+                        "type": "nominal",
+                        "title": "SA4"
+                    },
+                    {
+                        "field": "Crash Rate per 100,000 population",
+                        "type": "quantitative"
+                    }
+                ]
             }
-        ]
-    }
+        }
+    ]
 }
