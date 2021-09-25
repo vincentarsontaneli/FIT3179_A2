@@ -17,7 +17,7 @@
         {
             "transform": [
                 {
-                    "calculate": "'Data is not available in ' + datum.properties.NAME",
+                    "calculate": "'Data is not available in ' + properties.SA4_NAME16",
                     "as": "note"
                 }
             ],
