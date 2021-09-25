@@ -1,10 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Road Crashes in Australia (2015-2021)",
-    "width": 800,
-    "height": 600,
+    "width": 1200,
+    "height": 900,
     "projection": {
         "type": "mercator"
+    },
+    "config": {
+        "background": "#F3FAF9"
     },
     "data": {
         "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
@@ -48,7 +51,8 @@
                 }
             ],
             "mark": {
-                "type": "geoshape"
+                "type": "geoshape",
+                "stroke": "white"
             },
             "encoding": {
                 "color": {
@@ -57,15 +61,17 @@
                     "scale": {
                         "type": "threshold",
                         "domain": [
+                            25,
                             50,
                             75,
                             100
                         ],
                         "range": [
-                            "#fdbe85",
-                            "#fd8d3c",
-                            "#e6550d",
-                            "#a63603"
+                            "#fee5d9",
+                            "#fcae91",
+                            "#fb6a4a",
+                            "#de2d26",
+                            "#a50f15"
                         ]
                     }
                 },
