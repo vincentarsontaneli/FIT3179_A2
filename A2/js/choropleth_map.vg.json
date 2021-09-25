@@ -36,10 +36,9 @@
             "scale": {
                 "type": "threshold",
                 "domain": [
-                    10,
                     50,
-                    100,
-                    150
+                    75,
+                    100
                 ],
                 "range": [
                     "#fdbe85",
