@@ -22,7 +22,7 @@
                     "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
                 },
                 "key": "SA4",
-                "fields": ["Road Transport Crash Count"]
+                "fields": ["Crash Rate"]
             }
         }
     ],
@@ -31,14 +31,15 @@
     },
     "encoding": {
         "color": {
-            "field": "Road Transport Crash Count",
+            "field": "Crash Rate",
             "type": "quantitative",
             "scale": {
                 "type": "threshold",
                 "domain": [
-                    0,
+                    10,
                     50,
-                    100
+                    100,
+                    150
                 ],
                 "range": [
                     "#fdbe85",
@@ -55,7 +56,7 @@
                 "title": "SA4"
             },
             {
-                "field": "Road Transport Crash Count",
+                "field": "Crash Count Rate",
                 "type": "quantitative"
             }
         ]
