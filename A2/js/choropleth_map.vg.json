@@ -22,7 +22,7 @@
                     "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
                 },
                 "key": "SA4",
-                "fields": ["Crash Rate"]
+                "fields": ["Crash Rate per 100,000 population"]
             }
         }
     ],
@@ -31,7 +31,7 @@
     },
     "encoding": {
         "color": {
-            "field": "Crash Rate",
+            "field": "Crash Rate per 100,000 population",
             "type": "quantitative",
             "scale": {
                 "type": "threshold",
@@ -56,7 +56,7 @@
                 "title": "SA4"
             },
             {
-                "field": "Crash Count Rate",
+                "field": "Crash Rate per 100,000 population",
                 "type": "quantitative"
             }
         ]
