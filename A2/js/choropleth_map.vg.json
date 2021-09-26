@@ -61,13 +61,13 @@
                     "scale": {
                         "type": "threshold",
                         "domain": [
-                            25,
-                            50,
-                            75,
+                            30,
+                            60,
+                            80,
                             100
                         ],
                         "range": [
-                            "#fee5d9",
+                            "#fee0d2",
                             "#fcae91",
                             "#fb6a4a",
                             "#de2d26",
