@@ -1,89 +1,89 @@
-SA4,Crash Count,Fatality Count,Estimated Population,"Crash Rate per 100,000 population","Fatality Rate per 100,000 population"
-Adelaide - Central and Hills,69,70,310091,22.25,22.57
-Adelaide - North,94,98,448458,20.96,21.85
-Adelaide - South,57,59,374910,15.20,15.74
-Adelaide - West,45,45,243142,18.51,18.51
-Australian Capital Territory,49,51,431380,11.36,11.82
-Ballarat,83,95,169854,48.87,55.93
-Barossa - Yorke - Mid North,106,120,114862,92.28,104.47
-Bendigo,71,74,165248,42.97,44.78
-Brisbane - East,21,23,243121,8.64,9.46
-Brisbane - North,15,16,228486,6.56,7.00
-Brisbane - South,27,28,381849,7.07,7.33
-Brisbane - West,4,4,194889,2.05,2.05
-Brisbane Inner City,10,11,298546,3.35,3.68
-Bunbury,105,111,186068,56.43,59.66
-Cairns,54,64,256039,21.09,25.00
-Capital Region,154,166,232799,66.15,71.31
-Central Coast,82,87,345857,23.71,25.15
-Central Queensland,60,65,228200,26.29,28.48
-Central West,148,160,213714,69.25,74.87
-Coffs Harbour - Grafton,88,94,142570,61.72,65.93
-Darling Downs - Maranoa,70,81,128706,54.39,62.93
-Darwin,85,95,147231,57.73,64.52
-Far West and Orana,105,117,116440,90.18,100.48
-Geelong,78,84,317857,24.54,26.43
-Gold Coast,58,64,650996,8.91,9.83
-Hobart,57,60,238834,23.87,25.12
-Hume,131,143,180610,72.53,79.18
-Hunter Valley exc Newcastle,144,156,285141,50.50,54.71
-Illawarra,58,62,317988,18.24,19.50
-Ipswich,51,55,371126,13.74,14.82
-Latrobe - Gippsland,147,161,291051,50.51,55.32
-Launceston and North East,70,80,148023,47.29,54.05
-Logan - Beaudesert,49,54,357143,13.72,15.12
-Mackay - Isaac - Whitsunday,48,55,174816,27.46,31.46
-Mandurah,22,23,105364,20.88,21.83
-Melbourne - Inner,64,67,713203,8.97,9.39
-Melbourne - Inner East,34,38,400191,8.50,9.50
-Melbourne - Inner South,50,50,450242,11.11,11.11
-Melbourne - North East,74,78,566199,13.07,13.78
-Melbourne - North West,67,72,429721,15.59,16.76
-Melbourne - Outer East,94,98,536496,17.52,18.27
-Melbourne - South East,155,163,883260,17.55,18.45
-Melbourne - West,129,137,867699,14.87,15.79
-Mid North Coast,122,131,224808,54.27,58.27
-Moreton Bay - North,44,47,261602,16.82,17.97
-Moreton Bay - South,19,19,223958,8.48,8.48
-Mornington Peninsula,70,75,312200,22.42,24.02
-Murray,62,70,122056,50.80,57.35
-New England and North West,133,149,186312,71.39,79.97
-Newcastle and Lake Macquarie,91,94,382537,23.79,24.57
-North West,106,112,152207,69.64,73.58
-Northern Territory - Outback,145,172,98912,146.59,173.89
-Perth - Inner,24,24,187107,12.83,12.83
-Perth - North East,49,51,275750,17.77,18.50
-Perth - North West,62,67,579082,10.71,11.57
-Perth - South East,75,83,531673,14.11,15.61
-Perth - South West,55,59,446138,12.33,13.22
-Queensland - Outback,54,57,82751,65.26,68.88
-Richmond - Tweed,107,114,255304,41.91,44.65
-Riverina,108,118,161929,66.70,72.87
-Shepparton,89,95,134857,66.00,70.44
-South Australia - Outback,72,80,84095,85.62,95.13
-South Australia - South East,155,170,194817,79.56,87.26
-South East,31,32,40168,77.18,79.67
-Southern Highlands and Shoalhaven,74,83,158728,46.62,52.29
-Sunshine Coast,56,56,393049,14.25,14.25
-Sydney - Baulkham Hills and Hawkesbury,38,40,257359,14.77,15.54
-Sydney - Blacktown,41,46,385650,10.63,11.93
-Sydney - City and Inner South,49,53,372826,13.14,14.22
-Sydney - Eastern Suburbs,26,27,296088,8.78,9.12
-Sydney - Inner South West,74,79,630964,11.73,12.52
-Sydney - Inner West,27,28,326651,8.27,8.57
-Sydney - North Sydney and Hornsby,52,53,442646,11.75,11.97
-Sydney - Northern Beaches,26,26,274041,9.49,9.49
-Sydney - Outer South West,47,52,294899,15.94,17.63
-Sydney - Outer West and Blue Mountains,54,58,331168,16.31,17.51
-Sydney - Parramatta,77,80,507197,15.18,15.77
-Sydney - Ryde,30,30,207511,14.46,14.46
-Sydney - South West,80,86,462408,17.30,18.60
-Sydney - Sutherland,32,33,231941,13.80,14.23
-Toowoomba,13,13,159991,8.13,8.13
-Townsville,59,71,238813,24.71,29.73
-Warrnambool and South West,91,98,125775,72.35,77.92
-West and North West,50,53,113755,43.95,46.59
-Western Australia - Outback (North),62,72,98864,62.71,72.83
-Western Australia - Outback (South),77,87,116006,66.38,75.00
-Western Australia - Wheat Belt,164,187,137509,119.26,135.99
-Wide Bay,126,144,302105,41.71,47.67
+﻿SA4,Crash Count,Fatality Count,Estimated Population,"Crash Rate per 100,000 population","Fatality Rate per 100,000 population",State
+Adelaide - Central and Hills,69,70,310091,22.25,22.57,SA
+Adelaide - North,94,98,448458,20.96,21.85,SA
+Adelaide - South,57,59,374910,15.20,15.74,SA
+Adelaide - West,45,45,243142,18.51,18.51,SA
+Australian Capital Territory,49,51,431380,11.36,11.82,ACT
+Ballarat,83,95,169854,48.87,55.93,Vic
+Barossa - Yorke - Mid North,106,120,114862,92.28,104.47,SA
+Bendigo,71,74,165248,42.97,44.78,Vic
+Brisbane - East,21,23,243121,8.64,9.46,Qld
+Brisbane - North,15,16,228486,6.56,7.00,Qld
+Brisbane - South,27,28,381849,7.07,7.33,Qld
+Brisbane - West,4,4,194889,2.05,2.05,Qld
+Brisbane Inner City,10,11,298546,3.35,3.68,Qld
+Bunbury,105,111,186068,56.43,59.66,WA
+Cairns,54,64,256039,21.09,25.00,Qld
+Capital Region,154,166,232799,66.15,71.31,NSW
+Central Coast,82,87,345857,23.71,25.15,NSW
+Central Queensland,60,65,228200,26.29,28.48,Qld
+Central West,148,160,213714,69.25,74.87,NSW
+Coffs Harbour - Grafton,88,94,142570,61.72,65.93,NSW
+Darling Downs - Maranoa,70,81,128706,54.39,62.93,Qld
+Darwin,85,95,147231,57.73,64.52,NT
+Far West and Orana,105,117,116440,90.18,100.48,NSW
+Geelong,78,84,317857,24.54,26.43,Vic
+Gold Coast,58,64,650996,8.91,9.83,Qld
+Hobart,57,60,238834,23.87,25.12,Tas
+Hume,131,143,180610,72.53,79.18,Vic
+Hunter Valley exc Newcastle,144,156,285141,50.50,54.71,NSW
+Illawarra,58,62,317988,18.24,19.50,NSW
+Ipswich,51,55,371126,13.74,14.82,Qld
+Latrobe - Gippsland,147,161,291051,50.51,55.32,Vic
+Launceston and North East,70,80,148023,47.29,54.05,Tas
+Logan - Beaudesert,49,54,357143,13.72,15.12,Qld
+Mackay - Isaac - Whitsunday,48,55,174816,27.46,31.46,Qld
+Mandurah,22,23,105364,20.88,21.83,WA
+Melbourne - Inner,64,67,713203,8.97,9.39,Vic
+Melbourne - Inner East,34,38,400191,8.50,9.50,Vic
+Melbourne - Inner South,50,50,450242,11.11,11.11,Vic
+Melbourne - North East,74,78,566199,13.07,13.78,Vic
+Melbourne - North West,67,72,429721,15.59,16.76,Vic
+Melbourne - Outer East,94,98,536496,17.52,18.27,Vic
+Melbourne - South East,155,163,883260,17.55,18.45,Vic
+Melbourne - West,129,137,867699,14.87,15.79,Vic
+Mid North Coast,122,131,224808,54.27,58.27,NSW
+Moreton Bay - North,44,47,261602,16.82,17.97,Qld
+Moreton Bay - South,19,19,223958,8.48,8.48,Qld
+Mornington Peninsula,70,75,312200,22.42,24.02,Vic
+Murray,62,70,122056,50.80,57.35,NSW
+New England and North West,133,149,186312,71.39,79.97,NSW
+Newcastle and Lake Macquarie,91,94,382537,23.79,24.57,NSW
+North West,106,112,152207,69.64,73.58,Vic
+Northern Territory - Outback,145,172,98912,146.59,173.89,NT
+Perth - Inner,24,24,187107,12.83,12.83,WA
+Perth - North East,49,51,275750,17.77,18.50,WA
+Perth - North West,62,67,579082,10.71,11.57,WA
+Perth - South East,75,83,531673,14.11,15.61,WA
+Perth - South West,55,59,446138,12.33,13.22,WA
+Queensland - Outback,54,57,82751,65.26,68.88,Qld
+Richmond - Tweed,107,114,255304,41.91,44.65,NSW
+Riverina,108,118,161929,66.70,72.87,NSW
+Shepparton,89,95,134857,66.00,70.44,Vic
+South Australia - Outback,72,80,84095,85.62,95.13,SA
+South Australia - South East,155,170,194817,79.56,87.26,SA
+South East,31,32,40168,77.18,79.67,Tas
+Southern Highlands and Shoalhaven,74,83,158728,46.62,52.29,NSW
+Sunshine Coast,56,56,393049,14.25,14.25,Qld
+Sydney - Baulkham Hills and Hawkesbury,38,40,257359,14.77,15.54,NSW
+Sydney - Blacktown,41,46,385650,10.63,11.93,NSW
+Sydney - City and Inner South,49,53,372826,13.14,14.22,NSW
+Sydney - Eastern Suburbs,26,27,296088,8.78,9.12,NSW
+Sydney - Inner South West,74,79,630964,11.73,12.52,NSW
+Sydney - Inner West,27,28,326651,8.27,8.57,NSW
+Sydney - North Sydney and Hornsby,52,53,442646,11.75,11.97,NSW
+Sydney - Northern Beaches,26,26,274041,9.49,9.49,NSW
+Sydney - Outer South West,47,52,294899,15.94,17.63,NSW
+Sydney - Outer West and Blue Mountains,54,58,331168,16.31,17.51,NSW
+Sydney - Parramatta,77,80,507197,15.18,15.77,NSW
+Sydney - Ryde,30,30,207511,14.46,14.46,NSW
+Sydney - South West,80,86,462408,17.30,18.60,NSW
+Sydney - Sutherland,32,33,231941,13.80,14.23,NSW
+Toowoomba,13,13,159991,8.13,8.13,Qld
+Townsville,59,71,238813,24.71,29.73,Qld
+Warrnambool and South West,91,98,125775,72.35,77.92,Vic
+West and North West,50,53,113755,43.95,46.59,Tas
+Western Australia - Outback (North),62,72,98864,62.71,72.83,WA
+Western Australia - Outback (South),77,87,116006,66.38,75.00,WA
+Western Australia - Wheat Belt,164,187,137509,119.26,135.99,WA
+Wide Bay,126,144,302105,41.71,47.67,Qld
