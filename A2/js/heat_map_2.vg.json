@@ -8,13 +8,12 @@
     "encoding": {
       "y": {
         "field": "Hour",
-        "type": "ordinal",
-        "labelAngle": "-90"
+        "type": "ordinal"
       },
       "x": {
-        "field": "Dayweek",
+        "field": "Dayweek Initial",
         "type": "ordinal",
-        "sort": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+        "sort": ["M", "T", "W", "Th", "F", "S", "Su"]
       },
       "color": {
         "field": "Crash Count",
