@@ -3,16 +3,18 @@
     "data": {"url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_3.csv"},
     
     "mark": "rect",
-    "width": 300,
-    "height": 200,
+    "width": 200,
+    "height": 650,
     "encoding": {
-      "x": {
-        "field": "Dayweek",
-        "type": "ordinal"
-      },
       "y": {
         "field": "Hour",
-        "type": "ordinal"
+        "type": "ordinal",
+        "labelAngle": "-90"
+      },
+      "x": {
+        "field": "Dayweek",
+        "type": "ordinal",
+        "sort": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
       },
       "color": {
         "field": "Crash Count",
