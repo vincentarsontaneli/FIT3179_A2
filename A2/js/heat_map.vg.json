@@ -8,11 +8,11 @@
     "encoding": {
       "x": {
         "field": "Dayweek",
-        "type": "quantitative"
+        "type": "ordinal"
       },
       "y": {
         "field": "Month",
-        "type": "quantitative"
+        "type": "ordinal"
       },
       "color": {
         "field": "Crash Count",
