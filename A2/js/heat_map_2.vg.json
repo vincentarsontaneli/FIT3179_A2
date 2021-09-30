@@ -11,7 +11,7 @@
         "type": "ordinal"
       },
       "y": {
-        "field": "Time",
+        "field": "Hour",
         "type": "ordinal"
       },
       "color": {
