@@ -15,7 +15,7 @@
         "type": "ordinal"
       },
       "color": {
-        "field": "Crash Count",
+        "field": "Crash_Count",
         "type": "quantitative"
       }
     },

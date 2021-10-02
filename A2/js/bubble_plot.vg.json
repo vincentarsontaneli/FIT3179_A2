@@ -7,26 +7,35 @@
         "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
     },
     "transform": [
-        {"calculate": "datum.Fatality Count/datum.Crash Count",
-        "as": "Average Death"}
+        {"calculate": "datum.Fatality_Count/datum.Crash_Count",
+        "as": "Average Death Count"}
     ],
     "mark": "circle",
     "encoding": {
         "x": {
-            "field": "Crash Count",
+            "field": "Crash_Count",
             "type": "quantitative"
         },
         "y": {
-            "field": "Average Death",
-            "type": "quantitative"
+            "field": "Average Death Count",
+            "type": "quantitative",
+            "scale": {"domain": [1, 1.22]}
         },
         "color": {
             "field": "State",
             "type": "nominal"
         },
         "size": {
-            "field": "Estimated Population",
+            "field": "Population",
             "type": "quantitative"
-        }
+        },
+        "tooltip": [
+            {"field": "SA4", "type": "nominal"},
+            {"field": "State", "type": "nominal"},
+            {"field": "Population", "type": "quantitative", "format": ","},
+            {"field": "Crash_Count", "type": "quantitative", "format": ","},
+            {"field": "Fatality_Count", "type": "quantitative", "format": ","},
+            {"field": "Average Death Count", "type": "quantitative", "format": ","}
+            ]
     }
 }

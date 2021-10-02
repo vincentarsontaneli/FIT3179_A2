@@ -12,20 +12,20 @@
         "axis": {"labelAngle": 0}
       },
       "x": {
-        "field": "Dayweek Initial",
+        "field": "Dayweek_Initial",
         "type": "ordinal",
         "sort": ["M", "T", "W", "Th", "F", "S", "Su"],
         "title": "Day",
         "axis": {"labelAngle": 0}
       },
       "color": {
-        "field": "Crash Count",
+        "field": "Crash_Count",
         "type": "quantitative"
       },
       "tooltip": [
         {"field": "Dayweek", "type": "ordinal", "title": "Day"},
         {"field": "Hour", "type": "ordinal", "format": ","},
-        {"field": "Crash Count", "type": "quantitative", "format": ","}
+        {"field": "Crash_Count", "type": "quantitative", "format": ","}
         ]
     },
     "config": {

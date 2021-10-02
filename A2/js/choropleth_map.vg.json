@@ -45,7 +45,7 @@
                         },
                         "key": "SA4",
                         "fields": [
-                            "Crash Rate per 100,000 population"
+                            "Crash_Rate"
                         ]
                     }
                 }
@@ -56,7 +56,7 @@
             },
             "encoding": {
                 "color": {
-                    "field": "Crash Rate per 100,000 population",
+                    "field": "Crash_Rate",
                     "type": "quantitative",
                     "scale": {
                         "type": "threshold",
@@ -82,7 +82,7 @@
                         "title": "SA4"
                     },
                     {
-                        "field": "Crash Rate per 100,000 population",
+                        "field": "Crash_Rate",
                         "type": "quantitative"
                     }
                 ]
