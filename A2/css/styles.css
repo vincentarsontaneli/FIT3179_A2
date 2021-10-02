@@ -5,4 +5,21 @@
 	right: 100px;
 	/*height: 1000px;
 	width: 800px;*/
+	text-align: center;
 }
+
+#heat_map_2 {
+	top:100px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+	/*height: 1000px;
+	width: 800px;*/
+	text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    padding: .5em 2em;
+	text-align: center;
+  }

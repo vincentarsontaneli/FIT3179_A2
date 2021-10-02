@@ -6,17 +6,19 @@
     "data": {
         "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
     },
+    "transform": [
+        {"calculate": "datum.Fatality Count/datum.Crash Count",
+        "as": "Average Death"}
+    ],
     "mark": "circle",
     "encoding": {
         "x": {
-            "field": "Crash Rate per 100,000 population",
-            "type": "quantitative",
-            "title": "Crash rate"
+            "field": "Crash Count",
+            "type": "quantitative"
         },
         "y": {
-            "field": "Fatality Rate per 100,000 population",
-            "type": "quantitative",
-            "title": "Fatality rate"
+            "field": "Average Death",
+            "type": "quantitative"
         },
         "color": {
             "field": "State",

@@ -1,4 +1,4 @@
-﻿SA4,Crash Count,Fatality Count,Estimated Population,"Crash Rate per 100,000 population","Fatality Rate per 100,000 population",State
+﻿SA4,Crash_Count,Fatality_Count,Population,Crash_Rate,Fatality_Rate,State
 Adelaide - Central and Hills,69,70,310091,22.25,22.57,SA
 Adelaide - North,94,98,448458,20.96,21.85,SA
 Adelaide - South,57,59,374910,15.20,15.74,SA
