@@ -13,6 +13,11 @@
     ],
     "params":[
         {
+        "name": "state_highlight",
+        "select": {"type": "point", "fields": ["State"]},
+        "bind": "legend"
+        }, 
+        {
             "name": "state_selection",
             "bind": {
             "input": "select",
@@ -57,13 +62,6 @@
     },
     "layer": [
         {
-            "selection": {
-                "state_highlight": {
-                "type": "multi",
-                "fields": ["State"],
-                "bind": "legend"
-                }
-                },
             "mark": "circle",
             "encoding":{
                 "color": {
@@ -130,12 +128,20 @@
                 "text": {"field": "SA4", "type": "nominal"},
                 "color": {"value": "black"},
                 "opacity": {
-                    "condition": {
-                    "test": "datum['SA4'] == 'Northern Territory - Outback' || datum['SA4'] =='Melbourne - South East' || datum['SA4'] =='Townsville' || datum['SA4'] =='Wide Bay' || datum['SA4'] =='Cairns'",
-                    "value": 1
-                    },
-                    "value": 0
-                    }
+                "condition": {
+                "test": "datum['SA4'] == 'Melbourne - South East'",
+                "value": 1
+                },
+                "value": 0
+                },
+                "tooltip": [
+                    {"field": "SA4", "type": "nominal"},
+                    {"field": "State", "type": "nominal"},
+                    {"field": "Population", "type": "quantitative", "format": ","},
+                    {"field": "Crash_Count", "title": "Crashes", "type": "quantitative", "format": ","},
+                    {"field": "Fatality_Count", "title": "Deaths", "type": "quantitative", "format": ","},
+                    {"field": "Average Death per Crash", "type": "quantitative", "format": ".2f"}
+                    ]
             }
         }
     ]             
