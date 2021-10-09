@@ -1,0 +1,148 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 400,
+    "title": "Crash Count and Average Death Count per SA4",
+    "data": {
+        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
+    },
+    "transform": [
+        {"filter": "state_selection == null || datum.State == state_selection"},
+        {"calculate": "datum.Fatality_Count/datum.Crash_Count",
+        "as": "Average Death per Crash"}
+    ],
+    "params":[
+        {
+        "name": "state_highlight",
+        "select": {"type": "point", "fields": ["State"]},
+        "bind": "legend"
+        }, 
+        {
+            "name": "state_selection",
+            "bind": {
+            "input": "select",
+            "options": [
+            null,
+            "Australian Capital Territory",
+            "New South Wales",
+            "Northern Territory",
+            "Queensland",
+            "South Australia",
+            "Tasmania",
+            "Victoria",
+            "Western Australia"
+            ],
+            "labels":[
+            "Show All",
+            "Australian Capital Territory",
+            "New South Wales",
+            "Northern Territory",
+            "Queensland",
+            "South Australia",
+            "Tasmania",
+            "Victoria",
+            "Western Australia"
+            ],
+            "name": "State Selection: "
+            }
+            }
+        ],
+    "encoding": {
+        "x": {
+            "field": "Crash_Count",
+            "type": "quantitative",
+            "title": "Crashes",
+            "scale": {"domain": [0, 180]}
+        },
+        "y": {
+            "field": "Average Death per Crash",
+            "type": "quantitative",
+            "scale": {"domain": [1, 1.22]}
+        }
+    },
+    "layer": [
+        {
+            "mark": "circle",
+            "encoding":{
+                "color": {
+                    "field": "State",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [
+                            "Australian Capital Territory",
+                            "New South Wales",
+                            "Northern Territory",
+                            "Queensland",
+                            "South Australia",
+                            "Tasmania",
+                            "Victoria",
+                            "Western Australia"
+                        ],
+                        "range": [
+                            "#a3acb9",
+                            "#fc7d0b",
+                            "#7b848f",
+                            "#1170aa",
+                            "#5fa2ce",
+                            "#ffbc79",
+                            "#c85200",
+                            "#57606c"
+        
+                        ]
+                    }
+                },
+                "size": {
+                    "field": "Population",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "threshold",
+                        "domain": [200000, 400000, 600000, 800000],
+                        "range": [50, 125, 200, 300, 400]
+                        },
+                        "legend": {"format": ".1s"}
+                },
+                "opacity": {
+                    "condition": {"param": "state_highlight", "value": 0.9},
+                    "value": 0.1   
+                    },
+                "tooltip": [
+                    {"field": "SA4", "type": "nominal"},
+                    {"field": "State", "type": "nominal"},
+                    {"field": "Population", "type": "quantitative", "format": ","},
+                    {"field": "Crash_Count", "title": "Crashes", "type": "quantitative", "format": ","},
+                    {"field": "Fatality_Count", "title": "Deaths", "type": "quantitative", "format": ","},
+                    {"field": "Average Death per Crash", "type": "quantitative", "format": ".2f"}
+                    ]
+            }   
+        }, 
+        {
+            "mark": {
+                "type": "text",
+                "align": "right",
+                "baseline": "middle",
+                "dx": -12,
+                "fontSize": 11.5,
+                "fontStyle": "italic"
+                },
+            "encoding":{
+                "text": {"field": "SA4", "type": "nominal"},
+                "color": {"value": "black"},
+                "opacity": {
+                "condition": {
+                "test": "datum['SA4'] == 'Melbourne - South East'",
+                "value": 1
+                },
+                "value": 0
+                },
+                "tooltip": [
+                    {"field": "SA4", "type": "nominal"},
+                    {"field": "State", "type": "nominal"},
+                    {"field": "Population", "type": "quantitative", "format": ","},
+                    {"field": "Crash_Count", "title": "Crashes", "type": "quantitative", "format": ","},
+                    {"field": "Fatality_Count", "title": "Deaths", "type": "quantitative", "format": ","},
+                    {"field": "Average Death per Crash", "type": "quantitative", "format": ".2f"}
+                    ]
+            }
+        }
+    ]             
+}
