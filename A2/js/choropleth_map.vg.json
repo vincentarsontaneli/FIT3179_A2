@@ -61,7 +61,7 @@
                     "scale": {
                         "type": "threshold",
                         "domain": [
-                            30,
+                            40,
                             60,
                             80,
                             100
