@@ -2,14 +2,14 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 500,
     "height": 400,
-    "title": "Crash Count and Average Death Count per SA4",
+    "title": "Fatal Crashes vs Average Deaths per Fatal Crash by SA4",
     "data": {
         "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
     },
     "transform": [
         {"filter": "state_selection == null || datum.State == state_selection"},
         {"calculate": "datum.Fatality_Count/datum.Crash_Count",
-        "as": "Average Death per Crash"}
+        "as": "Average Deaths per Fatal Crash"}
     ],
     "params":[
         {
@@ -46,11 +46,11 @@
         "x": {
             "field": "Crash_Count",
             "type": "quantitative",
-            "title": "Crashes",
+            "title": "Fatal Crashes",
             "scale": {"domain": [0, 180]}
         },
         "y": {
-            "field": "Average Death per Crash",
+            "field": "Average Deaths per Fatal Crash",
             "type": "quantitative",
             "scale": {"domain": [1, 1.22]}
         }

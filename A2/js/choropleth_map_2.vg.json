@@ -58,12 +58,11 @@
                         },
                         "key": "SA4",
                         "fields": [
-                            "Crash_Count_per_100000_population"
+                            "Crash_Rate"
                         ]
                     }
                 },
                 {"filter": "datum.Year == Year_filter"}
-
             ],
             "mark": {
                 "type": "geoshape",
@@ -71,8 +70,7 @@
             },
             "encoding": {
                 "color": {
-                    "field": "Crash_Count_per_100000_population",
-                    "aggregate": "sum",
+                    "field": "Crash_Rate",
                     "title": "Crash Count per 100,000 population",
                     "type": "quantitative",
                     "scale": {
@@ -99,9 +97,8 @@
                         "title": "SA4"
                     },
                     {
-                        "field": "Crash_Count_per_100000_population",
-                        "type": "quantitative",
-                        "aggregate": "sum"
+                        "field": "Crash_Rate",
+                        "type": "quantitative"
                     }
                 ]
             }

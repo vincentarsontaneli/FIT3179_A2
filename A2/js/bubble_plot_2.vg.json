@@ -57,7 +57,7 @@
         "y": {
             "field": "Average Death per Crash",
             "type": "quantitative",
-            "scale": {"domain": [1, 1.22]}
+            "scale": {"domain": [0, 1.22]}
         }
     },
     "layer": [

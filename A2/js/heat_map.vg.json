@@ -41,7 +41,12 @@
           "timeUnit": "yearmonth",
           "axis": {"title": "", "grid": false, "format": "%Y"}
         },
-        "y": {"field": "Crash_Count", "aggregate": "sum", "title": "Count"}
+        "y": {"field": "Crash_Count", "aggregate": "sum", "title": "Count"},
+        "tooltip": [
+          {"field": "Month", "type": "ordinal"},
+          {"field": "Year", "type": "ordinal", "format": ","},
+          {"field": "Crash_Count", "aggregate": "sum", "type": "quantitative", "format": ","}
+        ]
       }
     }
   ]

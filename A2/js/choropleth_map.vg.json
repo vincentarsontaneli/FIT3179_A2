@@ -57,6 +57,7 @@
             "encoding": {
                 "color": {
                     "field": "Crash_Rate",
+                    "title": "Crash Count per 100,000 population",
                     "type": "quantitative",
                     "scale": {
                         "type": "threshold",
