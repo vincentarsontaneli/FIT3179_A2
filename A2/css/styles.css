@@ -1,13 +1,8 @@
 #choropleth_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
-	text-align: center;
-	display: block;
-	margin: 0 auto;
+	margin: auto;
+	right: 550px;
+	height: 1000px;
+	width: 800px;
 }
 
 #heat_map_2 {
@@ -18,30 +13,31 @@
 	/*height: 1000px;
 	width: 800px;*/
 	text-align: center;
-	display: block;
-	margin: 0 auto;
 }
 
 #bubble_plot {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
-	text-align: center;
-	display: block;
-	margin: 0 auto;
+	height: 300px;
+	width: 300px;
+	margin: auto;
+	left: 450px;
+}
+
+.container{
+	margin: auto;
+	width: 10%;
 }
 
 h1 {
     font-size: 4em;
+	font-family:Georgia, 'Times New Roman', Times, serif;
     padding: .5em 2em;
 	text-align: center;
   }
 
 p {
-    font-size: 4em;
-    padding: .5em 2em;
+    font-size: 1.5em;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	padding-left: 8em;
+	padding-right: 8em;
 	text-align: center;
   }
