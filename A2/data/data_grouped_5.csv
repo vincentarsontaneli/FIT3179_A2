@@ -1,4 +1,4 @@
-State,State_Initial,SA4 Name 2016,Population,Month,Year,Year-Month,Crash_Count,Fatality_Count,Crash_Count_per_100000_population,Fatality_Count_per_100000_population
+State,State_Initial,SA4 Name 2016,Population,Month,Year,Year-Month,Crash_Count,Fatality_Count,Crash_Rate,Fatality_Rate
 South Australia,SA,Adelaide - Central And Hills,310091,1,2015,2015-1,1,1,0.32248598,0.32248598
 South Australia,SA,Adelaide - Central And Hills,310091,1,2019,2019-1,1,1,0.32248598,0.32248598
 South Australia,SA,Adelaide - Central And Hills,310091,1,2021,2021-1,2,2,0.64497196,0.64497196
