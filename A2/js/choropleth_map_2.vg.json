@@ -50,7 +50,7 @@
             },
             "transform": [
                 {
-                    "lookup": "Entity",
+                    "lookup": "SA4 Name 2016",
                     "from": {
                         "data": {
                             "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
@@ -70,6 +70,7 @@
                 "stroke": "white"
             },
             "encoding": {
+                "shape": {"field":"geo", "type":"geojson"},
                 "color": {
                     "field": "Crash_Rate",
                     "title": "Crash Count per 100,000 population",
@@ -77,10 +78,7 @@
                     "scale": {
                         "type": "threshold",
                         "domain": [
-                            40,
-                            60,
-                            80,
-                            100
+                            5,10,15,20
                         ],
                         "range": [
                             "#fee0d2",
@@ -93,7 +91,7 @@
                 },
                 "tooltip": [
                     {
-                        "field": "properties.SA4_NAME16",
+                        "field": "SA4 Name 2016",
                         "type": "nominal",
                         "title": "SA4"
                     },

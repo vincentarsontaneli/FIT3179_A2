@@ -1,535 +1,535 @@
 State,State_Initial,SA4 Name 2016,Population,Year,Crash_Count,Fatality_Count,Crash_Rate,Fatality_Rate
-Australian Capital Territory,ACT,Australian Capital Territory,431380,2015,14,15,3.245398489,3.477212666
-Australian Capital Territory,ACT,Australian Capital Territory,431380,2016,10,10,2.318141778,2.318141778
-Australian Capital Territory,ACT,Australian Capital Territory,431380,2017,4,4,0.927256711,0.927256711
-Australian Capital Territory,ACT,Australian Capital Territory,431380,2018,7,7,1.622699244,1.622699244
-Australian Capital Territory,ACT,Australian Capital Territory,431380,2019,5,5,1.159070889,1.159070889
-Australian Capital Territory,ACT,Australian Capital Territory,431380,2020,4,5,0.927256711,1.159070889
-Australian Capital Territory,ACT,Australian Capital Territory,431380,2021,5,5,1.159070889,1.159070889
-New South Wales,NSW,Capital Region,232799,2015,24,25,10.30932263,10.73887774
-New South Wales,NSW,Capital Region,232799,2016,23,25,9.879767525,10.73887774
-New South Wales,NSW,Capital Region,232799,2017,24,24,10.30932263,10.30932263
-New South Wales,NSW,Capital Region,232799,2018,19,24,8.161547086,10.30932263
-New South Wales,NSW,Capital Region,232799,2019,28,31,12.02754307,13.3162084
-New South Wales,NSW,Capital Region,232799,2020,23,24,9.879767525,10.30932263
-New South Wales,NSW,Capital Region,232799,2021,13,13,5.584216427,5.584216427
-New South Wales,NSW,Central Coast,345857,2015,12,13,3.469642078,3.758778917
-New South Wales,NSW,Central Coast,345857,2016,15,17,4.337052597,4.915326276
-New South Wales,NSW,Central Coast,345857,2017,12,12,3.469642078,3.469642078
-New South Wales,NSW,Central Coast,345857,2018,20,22,5.782736796,6.361010475
-New South Wales,NSW,Central Coast,345857,2019,9,9,2.602231558,2.602231558
-New South Wales,NSW,Central Coast,345857,2020,7,7,2.023957879,2.023957879
-New South Wales,NSW,Central Coast,345857,2021,7,7,2.023957879,2.023957879
-New South Wales,NSW,Central West,213714,2015,21,23,9.826216345,10.76204647
-New South Wales,NSW,Central West,213714,2016,28,30,13.10162179,14.03745192
-New South Wales,NSW,Central West,213714,2017,22,24,10.29413141,11.22996154
-New South Wales,NSW,Central West,213714,2018,19,19,8.890386217,8.890386217
-New South Wales,NSW,Central West,213714,2019,24,25,11.22996154,11.6978766
-New South Wales,NSW,Central West,213714,2020,19,20,8.890386217,9.358301281
-New South Wales,NSW,Central West,213714,2021,15,19,7.018725961,8.890386217
-New South Wales,NSW,Coffs Harbour - Grafton,142570,2015,7,7,4.909868836,4.909868836
-New South Wales,NSW,Coffs Harbour - Grafton,142570,2016,18,19,12.62537701,13.32678684
-New South Wales,NSW,Coffs Harbour - Grafton,142570,2017,16,17,11.22255734,11.92396717
-New South Wales,NSW,Coffs Harbour - Grafton,142570,2018,11,12,7.715508171,8.416918005
-New South Wales,NSW,Coffs Harbour - Grafton,142570,2019,21,21,14.72960651,14.72960651
-New South Wales,NSW,Coffs Harbour - Grafton,142570,2020,10,13,7.014098338,9.118327839
-New South Wales,NSW,Coffs Harbour - Grafton,142570,2021,5,5,3.507049169,3.507049169
-New South Wales,NSW,Far West and Orana,116440,2015,17,18,14.59979389,15.45860529
-New South Wales,NSW,Far West and Orana,116440,2016,19,22,16.3174167,18.89385091
-New South Wales,NSW,Far West and Orana,116440,2017,16,18,13.74098248,15.45860529
-New South Wales,NSW,Far West and Orana,116440,2018,17,19,14.59979389,16.3174167
-New South Wales,NSW,Far West and Orana,116440,2019,17,18,14.59979389,15.45860529
-New South Wales,NSW,Far West and Orana,116440,2020,10,11,8.58811405,9.446925455
-New South Wales,NSW,Far West and Orana,116440,2021,9,11,7.729302645,9.446925455
-New South Wales,NSW,Hunter Valley exc Newcastle,285141,2015,19,22,6.663370052,7.715481113
-New South Wales,NSW,Hunter Valley exc Newcastle,285141,2016,26,27,9.118295861,9.468999548
-New South Wales,NSW,Hunter Valley exc Newcastle,285141,2017,28,29,9.819703235,10.17040692
-New South Wales,NSW,Hunter Valley exc Newcastle,285141,2018,21,24,7.364777426,8.416888487
-New South Wales,NSW,Hunter Valley exc Newcastle,285141,2019,20,21,7.014073739,7.364777426
-New South Wales,NSW,Hunter Valley exc Newcastle,285141,2020,17,18,5.961962678,6.312666365
-New South Wales,NSW,Hunter Valley exc Newcastle,285141,2021,13,15,4.55914793,5.260555304
-New South Wales,NSW,Illawarra,317988,2015,7,7,2.201340931,2.201340931
-New South Wales,NSW,Illawarra,317988,2016,10,10,3.144772759,3.144772759
-New South Wales,NSW,Illawarra,317988,2017,9,11,2.830295483,3.459250035
-New South Wales,NSW,Illawarra,317988,2018,7,7,2.201340931,2.201340931
-New South Wales,NSW,Illawarra,317988,2019,10,12,3.144772759,3.77372731
-New South Wales,NSW,Illawarra,317988,2020,13,13,4.088204586,4.088204586
-New South Wales,NSW,Illawarra,317988,2021,2,2,0.628954552,0.628954552
-New South Wales,NSW,Mid North Coast,224808,2015,19,24,8.451656525,10.67577666
-New South Wales,NSW,Mid North Coast,224808,2016,20,20,8.896480552,8.896480552
-New South Wales,NSW,Mid North Coast,224808,2017,26,27,11.56542472,12.01024875
-New South Wales,NSW,Mid North Coast,224808,2018,15,15,6.672360414,6.672360414
-New South Wales,NSW,Mid North Coast,224808,2019,21,23,9.34130458,10.23095264
-New South Wales,NSW,Mid North Coast,224808,2020,5,5,2.224120138,2.224120138
-New South Wales,NSW,Mid North Coast,224808,2021,16,17,7.117184442,7.562008469
-New South Wales,NSW,Murray,122056,2015,2,2,1.638592122,1.638592122
-New South Wales,NSW,Murray,122056,2016,9,9,7.373664547,7.373664547
-New South Wales,NSW,Murray,122056,2017,12,15,9.83155273,12.28944091
-New South Wales,NSW,Murray,122056,2018,13,15,10.65084879,12.28944091
-New South Wales,NSW,Murray,122056,2019,11,13,9.012256669,10.65084879
-New South Wales,NSW,Murray,122056,2020,10,11,8.192960608,9.012256669
-New South Wales,NSW,Murray,122056,2021,5,5,4.096480304,4.096480304
-New South Wales,NSW,New England and North West,186312,2015,19,22,10.19794753,11.80814977
-New South Wales,NSW,New England and North West,186312,2016,20,27,10.73468161,14.49182017
-New South Wales,NSW,New England and North West,186312,2017,25,29,13.41835201,15.56528833
-New South Wales,NSW,New England and North West,186312,2018,27,27,14.49182017,14.49182017
-New South Wales,NSW,New England and North West,186312,2019,13,14,6.977543046,7.514277127
-New South Wales,NSW,New England and North West,186312,2020,18,19,9.661213448,10.19794753
-New South Wales,NSW,New England and North West,186312,2021,11,11,5.904074885,5.904074885
-New South Wales,NSW,Newcastle and Lake Macquarie,382537,2015,16,17,4.182601944,4.444014566
-New South Wales,NSW,Newcastle and Lake Macquarie,382537,2016,19,19,4.966839809,4.966839809
-New South Wales,NSW,Newcastle and Lake Macquarie,382537,2017,17,19,4.444014566,4.966839809
-New South Wales,NSW,Newcastle and Lake Macquarie,382537,2018,10,10,2.614126215,2.614126215
-New South Wales,NSW,Newcastle and Lake Macquarie,382537,2019,15,15,3.921189323,3.921189323
-New South Wales,NSW,Newcastle and Lake Macquarie,382537,2020,9,9,2.352713594,2.352713594
-New South Wales,NSW,Newcastle and Lake Macquarie,382537,2021,5,5,1.307063108,1.307063108
-New South Wales,NSW,Richmond - Tweed,255304,2015,21,22,8.225488046,8.617177953
-New South Wales,NSW,Richmond - Tweed,255304,2016,21,21,8.225488046,8.225488046
-New South Wales,NSW,Richmond - Tweed,255304,2017,12,15,4.700278883,5.875348604
-New South Wales,NSW,Richmond - Tweed,255304,2018,15,15,5.875348604,5.875348604
-New South Wales,NSW,Richmond - Tweed,255304,2019,22,24,8.617177953,9.400557766
-New South Wales,NSW,Richmond - Tweed,255304,2020,11,12,4.308588976,4.700278883
-New South Wales,NSW,Richmond - Tweed,255304,2021,5,5,1.958449535,1.958449535
-New South Wales,NSW,Riverina,161929,2015,16,17,9.880873716,10.49842832
-New South Wales,NSW,Riverina,161929,2016,9,10,5.557991465,6.175546073
-New South Wales,NSW,Riverina,161929,2017,23,25,14.20375597,15.43886518
-New South Wales,NSW,Riverina,161929,2018,17,18,10.49842832,11.11598293
-New South Wales,NSW,Riverina,161929,2019,12,13,7.410655287,8.028209894
-New South Wales,NSW,Riverina,161929,2020,18,21,11.11598293,12.96864675
-New South Wales,NSW,Riverina,161929,2021,13,14,8.028209894,8.645764502
-New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2015,14,14,8.820119954,8.820119954
-New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2016,17,17,10.71014566,10.71014566
-New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2017,14,20,8.820119954,12.60017136
-New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2018,7,8,4.410059977,5.040068545
-New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2019,11,11,6.930094249,6.930094249
-New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2020,8,8,5.040068545,5.040068545
-New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2021,3,5,1.890025704,3.150042841
-New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2015,14,16,5.43987193,6.216996491
-New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2016,3,3,1.165686842,1.165686842
-New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2017,3,3,1.165686842,1.165686842
-New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2018,7,7,2.719935965,2.719935965
-New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2019,5,5,1.942811404,1.942811404
-New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2020,3,3,1.165686842,1.165686842
-New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2021,3,3,1.165686842,1.165686842
-New South Wales,NSW,Sydney - Blacktown,385650,2015,1,1,0.259302476,0.259302476
-New South Wales,NSW,Sydney - Blacktown,385650,2016,8,10,2.074419811,2.593024763
-New South Wales,NSW,Sydney - Blacktown,385650,2017,7,7,1.815117334,1.815117334
-New South Wales,NSW,Sydney - Blacktown,385650,2018,4,4,1.037209905,1.037209905
-New South Wales,NSW,Sydney - Blacktown,385650,2019,9,11,2.333722287,2.85232724
-New South Wales,NSW,Sydney - Blacktown,385650,2020,6,7,1.555814858,1.815117334
-New South Wales,NSW,Sydney - Blacktown,385650,2021,6,6,1.555814858,1.555814858
-New South Wales,NSW,Sydney - City and Inner South,372826,2015,5,5,1.341108185,1.341108185
-New South Wales,NSW,Sydney - City and Inner South,372826,2016,5,5,1.341108185,1.341108185
-New South Wales,NSW,Sydney - City and Inner South,372826,2017,9,13,2.413994732,3.48688128
-New South Wales,NSW,Sydney - City and Inner South,372826,2018,12,12,3.218659643,3.218659643
-New South Wales,NSW,Sydney - City and Inner South,372826,2019,3,3,0.804664911,0.804664911
-New South Wales,NSW,Sydney - City and Inner South,372826,2020,12,12,3.218659643,3.218659643
-New South Wales,NSW,Sydney - City and Inner South,372826,2021,3,3,0.804664911,0.804664911
-New South Wales,NSW,Sydney - Eastern Suburbs,296088,2015,9,9,3.039636865,3.039636865
-New South Wales,NSW,Sydney - Eastern Suburbs,296088,2016,1,1,0.337737429,0.337737429
-New South Wales,NSW,Sydney - Eastern Suburbs,296088,2017,4,4,1.350949718,1.350949718
-New South Wales,NSW,Sydney - Eastern Suburbs,296088,2018,2,2,0.675474859,0.675474859
-New South Wales,NSW,Sydney - Eastern Suburbs,296088,2019,6,7,2.026424576,2.364162006
-New South Wales,NSW,Sydney - Eastern Suburbs,296088,2020,4,4,1.350949718,1.350949718
-New South Wales,NSW,Sydney - Inner South West,630964,2015,7,7,1.109413532,1.109413532
-New South Wales,NSW,Sydney - Inner South West,630964,2016,15,16,2.377314712,2.53580236
-New South Wales,NSW,Sydney - Inner South West,630964,2017,8,8,1.26790118,1.26790118
-New South Wales,NSW,Sydney - Inner South West,630964,2018,16,16,2.53580236,2.53580236
-New South Wales,NSW,Sydney - Inner South West,630964,2019,14,17,2.218827065,2.694290007
-New South Wales,NSW,Sydney - Inner South West,630964,2020,8,9,1.26790118,1.426388827
-New South Wales,NSW,Sydney - Inner South West,630964,2021,6,6,0.950925885,0.950925885
-New South Wales,NSW,Sydney - Inner West,326651,2015,6,7,1.836822786,2.142959917
-New South Wales,NSW,Sydney - Inner West,326651,2016,6,6,1.836822786,1.836822786
-New South Wales,NSW,Sydney - Inner West,326651,2017,3,3,0.918411393,0.918411393
-New South Wales,NSW,Sydney - Inner West,326651,2018,6,6,1.836822786,1.836822786
-New South Wales,NSW,Sydney - Inner West,326651,2019,6,6,1.836822786,1.836822786
-New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2015,8,8,1.807313293,1.807313293
-New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2016,5,6,1.129570808,1.35548497
-New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2017,11,11,2.485055778,2.485055778
-New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2018,13,13,2.936884102,2.936884102
-New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2019,6,6,1.35548497,1.35548497
-New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2020,5,5,1.129570808,1.129570808
-New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2021,4,4,0.903656647,0.903656647
-New South Wales,NSW,Sydney - Northern Beaches,274041,2015,2,2,0.729817801,0.729817801
-New South Wales,NSW,Sydney - Northern Beaches,274041,2016,7,7,2.554362303,2.554362303
-New South Wales,NSW,Sydney - Northern Beaches,274041,2017,3,3,1.094726701,1.094726701
-New South Wales,NSW,Sydney - Northern Beaches,274041,2018,1,1,0.3649089,0.3649089
-New South Wales,NSW,Sydney - Northern Beaches,274041,2019,4,4,1.459635602,1.459635602
-New South Wales,NSW,Sydney - Northern Beaches,274041,2020,4,4,1.459635602,1.459635602
-New South Wales,NSW,Sydney - Northern Beaches,274041,2021,5,5,1.824544502,1.824544502
-New South Wales,NSW,Sydney - Outer South West,294899,2015,7,7,2.373694044,2.373694044
-New South Wales,NSW,Sydney - Outer South West,294899,2016,4,4,1.356396597,1.356396597
-New South Wales,NSW,Sydney - Outer South West,294899,2017,5,7,1.695495746,2.373694044
-New South Wales,NSW,Sydney - Outer South West,294899,2018,8,11,2.712793194,3.730090641
-New South Wales,NSW,Sydney - Outer South West,294899,2019,9,9,3.051892343,3.051892343
-New South Wales,NSW,Sydney - Outer South West,294899,2020,5,5,1.695495746,1.695495746
-New South Wales,NSW,Sydney - Outer South West,294899,2021,9,9,3.051892343,3.051892343
-New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2015,12,13,3.623538506,3.925500048
-New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2016,9,10,2.71765388,3.019615422
-New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2017,7,7,2.113730795,2.113730795
-New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2018,12,13,3.623538506,3.925500048
-New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2019,4,5,1.207846169,1.509807711
-New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2020,8,8,2.415692337,2.415692337
-New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2021,2,2,0.603923084,0.603923084
-New South Wales,NSW,Sydney - Parramatta,507197,2015,11,11,2.168782544,2.168782544
-New South Wales,NSW,Sydney - Parramatta,507197,2016,19,19,3.74607894,3.74607894
-New South Wales,NSW,Sydney - Parramatta,507197,2017,9,9,1.774458445,1.774458445
-New South Wales,NSW,Sydney - Parramatta,507197,2018,11,11,2.168782544,2.168782544
-New South Wales,NSW,Sydney - Parramatta,507197,2019,10,10,1.971620495,1.971620495
-New South Wales,NSW,Sydney - Parramatta,507197,2020,10,13,1.971620495,2.563106643
-New South Wales,NSW,Sydney - Parramatta,507197,2021,7,7,1.380134346,1.380134346
-New South Wales,NSW,Sydney - Ryde,207511,2015,5,5,2.409510821,2.409510821
-New South Wales,NSW,Sydney - Ryde,207511,2016,6,6,2.891412985,2.891412985
-New South Wales,NSW,Sydney - Ryde,207511,2017,5,5,2.409510821,2.409510821
-New South Wales,NSW,Sydney - Ryde,207511,2018,2,2,0.963804328,0.963804328
-New South Wales,NSW,Sydney - Ryde,207511,2019,5,5,2.409510821,2.409510821
-New South Wales,NSW,Sydney - Ryde,207511,2020,4,4,1.927608657,1.927608657
-New South Wales,NSW,Sydney - Ryde,207511,2021,3,3,1.445706493,1.445706493
-New South Wales,NSW,Sydney - South West,462408,2015,16,17,3.460147748,3.676406983
-New South Wales,NSW,Sydney - South West,462408,2016,9,9,1.946333108,1.946333108
-New South Wales,NSW,Sydney - South West,462408,2017,15,18,3.243888514,3.892666217
-New South Wales,NSW,Sydney - South West,462408,2018,9,9,1.946333108,1.946333108
-New South Wales,NSW,Sydney - South West,462408,2019,10,11,2.162592343,2.378851577
-New South Wales,NSW,Sydney - South West,462408,2020,15,16,3.243888514,3.460147748
-New South Wales,NSW,Sydney - South West,462408,2021,6,6,1.297555406,1.297555406
-New South Wales,NSW,Sydney - Sutherland,231941,2015,9,9,3.880297145,3.880297145
-New South Wales,NSW,Sydney - Sutherland,231941,2016,5,5,2.155720636,2.155720636
-New South Wales,NSW,Sydney - Sutherland,231941,2017,6,6,2.586864763,2.586864763
-New South Wales,NSW,Sydney - Sutherland,231941,2018,5,5,2.155720636,2.155720636
-New South Wales,NSW,Sydney - Sutherland,231941,2019,4,4,1.724576509,1.724576509
-New South Wales,NSW,Sydney - Sutherland,231941,2020,2,3,0.862288254,1.293432382
-New South Wales,NSW,Sydney - Sutherland,231941,2021,1,1,0.431144127,0.431144127
-Northern Territory,NT,Darwin,147231,2015,18,23,12.22568617,15.6217101
-Northern Territory,NT,Darwin,147231,2016,13,14,8.829662231,9.508867018
-Northern Territory,NT,Darwin,147231,2017,14,15,9.508867018,10.18807181
-Northern Territory,NT,Darwin,147231,2018,10,11,6.79204787,7.471252657
-Northern Territory,NT,Darwin,147231,2019,12,13,8.150457444,8.829662231
-Northern Territory,NT,Darwin,147231,2020,9,10,6.112843083,6.79204787
-Northern Territory,NT,Darwin,147231,2021,9,9,6.112843083,6.112843083
-Northern Territory,NT,Northern Territory - Outback,98912,2015,24,26,24.26399224,26.28599159
-Northern Territory,NT,Northern Territory - Outback,98912,2016,27,31,27.29699126,31.34098997
-Northern Territory,NT,Northern Territory - Outback,98912,2017,13,16,13.14299579,16.17599482
-Northern Territory,NT,Northern Territory - Outback,98912,2018,32,39,32.35198965,39.42898738
-Northern Territory,NT,Northern Territory - Outback,98912,2019,16,23,16.17599482,23.25299256
-Northern Territory,NT,Northern Territory - Outback,98912,2020,19,21,19.20899385,21.23099321
-Northern Territory,NT,Northern Territory - Outback,98912,2021,14,16,14.15399547,16.17599482
-Queensland,Qld,Brisbane - East,243121,2018,4,4,1.645271285,1.645271285
-Queensland,Qld,Brisbane - East,243121,2019,3,3,1.233953464,1.233953464
-Queensland,Qld,Brisbane - East,243121,2020,4,4,1.645271285,1.645271285
-Queensland,Qld,Brisbane - East,243121,2021,10,12,4.113178212,4.935813854
-Queensland,Qld,Brisbane - North,228486,2018,4,4,1.750654307,1.750654307
-Queensland,Qld,Brisbane - North,228486,2019,7,8,3.063645037,3.501308614
-Queensland,Qld,Brisbane - North,228486,2020,2,2,0.875327154,0.875327154
-Queensland,Qld,Brisbane - North,228486,2021,2,2,0.875327154,0.875327154
-Queensland,Qld,Brisbane - South,381849,2018,10,11,2.618836242,2.880719866
-Queensland,Qld,Brisbane - South,381849,2019,4,4,1.047534497,1.047534497
-Queensland,Qld,Brisbane - South,381849,2020,8,8,2.095068993,2.095068993
-Queensland,Qld,Brisbane - South,381849,2021,5,5,1.309418121,1.309418121
-Queensland,Qld,Brisbane - West,194889,2018,1,1,0.513112592,0.513112592
-Queensland,Qld,Brisbane - West,194889,2020,1,1,0.513112592,0.513112592
-Queensland,Qld,Brisbane - West,194889,2021,2,2,1.026225185,1.026225185
-Queensland,Qld,Brisbane Inner City,298546,2018,4,4,1.339827028,1.339827028
-Queensland,Qld,Brisbane Inner City,298546,2019,3,4,1.004870271,1.339827028
-Queensland,Qld,Brisbane Inner City,298546,2020,3,3,1.004870271,1.004870271
-Queensland,Qld,Cairns,256039,2018,12,13,4.686785997,5.077351497
-Queensland,Qld,Cairns,256039,2019,18,24,7.030178996,9.373571995
-Queensland,Qld,Cairns,256039,2020,15,17,5.858482497,6.639613496
-Queensland,Qld,Cairns,256039,2021,9,10,3.515089498,3.905654998
-Queensland,Qld,Central Queensland,228200,2018,12,12,5.258545136,5.258545136
-Queensland,Qld,Central Queensland,228200,2019,17,20,7.449605609,8.764241893
-Queensland,Qld,Central Queensland,228200,2020,16,18,7.011393514,7.887817704
-Queensland,Qld,Central Queensland,228200,2021,15,15,6.57318142,6.57318142
-Queensland,Qld,Darling Downs - Maranoa,128706,2018,18,23,13.98536199,17.87018476
-Queensland,Qld,Darling Downs - Maranoa,128706,2019,21,22,16.31625565,17.09322021
-Queensland,Qld,Darling Downs - Maranoa,128706,2020,15,17,11.65446832,13.20839743
-Queensland,Qld,Darling Downs - Maranoa,128706,2021,16,19,12.43143288,14.76232654
-Queensland,Qld,Gold Coast,650996,2018,19,19,2.918604723,2.918604723
-Queensland,Qld,Gold Coast,650996,2019,12,13,1.843329298,1.996940073
-Queensland,Qld,Gold Coast,650996,2020,17,22,2.611383173,3.379437047
-Queensland,Qld,Gold Coast,650996,2021,10,10,1.536107749,1.536107749
-Queensland,Qld,Ipswich,371126,2018,18,19,4.850104816,5.119555084
-Queensland,Qld,Ipswich,371126,2019,16,18,4.311204281,4.850104816
-Queensland,Qld,Ipswich,371126,2020,13,14,3.502853478,3.772303746
-Queensland,Qld,Ipswich,371126,2021,4,4,1.07780107,1.07780107
-Queensland,Qld,Logan - Beaudesert,357143,2018,14,15,3.919998432,4.19999832
-Queensland,Qld,Logan - Beaudesert,357143,2019,6,7,1.679999328,1.959999216
-Queensland,Qld,Logan - Beaudesert,357143,2020,18,21,5.039997984,5.879997648
-Queensland,Qld,Logan - Beaudesert,357143,2021,11,11,3.079998768,3.079998768
-Queensland,Qld,Mackay - Isaac - Whitsunday,174816,2018,12,15,6.864360242,8.580450302
-Queensland,Qld,Mackay - Isaac - Whitsunday,174816,2019,10,11,5.720300201,6.292330221
-Queensland,Qld,Mackay - Isaac - Whitsunday,174816,2020,18,21,10.29654036,12.01263042
-Queensland,Qld,Mackay - Isaac - Whitsunday,174816,2021,8,8,4.576240161,4.576240161
-Queensland,Qld,Moreton Bay - North,261602,2018,8,8,3.058080596,3.058080596
-Queensland,Qld,Moreton Bay - North,261602,2019,9,9,3.44034067,3.44034067
-Queensland,Qld,Moreton Bay - North,261602,2020,17,17,6.498421266,6.498421266
-Queensland,Qld,Moreton Bay - North,261602,2021,10,13,3.822600745,4.969380968
-Queensland,Qld,Moreton Bay - South,223958,2018,5,5,2.232561462,2.232561462
-Queensland,Qld,Moreton Bay - South,223958,2019,5,5,2.232561462,2.232561462
-Queensland,Qld,Moreton Bay - South,223958,2020,5,5,2.232561462,2.232561462
-Queensland,Qld,Moreton Bay - South,223958,2021,4,4,1.78604917,1.78604917
-Queensland,Qld,Queensland - Outback,82751,2018,15,16,18.12666916,19.33511378
-Queensland,Qld,Queensland - Outback,82751,2019,14,15,16.91822455,18.12666916
-Queensland,Qld,Queensland - Outback,82751,2020,18,19,21.752003,22.96044761
-Queensland,Qld,Queensland - Outback,82751,2021,7,7,8.459112277,8.459112277
-Queensland,Qld,Sunshine Coast,393049,2018,16,16,4.070739272,4.070739272
-Queensland,Qld,Sunshine Coast,393049,2019,12,12,3.053054454,3.053054454
-Queensland,Qld,Sunshine Coast,393049,2020,17,17,4.325160476,4.325160476
-Queensland,Qld,Sunshine Coast,393049,2021,11,11,2.798633249,2.798633249
-Queensland,Qld,Toowoomba,159991,2018,5,5,3.125175791,3.125175791
-Queensland,Qld,Toowoomba,159991,2019,2,2,1.250070316,1.250070316
-Queensland,Qld,Toowoomba,159991,2020,4,4,2.500140633,2.500140633
-Queensland,Qld,Toowoomba,159991,2021,2,2,1.250070316,1.250070316
-Queensland,Qld,Townsville,238813,2018,14,15,5.862327428,6.281065101
-Queensland,Qld,Townsville,238813,2019,15,16,6.281065101,6.699802775
-Queensland,Qld,Townsville,238813,2020,17,22,7.118540448,9.212228815
-Queensland,Qld,Townsville,238813,2021,13,18,5.443589754,7.537278121
-Queensland,Qld,Wide Bay,302105,2018,33,40,10.92335446,13.24042965
-Queensland,Qld,Wide Bay,302105,2019,22,26,7.282236309,8.606279274
-Queensland,Qld,Wide Bay,302105,2020,42,45,13.90245113,14.89548336
-Queensland,Qld,Wide Bay,302105,2021,29,33,9.599311498,10.92335446
-South Australia,SA,Adelaide - Central and Hills,310091,2015,14,14,4.514803719,4.514803719
-South Australia,SA,Adelaide - Central and Hills,310091,2016,5,5,1.6124299,1.6124299
-South Australia,SA,Adelaide - Central and Hills,310091,2017,13,13,4.192317739,4.192317739
-South Australia,SA,Adelaide - Central and Hills,310091,2018,6,6,1.93491588,1.93491588
-South Australia,SA,Adelaide - Central and Hills,310091,2019,10,10,3.224859799,3.224859799
-South Australia,SA,Adelaide - Central and Hills,310091,2020,13,14,4.192317739,4.514803719
-South Australia,SA,Adelaide - Central and Hills,310091,2021,8,8,2.579887839,2.579887839
-South Australia,SA,Adelaide - North,448458,2015,12,12,2.675835864,2.675835864
-South Australia,SA,Adelaide - North,448458,2016,13,14,2.898822186,3.121808508
-South Australia,SA,Adelaide - North,448458,2017,19,21,4.236740118,4.682712762
-South Australia,SA,Adelaide - North,448458,2018,10,10,2.22986322,2.22986322
-South Australia,SA,Adelaide - North,448458,2019,21,21,4.682712762,4.682712762
-South Australia,SA,Adelaide - North,448458,2020,12,13,2.675835864,2.898822186
-South Australia,SA,Adelaide - North,448458,2021,7,7,1.560904254,1.560904254
-South Australia,SA,Adelaide - South,374910,2015,8,8,2.133845456,2.133845456
-South Australia,SA,Adelaide - South,374910,2016,10,12,2.66730682,3.200768184
-South Australia,SA,Adelaide - South,374910,2017,11,11,2.934037502,2.934037502
-South Australia,SA,Adelaide - South,374910,2018,4,4,1.066922728,1.066922728
-South Australia,SA,Adelaide - South,374910,2019,9,9,2.400576138,2.400576138
-South Australia,SA,Adelaide - South,374910,2020,7,7,1.867114774,1.867114774
-South Australia,SA,Adelaide - South,374910,2021,8,8,2.133845456,2.133845456
-South Australia,SA,Adelaide - West,243142,2015,9,9,3.701540663,3.701540663
-South Australia,SA,Adelaide - West,243142,2016,4,4,1.645129184,1.645129184
-South Australia,SA,Adelaide - West,243142,2017,11,11,4.524105255,4.524105255
-South Australia,SA,Adelaide - West,243142,2018,4,4,1.645129184,1.645129184
-South Australia,SA,Adelaide - West,243142,2019,8,8,3.290258368,3.290258368
-South Australia,SA,Adelaide - West,243142,2020,4,4,1.645129184,1.645129184
-South Australia,SA,Adelaide - West,243142,2021,5,5,2.05641148,2.05641148
-South Australia,SA,Barossa - Yorke - Mid North,114862,2015,17,19,14.80036914,16.54158904
-South Australia,SA,Barossa - Yorke - Mid North,114862,2016,16,19,13.92975919,16.54158904
-South Australia,SA,Barossa - Yorke - Mid North,114862,2017,17,21,14.80036914,18.28280894
-South Australia,SA,Barossa - Yorke - Mid North,114862,2018,13,15,11.31792934,13.05914924
-South Australia,SA,Barossa - Yorke - Mid North,114862,2019,14,15,12.18853929,13.05914924
-South Australia,SA,Barossa - Yorke - Mid North,114862,2020,15,15,13.05914924,13.05914924
-South Australia,SA,Barossa - Yorke - Mid North,114862,2021,14,16,12.18853929,13.92975919
-South Australia,SA,South Australia - Outback,84095,2015,11,14,13.08044474,16.64783875
-South Australia,SA,South Australia - Outback,84095,2016,9,10,10.70218206,11.8913134
-South Australia,SA,South Australia - Outback,84095,2017,6,6,7.134788037,7.134788037
-South Australia,SA,South Australia - Outback,84095,2018,10,11,11.8913134,13.08044474
-South Australia,SA,South Australia - Outback,84095,2019,14,15,16.64783875,17.83697009
-South Australia,SA,South Australia - Outback,84095,2020,16,17,19.02610143,20.21523277
-South Australia,SA,South Australia - Outback,84095,2021,6,7,7.134788037,8.323919377
-South Australia,SA,South Australia - South East,194817,2015,25,26,12.83255568,13.34585791
-South Australia,SA,South Australia - South East,194817,2016,19,22,9.752742317,11.292649
-South Australia,SA,South Australia - South East,194817,2017,16,17,8.212835635,8.726137863
-South Australia,SA,South Australia - South East,194817,2018,28,30,14.37246236,15.39906682
-South Australia,SA,South Australia - South East,194817,2019,34,36,17.45227573,18.47888018
-South Australia,SA,South Australia - South East,194817,2020,18,23,9.23944009,11.80595123
-South Australia,SA,South Australia - South East,194817,2021,15,16,7.699533408,8.212835635
-Tasmania,Tas,Hobart,238834,2015,10,10,4.18700855,4.18700855
-Tasmania,Tas,Hobart,238834,2016,11,12,4.605709405,5.02441026
-Tasmania,Tas,Hobart,238834,2017,11,12,4.605709405,5.02441026
-Tasmania,Tas,Hobart,238834,2018,7,7,2.930905985,2.930905985
-Tasmania,Tas,Hobart,238834,2019,4,4,1.67480342,1.67480342
-Tasmania,Tas,Hobart,238834,2020,12,13,5.02441026,5.443111115
-Tasmania,Tas,Hobart,238834,2021,2,2,0.83740171,0.83740171
-Tasmania,Tas,Launceston and North East,148023,2015,8,9,5.404565507,6.080136195
-Tasmania,Tas,Launceston and North East,148023,2016,9,10,6.080136195,6.755706883
-Tasmania,Tas,Launceston and North East,148023,2017,14,14,9.457989637,9.457989637
-Tasmania,Tas,Launceston and North East,148023,2018,14,14,9.457989637,9.457989637
-Tasmania,Tas,Launceston and North East,148023,2019,7,7,4.728994818,4.728994818
-Tasmania,Tas,Launceston and North East,148023,2020,6,11,4.05342413,7.431277572
-Tasmania,Tas,Launceston and North East,148023,2021,12,15,8.10684826,10.13356033
-Tasmania,Tas,South East,40168,2015,6,6,14.93726349,14.93726349
-Tasmania,Tas,South East,40168,2016,5,5,12.44771958,12.44771958
-Tasmania,Tas,South East,40168,2017,1,1,2.489543916,2.489543916
-Tasmania,Tas,South East,40168,2018,2,3,4.979087831,7.468631747
-Tasmania,Tas,South East,40168,2019,8,8,19.91635132,19.91635132
-Tasmania,Tas,South East,40168,2020,5,5,12.44771958,12.44771958
-Tasmania,Tas,South East,40168,2021,4,4,9.958175662,9.958175662
-Tasmania,Tas,West and North West,113755,2015,7,8,6.153575667,7.032657905
-Tasmania,Tas,West and North West,113755,2016,8,10,7.032657905,8.790822381
-Tasmania,Tas,West and North West,113755,2017,5,5,4.395411191,4.395411191
-Tasmania,Tas,West and North West,113755,2018,8,8,7.032657905,7.032657905
-Tasmania,Tas,West and North West,113755,2019,10,10,8.790822381,8.790822381
-Tasmania,Tas,West and North West,113755,2020,7,7,6.153575667,6.153575667
-Tasmania,Tas,West and North West,113755,2021,5,5,4.395411191,4.395411191
-Victoria,Vic,Ballarat,169854,2015,6,6,3.532445512,3.532445512
-Victoria,Vic,Ballarat,169854,2016,16,20,9.419854699,11.77481837
-Victoria,Vic,Ballarat,169854,2017,15,18,8.83111378,10.59733654
-Victoria,Vic,Ballarat,169854,2018,13,16,7.653631943,9.419854699
-Victoria,Vic,Ballarat,169854,2019,14,16,8.242372861,9.419854699
-Victoria,Vic,Ballarat,169854,2020,14,14,8.242372861,8.242372861
-Victoria,Vic,Ballarat,169854,2021,5,5,2.943704593,2.943704593
-Victoria,Vic,Bendigo,165248,2015,11,12,6.656661503,7.261812548
-Victoria,Vic,Bendigo,165248,2016,8,8,4.841208366,4.841208366
-Victoria,Vic,Bendigo,165248,2017,9,9,5.446359411,5.446359411
-Victoria,Vic,Bendigo,165248,2018,10,10,6.051510457,6.051510457
-Victoria,Vic,Bendigo,165248,2019,16,16,9.682416731,9.682416731
-Victoria,Vic,Bendigo,165248,2020,12,14,7.261812548,8.47211464
-Victoria,Vic,Bendigo,165248,2021,5,5,3.025755229,3.025755229
-Victoria,Vic,Geelong,317857,2015,11,12,3.460675713,3.775282596
-Victoria,Vic,Geelong,317857,2016,15,15,4.719103245,4.719103245
-Victoria,Vic,Geelong,317857,2017,12,13,3.775282596,4.089889479
-Victoria,Vic,Geelong,317857,2018,6,7,1.887641298,2.202248181
-Victoria,Vic,Geelong,317857,2019,16,19,5.033710128,5.977530776
-Victoria,Vic,Geelong,317857,2020,11,11,3.460675713,3.460675713
-Victoria,Vic,Geelong,317857,2021,7,7,2.202248181,2.202248181
-Victoria,Vic,Hume,180610,2015,24,29,13.28830076,16.05669675
-Victoria,Vic,Hume,180610,2016,28,31,15.50301755,17.16405515
-Victoria,Vic,Hume,180610,2017,25,27,13.84197996,14.94933835
-Victoria,Vic,Hume,180610,2018,19,20,10.51990477,11.07358397
-Victoria,Vic,Hume,180610,2019,14,14,7.751508776,7.751508776
-Victoria,Vic,Hume,180610,2020,15,16,8.305187974,8.858867172
-Victoria,Vic,Hume,180610,2021,6,6,3.32207519,3.32207519
-Victoria,Vic,Latrobe - Gippsland,291051,2015,17,19,5.840900736,6.528065528
-Victoria,Vic,Latrobe - Gippsland,291051,2016,24,26,8.245977509,8.933142302
-Victoria,Vic,Latrobe - Gippsland,291051,2017,25,29,8.589559905,9.96388949
-Victoria,Vic,Latrobe - Gippsland,291051,2018,21,23,7.21523032,7.902395113
-Victoria,Vic,Latrobe - Gippsland,291051,2019,17,19,5.840900736,6.528065528
-Victoria,Vic,Latrobe - Gippsland,291051,2020,26,28,8.933142302,9.620307094
-Victoria,Vic,Latrobe - Gippsland,291051,2021,17,17,5.840900736,5.840900736
-Victoria,Vic,Melbourne - Inner,713203,2015,11,12,1.542337876,1.68255041
-Victoria,Vic,Melbourne - Inner,713203,2016,12,12,1.68255041,1.68255041
-Victoria,Vic,Melbourne - Inner,713203,2017,10,10,1.402125342,1.402125342
-Victoria,Vic,Melbourne - Inner,713203,2018,12,12,1.68255041,1.68255041
-Victoria,Vic,Melbourne - Inner,713203,2019,7,7,0.981487739,0.981487739
-Victoria,Vic,Melbourne - Inner,713203,2020,8,8,1.121700273,1.121700273
-Victoria,Vic,Melbourne - Inner,713203,2021,4,6,0.560850137,0.841275205
-Victoria,Vic,Melbourne - Inner East,400191,2015,4,4,0.999522728,0.999522728
-Victoria,Vic,Melbourne - Inner East,400191,2016,8,9,1.999045456,2.248926138
-Victoria,Vic,Melbourne - Inner East,400191,2017,4,4,0.999522728,0.999522728
-Victoria,Vic,Melbourne - Inner East,400191,2018,7,7,1.749164774,1.749164774
-Victoria,Vic,Melbourne - Inner East,400191,2019,5,5,1.24940341,1.24940341
-Victoria,Vic,Melbourne - Inner East,400191,2020,4,7,0.999522728,1.749164774
-Victoria,Vic,Melbourne - Inner East,400191,2021,2,2,0.499761364,0.499761364
-Victoria,Vic,Melbourne - Inner South,450242,2015,8,8,1.776822242,1.776822242
-Victoria,Vic,Melbourne - Inner South,450242,2016,9,9,1.998925023,1.998925023
-Victoria,Vic,Melbourne - Inner South,450242,2017,12,12,2.665233363,2.665233363
-Victoria,Vic,Melbourne - Inner South,450242,2018,4,4,0.888411121,0.888411121
-Victoria,Vic,Melbourne - Inner South,450242,2019,6,6,1.332616682,1.332616682
-Victoria,Vic,Melbourne - Inner South,450242,2020,5,5,1.110513901,1.110513901
-Victoria,Vic,Melbourne - Inner South,450242,2021,6,6,1.332616682,1.332616682
-Victoria,Vic,Melbourne - North East,566199,2015,11,11,1.942779835,1.942779835
-Victoria,Vic,Melbourne - North East,566199,2016,14,14,2.472628881,2.472628881
-Victoria,Vic,Melbourne - North East,566199,2017,10,10,1.766163487,1.766163487
-Victoria,Vic,Melbourne - North East,566199,2018,10,10,1.766163487,1.766163487
-Victoria,Vic,Melbourne - North East,566199,2019,9,9,1.589547138,1.589547138
-Victoria,Vic,Melbourne - North East,566199,2020,12,14,2.119396184,2.472628881
-Victoria,Vic,Melbourne - North East,566199,2021,8,10,1.412930789,1.766163487
-Victoria,Vic,Melbourne - North West,429721,2015,14,14,3.257927818,3.257927818
-Victoria,Vic,Melbourne - North West,429721,2016,12,14,2.792509559,3.257927818
-Victoria,Vic,Melbourne - North West,429721,2017,6,6,1.396254779,1.396254779
-Victoria,Vic,Melbourne - North West,429721,2018,13,13,3.025218688,3.025218688
-Victoria,Vic,Melbourne - North West,429721,2019,15,18,3.490636948,4.188764338
-Victoria,Vic,Melbourne - North West,429721,2020,2,2,0.46541826,0.46541826
-Victoria,Vic,Melbourne - North West,429721,2021,5,5,1.163545649,1.163545649
-Victoria,Vic,Melbourne - Outer East,536496,2015,19,19,3.541498911,3.541498911
-Victoria,Vic,Melbourne - Outer East,536496,2016,17,18,3.168709552,3.355104232
-Victoria,Vic,Melbourne - Outer East,536496,2017,10,11,1.863946796,2.050341475
-Victoria,Vic,Melbourne - Outer East,536496,2018,17,18,3.168709552,3.355104232
-Victoria,Vic,Melbourne - Outer East,536496,2019,15,15,2.795920193,2.795920193
-Victoria,Vic,Melbourne - Outer East,536496,2020,11,12,2.050341475,2.236736155
-Victoria,Vic,Melbourne - Outer East,536496,2021,5,5,0.931973398,0.931973398
-Victoria,Vic,Melbourne - South East,883260,2015,21,23,2.377555873,2.603989765
-Victoria,Vic,Melbourne - South East,883260,2016,25,25,2.830423658,2.830423658
-Victoria,Vic,Melbourne - South East,883260,2017,27,28,3.05685755,3.170074497
-Victoria,Vic,Melbourne - South East,883260,2018,18,18,2.037905034,2.037905034
-Victoria,Vic,Melbourne - South East,883260,2019,25,27,2.830423658,3.05685755
-Victoria,Vic,Melbourne - South East,883260,2020,12,13,1.358603356,1.471820302
-Victoria,Vic,Melbourne - South East,883260,2021,27,29,3.05685755,3.283291443
-Victoria,Vic,Melbourne - West,867699,2015,18,20,2.074452085,2.304946761
-Victoria,Vic,Melbourne - West,867699,2016,29,30,3.342172804,3.457420142
-Victoria,Vic,Melbourne - West,867699,2017,21,23,2.4201941,2.650688776
-Victoria,Vic,Melbourne - West,867699,2018,17,19,1.959204747,2.189699423
-Victoria,Vic,Melbourne - West,867699,2019,24,24,2.765936114,2.765936114
-Victoria,Vic,Melbourne - West,867699,2020,10,11,1.152473381,1.267720719
-Victoria,Vic,Melbourne - West,867699,2021,10,10,1.152473381,1.152473381
-Victoria,Vic,Mornington Peninsula,312200,2015,8,10,2.562459962,3.203074952
-Victoria,Vic,Mornington Peninsula,312200,2016,13,13,4.163997438,4.163997438
-Victoria,Vic,Mornington Peninsula,312200,2017,8,8,2.562459962,2.562459962
-Victoria,Vic,Mornington Peninsula,312200,2018,5,5,1.601537476,1.601537476
-Victoria,Vic,Mornington Peninsula,312200,2019,16,18,5.124919923,5.765534914
-Victoria,Vic,Mornington Peninsula,312200,2020,13,14,4.163997438,4.484304933
-Victoria,Vic,Mornington Peninsula,312200,2021,7,7,2.242152466,2.242152466
-Victoria,Vic,North West,152207,2015,14,16,9.198000092,10.51200011
-Victoria,Vic,North West,152207,2016,18,18,11.82600012,11.82600012
-Victoria,Vic,North West,152207,2017,11,13,7.227000072,8.541000085
-Victoria,Vic,North West,152207,2018,10,11,6.570000066,7.227000072
-Victoria,Vic,North West,152207,2019,24,25,15.76800016,16.42500016
-Victoria,Vic,North West,152207,2020,17,17,11.16900011,11.16900011
-Victoria,Vic,North West,152207,2021,12,12,7.884000079,7.884000079
-Victoria,Vic,Shepparton,134857,2015,18,19,13.34747177,14.08899798
-Victoria,Vic,Shepparton,134857,2016,14,14,10.38136693,10.38136693
-Victoria,Vic,Shepparton,134857,2017,19,22,14.08899798,16.3135766
-Victoria,Vic,Shepparton,134857,2018,8,8,5.932209674,5.932209674
-Victoria,Vic,Shepparton,134857,2019,13,14,9.63984072,10.38136693
-Victoria,Vic,Shepparton,134857,2020,12,13,8.898314511,9.63984072
-Victoria,Vic,Shepparton,134857,2021,5,5,3.707631046,3.707631046
-Victoria,Vic,Warrnambool and South West,125775,2015,16,18,12.721129,14.31127013
-Victoria,Vic,Warrnambool and South West,125775,2016,13,14,10.33591731,11.13098788
-Victoria,Vic,Warrnambool and South West,125775,2017,16,16,12.721129,12.721129
-Victoria,Vic,Warrnambool and South West,125775,2018,12,12,9.54084675,9.54084675
-Victoria,Vic,Warrnambool and South West,125775,2019,12,14,9.54084675,11.13098788
-Victoria,Vic,Warrnambool and South West,125775,2020,11,12,8.745776188,9.54084675
-Victoria,Vic,Warrnambool and South West,125775,2021,11,12,8.745776188,9.54084675
-Western Australia,WA,Bunbury,186068,2015,15,15,8.061568889,8.061568889
-Western Australia,WA,Bunbury,186068,2016,21,23,11.28619644,12.3610723
-Western Australia,WA,Bunbury,186068,2017,21,21,11.28619644,11.28619644
-Western Australia,WA,Bunbury,186068,2018,24,26,12.89851022,13.97338607
-Western Australia,WA,Bunbury,186068,2019,24,26,12.89851022,13.97338607
-Western Australia,WA,Mandurah,105364,2015,4,4,3.796363084,3.796363084
-Western Australia,WA,Mandurah,105364,2016,4,5,3.796363084,4.745453855
-Western Australia,WA,Mandurah,105364,2017,3,3,2.847272313,2.847272313
-Western Australia,WA,Mandurah,105364,2018,3,3,2.847272313,2.847272313
-Western Australia,WA,Mandurah,105364,2019,8,8,7.592726168,7.592726168
-Western Australia,WA,Perth - Inner,187107,2015,1,1,0.534453548,0.534453548
-Western Australia,WA,Perth - Inner,187107,2016,5,5,2.67226774,2.67226774
-Western Australia,WA,Perth - Inner,187107,2017,6,6,3.206721288,3.206721288
-Western Australia,WA,Perth - Inner,187107,2018,3,3,1.603360644,1.603360644
-Western Australia,WA,Perth - Inner,187107,2019,9,9,4.810081932,4.810081932
-Western Australia,WA,Perth - North East,275750,2015,13,14,4.714415231,5.077062557
-Western Australia,WA,Perth - North East,275750,2016,12,12,4.351767906,4.351767906
-Western Australia,WA,Perth - North East,275750,2017,7,7,2.538531278,2.538531278
-Western Australia,WA,Perth - North East,275750,2018,8,8,2.901178604,2.901178604
-Western Australia,WA,Perth - North East,275750,2019,9,10,3.263825929,3.626473255
-Western Australia,WA,Perth - North West,579082,2015,8,8,1.381496921,1.381496921
-Western Australia,WA,Perth - North West,579082,2016,19,24,3.281055187,4.144490763
-Western Australia,WA,Perth - North West,579082,2017,15,15,2.590306727,2.590306727
-Western Australia,WA,Perth - North West,579082,2018,12,12,2.072245381,2.072245381
-Western Australia,WA,Perth - North West,579082,2019,8,8,1.381496921,1.381496921
-Western Australia,WA,Perth - South East,531673,2015,16,21,3.00936854,3.949796209
-Western Australia,WA,Perth - South East,531673,2016,13,13,2.445111939,2.445111939
-Western Australia,WA,Perth - South East,531673,2017,13,14,2.445111939,2.633197473
-Western Australia,WA,Perth - South East,531673,2018,14,14,2.633197473,2.633197473
-Western Australia,WA,Perth - South East,531673,2019,19,21,3.573625142,3.949796209
-Western Australia,WA,Perth - South West,446138,2015,14,17,3.138042489,3.810480165
-Western Australia,WA,Perth - South West,446138,2016,8,8,1.793167137,1.793167137
-Western Australia,WA,Perth - South West,446138,2017,12,13,2.689750705,2.913896597
-Western Australia,WA,Perth - South West,446138,2018,16,16,3.586334273,3.586334273
-Western Australia,WA,Perth - South West,446138,2019,5,5,1.12072946,1.12072946
-Western Australia,WA,Western Australia - Outback (North),98864,2015,13,16,13.14937692,16.18384852
-Western Australia,WA,Western Australia - Outback (North),98864,2016,13,17,13.14937692,17.19533905
-Western Australia,WA,Western Australia - Outback (North),98864,2017,10,11,10.11490532,11.12639586
-Western Australia,WA,Western Australia - Outback (North),98864,2018,9,10,9.103414792,10.11490532
-Western Australia,WA,Western Australia - Outback (North),98864,2019,17,18,17.19533905,18.20682958
-Western Australia,WA,Western Australia - Outback (South),116006,2015,15,20,12.93036567,17.24048756
-Western Australia,WA,Western Australia - Outback (South),116006,2016,15,16,12.93036567,13.79239005
-Western Australia,WA,Western Australia - Outback (South),116006,2017,17,18,14.65441443,15.5164388
-Western Australia,WA,Western Australia - Outback (South),116006,2018,15,18,12.93036567,15.5164388
-Western Australia,WA,Western Australia - Outback (South),116006,2019,15,15,12.93036567,12.93036567
-Western Australia,WA,Western Australia - Wheat Belt,137509,2015,22,23,15.9989528,16.72617792
-Western Australia,WA,Western Australia - Wheat Belt,137509,2016,44,52,31.99790559,37.81570661
-Western Australia,WA,Western Australia - Wheat Belt,137509,2017,31,35,22.54397894,25.45287945
-Western Australia,WA,Western Australia - Wheat Belt,137509,2018,36,43,26.18010457,31.27068046
-Western Australia,WA,Western Australia - Wheat Belt,137509,2019,31,34,22.54397894,24.72565432
+Australian Capital Territory,ACT,Australian Capital Territory,431380,2015,14,15,3.25,3.48
+Australian Capital Territory,ACT,Australian Capital Territory,431380,2016,10,10,2.32,2.32
+Australian Capital Territory,ACT,Australian Capital Territory,431380,2017,4,4,0.93,0.93
+Australian Capital Territory,ACT,Australian Capital Territory,431380,2018,7,7,1.62,1.62
+Australian Capital Territory,ACT,Australian Capital Territory,431380,2019,5,5,1.16,1.16
+Australian Capital Territory,ACT,Australian Capital Territory,431380,2020,4,5,0.93,1.16
+Australian Capital Territory,ACT,Australian Capital Territory,431380,2021,5,5,1.16,1.16
+New South Wales,NSW,Capital Region,232799,2015,24,25,10.31,10.74
+New South Wales,NSW,Capital Region,232799,2016,23,25,9.88,10.74
+New South Wales,NSW,Capital Region,232799,2017,24,24,10.31,10.31
+New South Wales,NSW,Capital Region,232799,2018,19,24,8.16,10.31
+New South Wales,NSW,Capital Region,232799,2019,28,31,12.03,13.32
+New South Wales,NSW,Capital Region,232799,2020,23,24,9.88,10.31
+New South Wales,NSW,Capital Region,232799,2021,13,13,5.58,5.58
+New South Wales,NSW,Central Coast,345857,2015,12,13,3.47,3.76
+New South Wales,NSW,Central Coast,345857,2016,15,17,4.34,4.92
+New South Wales,NSW,Central Coast,345857,2017,12,12,3.47,3.47
+New South Wales,NSW,Central Coast,345857,2018,20,22,5.78,6.36
+New South Wales,NSW,Central Coast,345857,2019,9,9,2.60,2.60
+New South Wales,NSW,Central Coast,345857,2020,7,7,2.02,2.02
+New South Wales,NSW,Central Coast,345857,2021,7,7,2.02,2.02
+New South Wales,NSW,Central West,213714,2015,21,23,9.83,10.76
+New South Wales,NSW,Central West,213714,2016,28,30,13.10,14.04
+New South Wales,NSW,Central West,213714,2017,22,24,10.29,11.23
+New South Wales,NSW,Central West,213714,2018,19,19,8.89,8.89
+New South Wales,NSW,Central West,213714,2019,24,25,11.23,11.70
+New South Wales,NSW,Central West,213714,2020,19,20,8.89,9.36
+New South Wales,NSW,Central West,213714,2021,15,19,7.02,8.89
+New South Wales,NSW,Coffs Harbour - Grafton,142570,2015,7,7,4.91,4.91
+New South Wales,NSW,Coffs Harbour - Grafton,142570,2016,18,19,12.63,13.33
+New South Wales,NSW,Coffs Harbour - Grafton,142570,2017,16,17,11.22,11.92
+New South Wales,NSW,Coffs Harbour - Grafton,142570,2018,11,12,7.72,8.42
+New South Wales,NSW,Coffs Harbour - Grafton,142570,2019,21,21,14.73,14.73
+New South Wales,NSW,Coffs Harbour - Grafton,142570,2020,10,13,7.01,9.12
+New South Wales,NSW,Coffs Harbour - Grafton,142570,2021,5,5,3.51,3.51
+New South Wales,NSW,Far West and Orana,116440,2015,17,18,14.60,15.46
+New South Wales,NSW,Far West and Orana,116440,2016,19,22,16.32,18.89
+New South Wales,NSW,Far West and Orana,116440,2017,16,18,13.74,15.46
+New South Wales,NSW,Far West and Orana,116440,2018,17,19,14.60,16.32
+New South Wales,NSW,Far West and Orana,116440,2019,17,18,14.60,15.46
+New South Wales,NSW,Far West and Orana,116440,2020,10,11,8.59,9.45
+New South Wales,NSW,Far West and Orana,116440,2021,9,11,7.73,9.45
+New South Wales,NSW,Hunter Valley exc Newcastle,285141,2015,19,22,6.66,7.72
+New South Wales,NSW,Hunter Valley exc Newcastle,285141,2016,26,27,9.12,9.47
+New South Wales,NSW,Hunter Valley exc Newcastle,285141,2017,28,29,9.82,10.17
+New South Wales,NSW,Hunter Valley exc Newcastle,285141,2018,21,24,7.36,8.42
+New South Wales,NSW,Hunter Valley exc Newcastle,285141,2019,20,21,7.01,7.36
+New South Wales,NSW,Hunter Valley exc Newcastle,285141,2020,17,18,5.96,6.31
+New South Wales,NSW,Hunter Valley exc Newcastle,285141,2021,13,15,4.56,5.26
+New South Wales,NSW,Illawarra,317988,2015,7,7,2.20,2.20
+New South Wales,NSW,Illawarra,317988,2016,10,10,3.14,3.14
+New South Wales,NSW,Illawarra,317988,2017,9,11,2.83,3.46
+New South Wales,NSW,Illawarra,317988,2018,7,7,2.20,2.20
+New South Wales,NSW,Illawarra,317988,2019,10,12,3.14,3.77
+New South Wales,NSW,Illawarra,317988,2020,13,13,4.09,4.09
+New South Wales,NSW,Illawarra,317988,2021,2,2,0.63,0.63
+New South Wales,NSW,Mid North Coast,224808,2015,19,24,8.45,10.68
+New South Wales,NSW,Mid North Coast,224808,2016,20,20,8.90,8.90
+New South Wales,NSW,Mid North Coast,224808,2017,26,27,11.57,12.01
+New South Wales,NSW,Mid North Coast,224808,2018,15,15,6.67,6.67
+New South Wales,NSW,Mid North Coast,224808,2019,21,23,9.34,10.23
+New South Wales,NSW,Mid North Coast,224808,2020,5,5,2.22,2.22
+New South Wales,NSW,Mid North Coast,224808,2021,16,17,7.12,7.56
+New South Wales,NSW,Murray,122056,2015,2,2,1.64,1.64
+New South Wales,NSW,Murray,122056,2016,9,9,7.37,7.37
+New South Wales,NSW,Murray,122056,2017,12,15,9.83,12.29
+New South Wales,NSW,Murray,122056,2018,13,15,10.65,12.29
+New South Wales,NSW,Murray,122056,2019,11,13,9.01,10.65
+New South Wales,NSW,Murray,122056,2020,10,11,8.19,9.01
+New South Wales,NSW,Murray,122056,2021,5,5,4.10,4.10
+New South Wales,NSW,New England and North West,186312,2015,19,22,10.20,11.81
+New South Wales,NSW,New England and North West,186312,2016,20,27,10.73,14.49
+New South Wales,NSW,New England and North West,186312,2017,25,29,13.42,15.57
+New South Wales,NSW,New England and North West,186312,2018,27,27,14.49,14.49
+New South Wales,NSW,New England and North West,186312,2019,13,14,6.98,7.51
+New South Wales,NSW,New England and North West,186312,2020,18,19,9.66,10.20
+New South Wales,NSW,New England and North West,186312,2021,11,11,5.90,5.90
+New South Wales,NSW,Newcastle and Lake Macquarie,382537,2015,16,17,4.18,4.44
+New South Wales,NSW,Newcastle and Lake Macquarie,382537,2016,19,19,4.97,4.97
+New South Wales,NSW,Newcastle and Lake Macquarie,382537,2017,17,19,4.44,4.97
+New South Wales,NSW,Newcastle and Lake Macquarie,382537,2018,10,10,2.61,2.61
+New South Wales,NSW,Newcastle and Lake Macquarie,382537,2019,15,15,3.92,3.92
+New South Wales,NSW,Newcastle and Lake Macquarie,382537,2020,9,9,2.35,2.35
+New South Wales,NSW,Newcastle and Lake Macquarie,382537,2021,5,5,1.31,1.31
+New South Wales,NSW,Richmond - Tweed,255304,2015,21,22,8.23,8.62
+New South Wales,NSW,Richmond - Tweed,255304,2016,21,21,8.23,8.23
+New South Wales,NSW,Richmond - Tweed,255304,2017,12,15,4.70,5.88
+New South Wales,NSW,Richmond - Tweed,255304,2018,15,15,5.88,5.88
+New South Wales,NSW,Richmond - Tweed,255304,2019,22,24,8.62,9.40
+New South Wales,NSW,Richmond - Tweed,255304,2020,11,12,4.31,4.70
+New South Wales,NSW,Richmond - Tweed,255304,2021,5,5,1.96,1.96
+New South Wales,NSW,Riverina,161929,2015,16,17,9.88,10.50
+New South Wales,NSW,Riverina,161929,2016,9,10,5.56,6.18
+New South Wales,NSW,Riverina,161929,2017,23,25,14.20,15.44
+New South Wales,NSW,Riverina,161929,2018,17,18,10.50,11.12
+New South Wales,NSW,Riverina,161929,2019,12,13,7.41,8.03
+New South Wales,NSW,Riverina,161929,2020,18,21,11.12,12.97
+New South Wales,NSW,Riverina,161929,2021,13,14,8.03,8.65
+New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2015,14,14,8.82,8.82
+New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2016,17,17,10.71,10.71
+New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2017,14,20,8.82,12.60
+New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2018,7,8,4.41,5.04
+New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2019,11,11,6.93,6.93
+New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2020,8,8,5.04,5.04
+New South Wales,NSW,Southern Highlands and Shoalhaven,158728,2021,3,5,1.89,3.15
+New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2015,14,16,5.44,6.22
+New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2016,3,3,1.17,1.17
+New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2017,3,3,1.17,1.17
+New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2018,7,7,2.72,2.72
+New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2019,5,5,1.94,1.94
+New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2020,3,3,1.17,1.17
+New South Wales,NSW,Sydney - Baulkham Hills and Hawkesbury,257359,2021,3,3,1.17,1.17
+New South Wales,NSW,Sydney - Blacktown,385650,2015,1,1,0.26,0.26
+New South Wales,NSW,Sydney - Blacktown,385650,2016,8,10,2.07,2.59
+New South Wales,NSW,Sydney - Blacktown,385650,2017,7,7,1.82,1.82
+New South Wales,NSW,Sydney - Blacktown,385650,2018,4,4,1.04,1.04
+New South Wales,NSW,Sydney - Blacktown,385650,2019,9,11,2.33,2.85
+New South Wales,NSW,Sydney - Blacktown,385650,2020,6,7,1.56,1.82
+New South Wales,NSW,Sydney - Blacktown,385650,2021,6,6,1.56,1.56
+New South Wales,NSW,Sydney - City and Inner South,372826,2015,5,5,1.34,1.34
+New South Wales,NSW,Sydney - City and Inner South,372826,2016,5,5,1.34,1.34
+New South Wales,NSW,Sydney - City and Inner South,372826,2017,9,13,2.41,3.49
+New South Wales,NSW,Sydney - City and Inner South,372826,2018,12,12,3.22,3.22
+New South Wales,NSW,Sydney - City and Inner South,372826,2019,3,3,0.80,0.80
+New South Wales,NSW,Sydney - City and Inner South,372826,2020,12,12,3.22,3.22
+New South Wales,NSW,Sydney - City and Inner South,372826,2021,3,3,0.80,0.80
+New South Wales,NSW,Sydney - Eastern Suburbs,296088,2015,9,9,3.04,3.04
+New South Wales,NSW,Sydney - Eastern Suburbs,296088,2016,1,1,0.34,0.34
+New South Wales,NSW,Sydney - Eastern Suburbs,296088,2017,4,4,1.35,1.35
+New South Wales,NSW,Sydney - Eastern Suburbs,296088,2018,2,2,0.68,0.68
+New South Wales,NSW,Sydney - Eastern Suburbs,296088,2019,6,7,2.03,2.36
+New South Wales,NSW,Sydney - Eastern Suburbs,296088,2020,4,4,1.35,1.35
+New South Wales,NSW,Sydney - Inner South West,630964,2015,7,7,1.11,1.11
+New South Wales,NSW,Sydney - Inner South West,630964,2016,15,16,2.38,2.54
+New South Wales,NSW,Sydney - Inner South West,630964,2017,8,8,1.27,1.27
+New South Wales,NSW,Sydney - Inner South West,630964,2018,16,16,2.54,2.54
+New South Wales,NSW,Sydney - Inner South West,630964,2019,14,17,2.22,2.69
+New South Wales,NSW,Sydney - Inner South West,630964,2020,8,9,1.27,1.43
+New South Wales,NSW,Sydney - Inner South West,630964,2021,6,6,0.95,0.95
+New South Wales,NSW,Sydney - Inner West,326651,2015,6,7,1.84,2.14
+New South Wales,NSW,Sydney - Inner West,326651,2016,6,6,1.84,1.84
+New South Wales,NSW,Sydney - Inner West,326651,2017,3,3,0.92,0.92
+New South Wales,NSW,Sydney - Inner West,326651,2018,6,6,1.84,1.84
+New South Wales,NSW,Sydney - Inner West,326651,2019,6,6,1.84,1.84
+New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2015,8,8,1.81,1.81
+New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2016,5,6,1.13,1.36
+New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2017,11,11,2.49,2.49
+New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2018,13,13,2.94,2.94
+New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2019,6,6,1.36,1.36
+New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2020,5,5,1.13,1.13
+New South Wales,NSW,Sydney - North Sydney and Hornsby,442646,2021,4,4,0.90,0.90
+New South Wales,NSW,Sydney - Northern Beaches,274041,2015,2,2,0.73,0.73
+New South Wales,NSW,Sydney - Northern Beaches,274041,2016,7,7,2.55,2.55
+New South Wales,NSW,Sydney - Northern Beaches,274041,2017,3,3,1.09,1.09
+New South Wales,NSW,Sydney - Northern Beaches,274041,2018,1,1,0.36,0.36
+New South Wales,NSW,Sydney - Northern Beaches,274041,2019,4,4,1.46,1.46
+New South Wales,NSW,Sydney - Northern Beaches,274041,2020,4,4,1.46,1.46
+New South Wales,NSW,Sydney - Northern Beaches,274041,2021,5,5,1.82,1.82
+New South Wales,NSW,Sydney - Outer South West,294899,2015,7,7,2.37,2.37
+New South Wales,NSW,Sydney - Outer South West,294899,2016,4,4,1.36,1.36
+New South Wales,NSW,Sydney - Outer South West,294899,2017,5,7,1.70,2.37
+New South Wales,NSW,Sydney - Outer South West,294899,2018,8,11,2.71,3.73
+New South Wales,NSW,Sydney - Outer South West,294899,2019,9,9,3.05,3.05
+New South Wales,NSW,Sydney - Outer South West,294899,2020,5,5,1.70,1.70
+New South Wales,NSW,Sydney - Outer South West,294899,2021,9,9,3.05,3.05
+New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2015,12,13,3.62,3.93
+New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2016,9,10,2.72,3.02
+New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2017,7,7,2.11,2.11
+New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2018,12,13,3.62,3.93
+New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2019,4,5,1.21,1.51
+New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2020,8,8,2.42,2.42
+New South Wales,NSW,Sydney - Outer West and Blue Mountains,331168,2021,2,2,0.60,0.60
+New South Wales,NSW,Sydney - Parramatta,507197,2015,11,11,2.17,2.17
+New South Wales,NSW,Sydney - Parramatta,507197,2016,19,19,3.75,3.75
+New South Wales,NSW,Sydney - Parramatta,507197,2017,9,9,1.77,1.77
+New South Wales,NSW,Sydney - Parramatta,507197,2018,11,11,2.17,2.17
+New South Wales,NSW,Sydney - Parramatta,507197,2019,10,10,1.97,1.97
+New South Wales,NSW,Sydney - Parramatta,507197,2020,10,13,1.97,2.56
+New South Wales,NSW,Sydney - Parramatta,507197,2021,7,7,1.38,1.38
+New South Wales,NSW,Sydney - Ryde,207511,2015,5,5,2.41,2.41
+New South Wales,NSW,Sydney - Ryde,207511,2016,6,6,2.89,2.89
+New South Wales,NSW,Sydney - Ryde,207511,2017,5,5,2.41,2.41
+New South Wales,NSW,Sydney - Ryde,207511,2018,2,2,0.96,0.96
+New South Wales,NSW,Sydney - Ryde,207511,2019,5,5,2.41,2.41
+New South Wales,NSW,Sydney - Ryde,207511,2020,4,4,1.93,1.93
+New South Wales,NSW,Sydney - Ryde,207511,2021,3,3,1.45,1.45
+New South Wales,NSW,Sydney - South West,462408,2015,16,17,3.46,3.68
+New South Wales,NSW,Sydney - South West,462408,2016,9,9,1.95,1.95
+New South Wales,NSW,Sydney - South West,462408,2017,15,18,3.24,3.89
+New South Wales,NSW,Sydney - South West,462408,2018,9,9,1.95,1.95
+New South Wales,NSW,Sydney - South West,462408,2019,10,11,2.16,2.38
+New South Wales,NSW,Sydney - South West,462408,2020,15,16,3.24,3.46
+New South Wales,NSW,Sydney - South West,462408,2021,6,6,1.30,1.30
+New South Wales,NSW,Sydney - Sutherland,231941,2015,9,9,3.88,3.88
+New South Wales,NSW,Sydney - Sutherland,231941,2016,5,5,2.16,2.16
+New South Wales,NSW,Sydney - Sutherland,231941,2017,6,6,2.59,2.59
+New South Wales,NSW,Sydney - Sutherland,231941,2018,5,5,2.16,2.16
+New South Wales,NSW,Sydney - Sutherland,231941,2019,4,4,1.72,1.72
+New South Wales,NSW,Sydney - Sutherland,231941,2020,2,3,0.86,1.29
+New South Wales,NSW,Sydney - Sutherland,231941,2021,1,1,0.43,0.43
+Northern Territory,NT,Darwin,147231,2015,18,23,12.23,15.62
+Northern Territory,NT,Darwin,147231,2016,13,14,8.83,9.51
+Northern Territory,NT,Darwin,147231,2017,14,15,9.51,10.19
+Northern Territory,NT,Darwin,147231,2018,10,11,6.79,7.47
+Northern Territory,NT,Darwin,147231,2019,12,13,8.15,8.83
+Northern Territory,NT,Darwin,147231,2020,9,10,6.11,6.79
+Northern Territory,NT,Darwin,147231,2021,9,9,6.11,6.11
+Northern Territory,NT,Northern Territory - Outback,98912,2015,24,26,24.26,26.29
+Northern Territory,NT,Northern Territory - Outback,98912,2016,27,31,27.30,31.34
+Northern Territory,NT,Northern Territory - Outback,98912,2017,13,16,13.14,16.18
+Northern Territory,NT,Northern Territory - Outback,98912,2018,32,39,32.35,39.43
+Northern Territory,NT,Northern Territory - Outback,98912,2019,16,23,16.18,23.25
+Northern Territory,NT,Northern Territory - Outback,98912,2020,19,21,19.21,21.23
+Northern Territory,NT,Northern Territory - Outback,98912,2021,14,16,14.15,16.18
+Queensland,Qld,Brisbane - East,243121,2018,4,4,1.65,1.65
+Queensland,Qld,Brisbane - East,243121,2019,3,3,1.23,1.23
+Queensland,Qld,Brisbane - East,243121,2020,4,4,1.65,1.65
+Queensland,Qld,Brisbane - East,243121,2021,10,12,4.11,4.94
+Queensland,Qld,Brisbane - North,228486,2018,4,4,1.75,1.75
+Queensland,Qld,Brisbane - North,228486,2019,7,8,3.06,3.50
+Queensland,Qld,Brisbane - North,228486,2020,2,2,0.88,0.88
+Queensland,Qld,Brisbane - North,228486,2021,2,2,0.88,0.88
+Queensland,Qld,Brisbane - South,381849,2018,10,11,2.62,2.88
+Queensland,Qld,Brisbane - South,381849,2019,4,4,1.05,1.05
+Queensland,Qld,Brisbane - South,381849,2020,8,8,2.10,2.10
+Queensland,Qld,Brisbane - South,381849,2021,5,5,1.31,1.31
+Queensland,Qld,Brisbane - West,194889,2018,1,1,0.51,0.51
+Queensland,Qld,Brisbane - West,194889,2020,1,1,0.51,0.51
+Queensland,Qld,Brisbane - West,194889,2021,2,2,1.03,1.03
+Queensland,Qld,Brisbane Inner City,298546,2018,4,4,1.34,1.34
+Queensland,Qld,Brisbane Inner City,298546,2019,3,4,1.00,1.34
+Queensland,Qld,Brisbane Inner City,298546,2020,3,3,1.00,1.00
+Queensland,Qld,Cairns,256039,2018,12,13,4.69,5.08
+Queensland,Qld,Cairns,256039,2019,18,24,7.03,9.37
+Queensland,Qld,Cairns,256039,2020,15,17,5.86,6.64
+Queensland,Qld,Cairns,256039,2021,9,10,3.52,3.91
+Queensland,Qld,Central Queensland,228200,2018,12,12,5.26,5.26
+Queensland,Qld,Central Queensland,228200,2019,17,20,7.45,8.76
+Queensland,Qld,Central Queensland,228200,2020,16,18,7.01,7.89
+Queensland,Qld,Central Queensland,228200,2021,15,15,6.57,6.57
+Queensland,Qld,Darling Downs - Maranoa,128706,2018,18,23,13.99,17.87
+Queensland,Qld,Darling Downs - Maranoa,128706,2019,21,22,16.32,17.09
+Queensland,Qld,Darling Downs - Maranoa,128706,2020,15,17,11.65,13.21
+Queensland,Qld,Darling Downs - Maranoa,128706,2021,16,19,12.43,14.76
+Queensland,Qld,Gold Coast,650996,2018,19,19,2.92,2.92
+Queensland,Qld,Gold Coast,650996,2019,12,13,1.84,2.00
+Queensland,Qld,Gold Coast,650996,2020,17,22,2.61,3.38
+Queensland,Qld,Gold Coast,650996,2021,10,10,1.54,1.54
+Queensland,Qld,Ipswich,371126,2018,18,19,4.85,5.12
+Queensland,Qld,Ipswich,371126,2019,16,18,4.31,4.85
+Queensland,Qld,Ipswich,371126,2020,13,14,3.50,3.77
+Queensland,Qld,Ipswich,371126,2021,4,4,1.08,1.08
+Queensland,Qld,Logan - Beaudesert,357143,2018,14,15,3.92,4.20
+Queensland,Qld,Logan - Beaudesert,357143,2019,6,7,1.68,1.96
+Queensland,Qld,Logan - Beaudesert,357143,2020,18,21,5.04,5.88
+Queensland,Qld,Logan - Beaudesert,357143,2021,11,11,3.08,3.08
+Queensland,Qld,Mackay - Isaac - Whitsunday,174816,2018,12,15,6.86,8.58
+Queensland,Qld,Mackay - Isaac - Whitsunday,174816,2019,10,11,5.72,6.29
+Queensland,Qld,Mackay - Isaac - Whitsunday,174816,2020,18,21,10.30,12.01
+Queensland,Qld,Mackay - Isaac - Whitsunday,174816,2021,8,8,4.58,4.58
+Queensland,Qld,Moreton Bay - North,261602,2018,8,8,3.06,3.06
+Queensland,Qld,Moreton Bay - North,261602,2019,9,9,3.44,3.44
+Queensland,Qld,Moreton Bay - North,261602,2020,17,17,6.50,6.50
+Queensland,Qld,Moreton Bay - North,261602,2021,10,13,3.82,4.97
+Queensland,Qld,Moreton Bay - South,223958,2018,5,5,2.23,2.23
+Queensland,Qld,Moreton Bay - South,223958,2019,5,5,2.23,2.23
+Queensland,Qld,Moreton Bay - South,223958,2020,5,5,2.23,2.23
+Queensland,Qld,Moreton Bay - South,223958,2021,4,4,1.79,1.79
+Queensland,Qld,Queensland - Outback,82751,2018,15,16,18.13,19.34
+Queensland,Qld,Queensland - Outback,82751,2019,14,15,16.92,18.13
+Queensland,Qld,Queensland - Outback,82751,2020,18,19,21.75,22.96
+Queensland,Qld,Queensland - Outback,82751,2021,7,7,8.46,8.46
+Queensland,Qld,Sunshine Coast,393049,2018,16,16,4.07,4.07
+Queensland,Qld,Sunshine Coast,393049,2019,12,12,3.05,3.05
+Queensland,Qld,Sunshine Coast,393049,2020,17,17,4.33,4.33
+Queensland,Qld,Sunshine Coast,393049,2021,11,11,2.80,2.80
+Queensland,Qld,Toowoomba,159991,2018,5,5,3.13,3.13
+Queensland,Qld,Toowoomba,159991,2019,2,2,1.25,1.25
+Queensland,Qld,Toowoomba,159991,2020,4,4,2.50,2.50
+Queensland,Qld,Toowoomba,159991,2021,2,2,1.25,1.25
+Queensland,Qld,Townsville,238813,2018,14,15,5.86,6.28
+Queensland,Qld,Townsville,238813,2019,15,16,6.28,6.70
+Queensland,Qld,Townsville,238813,2020,17,22,7.12,9.21
+Queensland,Qld,Townsville,238813,2021,13,18,5.44,7.54
+Queensland,Qld,Wide Bay,302105,2018,33,40,10.92,13.24
+Queensland,Qld,Wide Bay,302105,2019,22,26,7.28,8.61
+Queensland,Qld,Wide Bay,302105,2020,42,45,13.90,14.90
+Queensland,Qld,Wide Bay,302105,2021,29,33,9.60,10.92
+South Australia,SA,Adelaide - Central and Hills,310091,2015,14,14,4.51,4.51
+South Australia,SA,Adelaide - Central and Hills,310091,2016,5,5,1.61,1.61
+South Australia,SA,Adelaide - Central and Hills,310091,2017,13,13,4.19,4.19
+South Australia,SA,Adelaide - Central and Hills,310091,2018,6,6,1.93,1.93
+South Australia,SA,Adelaide - Central and Hills,310091,2019,10,10,3.22,3.22
+South Australia,SA,Adelaide - Central and Hills,310091,2020,13,14,4.19,4.51
+South Australia,SA,Adelaide - Central and Hills,310091,2021,8,8,2.58,2.58
+South Australia,SA,Adelaide - North,448458,2015,12,12,2.68,2.68
+South Australia,SA,Adelaide - North,448458,2016,13,14,2.90,3.12
+South Australia,SA,Adelaide - North,448458,2017,19,21,4.24,4.68
+South Australia,SA,Adelaide - North,448458,2018,10,10,2.23,2.23
+South Australia,SA,Adelaide - North,448458,2019,21,21,4.68,4.68
+South Australia,SA,Adelaide - North,448458,2020,12,13,2.68,2.90
+South Australia,SA,Adelaide - North,448458,2021,7,7,1.56,1.56
+South Australia,SA,Adelaide - South,374910,2015,8,8,2.13,2.13
+South Australia,SA,Adelaide - South,374910,2016,10,12,2.67,3.20
+South Australia,SA,Adelaide - South,374910,2017,11,11,2.93,2.93
+South Australia,SA,Adelaide - South,374910,2018,4,4,1.07,1.07
+South Australia,SA,Adelaide - South,374910,2019,9,9,2.40,2.40
+South Australia,SA,Adelaide - South,374910,2020,7,7,1.87,1.87
+South Australia,SA,Adelaide - South,374910,2021,8,8,2.13,2.13
+South Australia,SA,Adelaide - West,243142,2015,9,9,3.70,3.70
+South Australia,SA,Adelaide - West,243142,2016,4,4,1.65,1.65
+South Australia,SA,Adelaide - West,243142,2017,11,11,4.52,4.52
+South Australia,SA,Adelaide - West,243142,2018,4,4,1.65,1.65
+South Australia,SA,Adelaide - West,243142,2019,8,8,3.29,3.29
+South Australia,SA,Adelaide - West,243142,2020,4,4,1.65,1.65
+South Australia,SA,Adelaide - West,243142,2021,5,5,2.06,2.06
+South Australia,SA,Barossa - Yorke - Mid North,114862,2015,17,19,14.80,16.54
+South Australia,SA,Barossa - Yorke - Mid North,114862,2016,16,19,13.93,16.54
+South Australia,SA,Barossa - Yorke - Mid North,114862,2017,17,21,14.80,18.28
+South Australia,SA,Barossa - Yorke - Mid North,114862,2018,13,15,11.32,13.06
+South Australia,SA,Barossa - Yorke - Mid North,114862,2019,14,15,12.19,13.06
+South Australia,SA,Barossa - Yorke - Mid North,114862,2020,15,15,13.06,13.06
+South Australia,SA,Barossa - Yorke - Mid North,114862,2021,14,16,12.19,13.93
+South Australia,SA,South Australia - Outback,84095,2015,11,14,13.08,16.65
+South Australia,SA,South Australia - Outback,84095,2016,9,10,10.70,11.89
+South Australia,SA,South Australia - Outback,84095,2017,6,6,7.13,7.13
+South Australia,SA,South Australia - Outback,84095,2018,10,11,11.89,13.08
+South Australia,SA,South Australia - Outback,84095,2019,14,15,16.65,17.84
+South Australia,SA,South Australia - Outback,84095,2020,16,17,19.03,20.22
+South Australia,SA,South Australia - Outback,84095,2021,6,7,7.13,8.32
+South Australia,SA,South Australia - South East,194817,2015,25,26,12.83,13.35
+South Australia,SA,South Australia - South East,194817,2016,19,22,9.75,11.29
+South Australia,SA,South Australia - South East,194817,2017,16,17,8.21,8.73
+South Australia,SA,South Australia - South East,194817,2018,28,30,14.37,15.40
+South Australia,SA,South Australia - South East,194817,2019,34,36,17.45,18.48
+South Australia,SA,South Australia - South East,194817,2020,18,23,9.24,11.81
+South Australia,SA,South Australia - South East,194817,2021,15,16,7.70,8.21
+Tasmania,Tas,Hobart,238834,2015,10,10,4.19,4.19
+Tasmania,Tas,Hobart,238834,2016,11,12,4.61,5.02
+Tasmania,Tas,Hobart,238834,2017,11,12,4.61,5.02
+Tasmania,Tas,Hobart,238834,2018,7,7,2.93,2.93
+Tasmania,Tas,Hobart,238834,2019,4,4,1.67,1.67
+Tasmania,Tas,Hobart,238834,2020,12,13,5.02,5.44
+Tasmania,Tas,Hobart,238834,2021,2,2,0.84,0.84
+Tasmania,Tas,Launceston and North East,148023,2015,8,9,5.40,6.08
+Tasmania,Tas,Launceston and North East,148023,2016,9,10,6.08,6.76
+Tasmania,Tas,Launceston and North East,148023,2017,14,14,9.46,9.46
+Tasmania,Tas,Launceston and North East,148023,2018,14,14,9.46,9.46
+Tasmania,Tas,Launceston and North East,148023,2019,7,7,4.73,4.73
+Tasmania,Tas,Launceston and North East,148023,2020,6,11,4.05,7.43
+Tasmania,Tas,Launceston and North East,148023,2021,12,15,8.11,10.13
+Tasmania,Tas,South East,40168,2015,6,6,14.94,14.94
+Tasmania,Tas,South East,40168,2016,5,5,12.45,12.45
+Tasmania,Tas,South East,40168,2017,1,1,2.49,2.49
+Tasmania,Tas,South East,40168,2018,2,3,4.98,7.47
+Tasmania,Tas,South East,40168,2019,8,8,19.92,19.92
+Tasmania,Tas,South East,40168,2020,5,5,12.45,12.45
+Tasmania,Tas,South East,40168,2021,4,4,9.96,9.96
+Tasmania,Tas,West and North West,113755,2015,7,8,6.15,7.03
+Tasmania,Tas,West and North West,113755,2016,8,10,7.03,8.79
+Tasmania,Tas,West and North West,113755,2017,5,5,4.40,4.40
+Tasmania,Tas,West and North West,113755,2018,8,8,7.03,7.03
+Tasmania,Tas,West and North West,113755,2019,10,10,8.79,8.79
+Tasmania,Tas,West and North West,113755,2020,7,7,6.15,6.15
+Tasmania,Tas,West and North West,113755,2021,5,5,4.40,4.40
+Victoria,Vic,Ballarat,169854,2015,6,6,3.53,3.53
+Victoria,Vic,Ballarat,169854,2016,16,20,9.42,11.77
+Victoria,Vic,Ballarat,169854,2017,15,18,8.83,10.60
+Victoria,Vic,Ballarat,169854,2018,13,16,7.65,9.42
+Victoria,Vic,Ballarat,169854,2019,14,16,8.24,9.42
+Victoria,Vic,Ballarat,169854,2020,14,14,8.24,8.24
+Victoria,Vic,Ballarat,169854,2021,5,5,2.94,2.94
+Victoria,Vic,Bendigo,165248,2015,11,12,6.66,7.26
+Victoria,Vic,Bendigo,165248,2016,8,8,4.84,4.84
+Victoria,Vic,Bendigo,165248,2017,9,9,5.45,5.45
+Victoria,Vic,Bendigo,165248,2018,10,10,6.05,6.05
+Victoria,Vic,Bendigo,165248,2019,16,16,9.68,9.68
+Victoria,Vic,Bendigo,165248,2020,12,14,7.26,8.47
+Victoria,Vic,Bendigo,165248,2021,5,5,3.03,3.03
+Victoria,Vic,Geelong,317857,2015,11,12,3.46,3.78
+Victoria,Vic,Geelong,317857,2016,15,15,4.72,4.72
+Victoria,Vic,Geelong,317857,2017,12,13,3.78,4.09
+Victoria,Vic,Geelong,317857,2018,6,7,1.89,2.20
+Victoria,Vic,Geelong,317857,2019,16,19,5.03,5.98
+Victoria,Vic,Geelong,317857,2020,11,11,3.46,3.46
+Victoria,Vic,Geelong,317857,2021,7,7,2.20,2.20
+Victoria,Vic,Hume,180610,2015,24,29,13.29,16.06
+Victoria,Vic,Hume,180610,2016,28,31,15.50,17.16
+Victoria,Vic,Hume,180610,2017,25,27,13.84,14.95
+Victoria,Vic,Hume,180610,2018,19,20,10.52,11.07
+Victoria,Vic,Hume,180610,2019,14,14,7.75,7.75
+Victoria,Vic,Hume,180610,2020,15,16,8.31,8.86
+Victoria,Vic,Hume,180610,2021,6,6,3.32,3.32
+Victoria,Vic,Latrobe - Gippsland,291051,2015,17,19,5.84,6.53
+Victoria,Vic,Latrobe - Gippsland,291051,2016,24,26,8.25,8.93
+Victoria,Vic,Latrobe - Gippsland,291051,2017,25,29,8.59,9.96
+Victoria,Vic,Latrobe - Gippsland,291051,2018,21,23,7.22,7.90
+Victoria,Vic,Latrobe - Gippsland,291051,2019,17,19,5.84,6.53
+Victoria,Vic,Latrobe - Gippsland,291051,2020,26,28,8.93,9.62
+Victoria,Vic,Latrobe - Gippsland,291051,2021,17,17,5.84,5.84
+Victoria,Vic,Melbourne - Inner,713203,2015,11,12,1.54,1.68
+Victoria,Vic,Melbourne - Inner,713203,2016,12,12,1.68,1.68
+Victoria,Vic,Melbourne - Inner,713203,2017,10,10,1.40,1.40
+Victoria,Vic,Melbourne - Inner,713203,2018,12,12,1.68,1.68
+Victoria,Vic,Melbourne - Inner,713203,2019,7,7,0.98,0.98
+Victoria,Vic,Melbourne - Inner,713203,2020,8,8,1.12,1.12
+Victoria,Vic,Melbourne - Inner,713203,2021,4,6,0.56,0.84
+Victoria,Vic,Melbourne - Inner East,400191,2015,4,4,1.00,1.00
+Victoria,Vic,Melbourne - Inner East,400191,2016,8,9,2.00,2.25
+Victoria,Vic,Melbourne - Inner East,400191,2017,4,4,1.00,1.00
+Victoria,Vic,Melbourne - Inner East,400191,2018,7,7,1.75,1.75
+Victoria,Vic,Melbourne - Inner East,400191,2019,5,5,1.25,1.25
+Victoria,Vic,Melbourne - Inner East,400191,2020,4,7,1.00,1.75
+Victoria,Vic,Melbourne - Inner East,400191,2021,2,2,0.50,0.50
+Victoria,Vic,Melbourne - Inner South,450242,2015,8,8,1.78,1.78
+Victoria,Vic,Melbourne - Inner South,450242,2016,9,9,2.00,2.00
+Victoria,Vic,Melbourne - Inner South,450242,2017,12,12,2.67,2.67
+Victoria,Vic,Melbourne - Inner South,450242,2018,4,4,0.89,0.89
+Victoria,Vic,Melbourne - Inner South,450242,2019,6,6,1.33,1.33
+Victoria,Vic,Melbourne - Inner South,450242,2020,5,5,1.11,1.11
+Victoria,Vic,Melbourne - Inner South,450242,2021,6,6,1.33,1.33
+Victoria,Vic,Melbourne - North East,566199,2015,11,11,1.94,1.94
+Victoria,Vic,Melbourne - North East,566199,2016,14,14,2.47,2.47
+Victoria,Vic,Melbourne - North East,566199,2017,10,10,1.77,1.77
+Victoria,Vic,Melbourne - North East,566199,2018,10,10,1.77,1.77
+Victoria,Vic,Melbourne - North East,566199,2019,9,9,1.59,1.59
+Victoria,Vic,Melbourne - North East,566199,2020,12,14,2.12,2.47
+Victoria,Vic,Melbourne - North East,566199,2021,8,10,1.41,1.77
+Victoria,Vic,Melbourne - North West,429721,2015,14,14,3.26,3.26
+Victoria,Vic,Melbourne - North West,429721,2016,12,14,2.79,3.26
+Victoria,Vic,Melbourne - North West,429721,2017,6,6,1.40,1.40
+Victoria,Vic,Melbourne - North West,429721,2018,13,13,3.03,3.03
+Victoria,Vic,Melbourne - North West,429721,2019,15,18,3.49,4.19
+Victoria,Vic,Melbourne - North West,429721,2020,2,2,0.47,0.47
+Victoria,Vic,Melbourne - North West,429721,2021,5,5,1.16,1.16
+Victoria,Vic,Melbourne - Outer East,536496,2015,19,19,3.54,3.54
+Victoria,Vic,Melbourne - Outer East,536496,2016,17,18,3.17,3.36
+Victoria,Vic,Melbourne - Outer East,536496,2017,10,11,1.86,2.05
+Victoria,Vic,Melbourne - Outer East,536496,2018,17,18,3.17,3.36
+Victoria,Vic,Melbourne - Outer East,536496,2019,15,15,2.80,2.80
+Victoria,Vic,Melbourne - Outer East,536496,2020,11,12,2.05,2.24
+Victoria,Vic,Melbourne - Outer East,536496,2021,5,5,0.93,0.93
+Victoria,Vic,Melbourne - South East,883260,2015,21,23,2.38,2.60
+Victoria,Vic,Melbourne - South East,883260,2016,25,25,2.83,2.83
+Victoria,Vic,Melbourne - South East,883260,2017,27,28,3.06,3.17
+Victoria,Vic,Melbourne - South East,883260,2018,18,18,2.04,2.04
+Victoria,Vic,Melbourne - South East,883260,2019,25,27,2.83,3.06
+Victoria,Vic,Melbourne - South East,883260,2020,12,13,1.36,1.47
+Victoria,Vic,Melbourne - South East,883260,2021,27,29,3.06,3.28
+Victoria,Vic,Melbourne - West,867699,2015,18,20,2.07,2.30
+Victoria,Vic,Melbourne - West,867699,2016,29,30,3.34,3.46
+Victoria,Vic,Melbourne - West,867699,2017,21,23,2.42,2.65
+Victoria,Vic,Melbourne - West,867699,2018,17,19,1.96,2.19
+Victoria,Vic,Melbourne - West,867699,2019,24,24,2.77,2.77
+Victoria,Vic,Melbourne - West,867699,2020,10,11,1.15,1.27
+Victoria,Vic,Melbourne - West,867699,2021,10,10,1.15,1.15
+Victoria,Vic,Mornington Peninsula,312200,2015,8,10,2.56,3.20
+Victoria,Vic,Mornington Peninsula,312200,2016,13,13,4.16,4.16
+Victoria,Vic,Mornington Peninsula,312200,2017,8,8,2.56,2.56
+Victoria,Vic,Mornington Peninsula,312200,2018,5,5,1.60,1.60
+Victoria,Vic,Mornington Peninsula,312200,2019,16,18,5.12,5.77
+Victoria,Vic,Mornington Peninsula,312200,2020,13,14,4.16,4.48
+Victoria,Vic,Mornington Peninsula,312200,2021,7,7,2.24,2.24
+Victoria,Vic,North West,152207,2015,14,16,9.20,10.51
+Victoria,Vic,North West,152207,2016,18,18,11.83,11.83
+Victoria,Vic,North West,152207,2017,11,13,7.23,8.54
+Victoria,Vic,North West,152207,2018,10,11,6.57,7.23
+Victoria,Vic,North West,152207,2019,24,25,15.77,16.43
+Victoria,Vic,North West,152207,2020,17,17,11.17,11.17
+Victoria,Vic,North West,152207,2021,12,12,7.88,7.88
+Victoria,Vic,Shepparton,134857,2015,18,19,13.35,14.09
+Victoria,Vic,Shepparton,134857,2016,14,14,10.38,10.38
+Victoria,Vic,Shepparton,134857,2017,19,22,14.09,16.31
+Victoria,Vic,Shepparton,134857,2018,8,8,5.93,5.93
+Victoria,Vic,Shepparton,134857,2019,13,14,9.64,10.38
+Victoria,Vic,Shepparton,134857,2020,12,13,8.90,9.64
+Victoria,Vic,Shepparton,134857,2021,5,5,3.71,3.71
+Victoria,Vic,Warrnambool and South West,125775,2015,16,18,12.72,14.31
+Victoria,Vic,Warrnambool and South West,125775,2016,13,14,10.34,11.13
+Victoria,Vic,Warrnambool and South West,125775,2017,16,16,12.72,12.72
+Victoria,Vic,Warrnambool and South West,125775,2018,12,12,9.54,9.54
+Victoria,Vic,Warrnambool and South West,125775,2019,12,14,9.54,11.13
+Victoria,Vic,Warrnambool and South West,125775,2020,11,12,8.75,9.54
+Victoria,Vic,Warrnambool and South West,125775,2021,11,12,8.75,9.54
+Western Australia,WA,Bunbury,186068,2015,15,15,8.06,8.06
+Western Australia,WA,Bunbury,186068,2016,21,23,11.29,12.36
+Western Australia,WA,Bunbury,186068,2017,21,21,11.29,11.29
+Western Australia,WA,Bunbury,186068,2018,24,26,12.90,13.97
+Western Australia,WA,Bunbury,186068,2019,24,26,12.90,13.97
+Western Australia,WA,Mandurah,105364,2015,4,4,3.80,3.80
+Western Australia,WA,Mandurah,105364,2016,4,5,3.80,4.75
+Western Australia,WA,Mandurah,105364,2017,3,3,2.85,2.85
+Western Australia,WA,Mandurah,105364,2018,3,3,2.85,2.85
+Western Australia,WA,Mandurah,105364,2019,8,8,7.59,7.59
+Western Australia,WA,Perth - Inner,187107,2015,1,1,0.53,0.53
+Western Australia,WA,Perth - Inner,187107,2016,5,5,2.67,2.67
+Western Australia,WA,Perth - Inner,187107,2017,6,6,3.21,3.21
+Western Australia,WA,Perth - Inner,187107,2018,3,3,1.60,1.60
+Western Australia,WA,Perth - Inner,187107,2019,9,9,4.81,4.81
+Western Australia,WA,Perth - North East,275750,2015,13,14,4.71,5.08
+Western Australia,WA,Perth - North East,275750,2016,12,12,4.35,4.35
+Western Australia,WA,Perth - North East,275750,2017,7,7,2.54,2.54
+Western Australia,WA,Perth - North East,275750,2018,8,8,2.90,2.90
+Western Australia,WA,Perth - North East,275750,2019,9,10,3.26,3.63
+Western Australia,WA,Perth - North West,579082,2015,8,8,1.38,1.38
+Western Australia,WA,Perth - North West,579082,2016,19,24,3.28,4.14
+Western Australia,WA,Perth - North West,579082,2017,15,15,2.59,2.59
+Western Australia,WA,Perth - North West,579082,2018,12,12,2.07,2.07
+Western Australia,WA,Perth - North West,579082,2019,8,8,1.38,1.38
+Western Australia,WA,Perth - South East,531673,2015,16,21,3.01,3.95
+Western Australia,WA,Perth - South East,531673,2016,13,13,2.45,2.45
+Western Australia,WA,Perth - South East,531673,2017,13,14,2.45,2.63
+Western Australia,WA,Perth - South East,531673,2018,14,14,2.63,2.63
+Western Australia,WA,Perth - South East,531673,2019,19,21,3.57,3.95
+Western Australia,WA,Perth - South West,446138,2015,14,17,3.14,3.81
+Western Australia,WA,Perth - South West,446138,2016,8,8,1.79,1.79
+Western Australia,WA,Perth - South West,446138,2017,12,13,2.69,2.91
+Western Australia,WA,Perth - South West,446138,2018,16,16,3.59,3.59
+Western Australia,WA,Perth - South West,446138,2019,5,5,1.12,1.12
+Western Australia,WA,Western Australia - Outback (North),98864,2015,13,16,13.15,16.18
+Western Australia,WA,Western Australia - Outback (North),98864,2016,13,17,13.15,17.20
+Western Australia,WA,Western Australia - Outback (North),98864,2017,10,11,10.11,11.13
+Western Australia,WA,Western Australia - Outback (North),98864,2018,9,10,9.10,10.11
+Western Australia,WA,Western Australia - Outback (North),98864,2019,17,18,17.20,18.21
+Western Australia,WA,Western Australia - Outback (South),116006,2015,15,20,12.93,17.24
+Western Australia,WA,Western Australia - Outback (South),116006,2016,15,16,12.93,13.79
+Western Australia,WA,Western Australia - Outback (South),116006,2017,17,18,14.65,15.52
+Western Australia,WA,Western Australia - Outback (South),116006,2018,15,18,12.93,15.52
+Western Australia,WA,Western Australia - Outback (South),116006,2019,15,15,12.93,12.93
+Western Australia,WA,Western Australia - Wheat Belt,137509,2015,22,23,16.00,16.73
+Western Australia,WA,Western Australia - Wheat Belt,137509,2016,44,52,32.00,37.82
+Western Australia,WA,Western Australia - Wheat Belt,137509,2017,31,35,22.54,25.45
+Western Australia,WA,Western Australia - Wheat Belt,137509,2018,36,43,26.18,31.27
+Western Australia,WA,Western Australia - Wheat Belt,137509,2019,31,34,22.54,24.73

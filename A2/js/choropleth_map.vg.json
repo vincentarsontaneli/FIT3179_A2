@@ -19,15 +19,14 @@
             }
         }
     ],
-    "data": {
-        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
-        "format": {
-            "type": "topojson",
-            "feature": "SA4_2016_AUST"
-        }
-    },
     "layer": [
         {
+            "data": {
+                "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "SA4_2016_AUST"
+                }},
             "transform": [
                 {
                     "calculate": "'Data is not available in ' + datum.properties.SA4_NAME16",
@@ -46,25 +45,32 @@
             }
         },
         {
+            "data": {
+                "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+            },
             "transform": [
                 {
-                    "lookup": "properties.SA4_NAME16",
+                    "lookup": "SA4 Name 2016",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
+                            "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
+                            "format": {
+                                "type": "topojson",
+                                "feature": "SA4_2016_AUST"
+                            }
                         },
-                        "key": "SA4",
-                        "fields": [
-                            "Crash_Rate"
-                        ]
-                    }
-                }
+                        "key": "properties.SA4_NAME16"
+                    },
+                    "as": "geo"
+                },
+                {"filter": "datum.Year == Year_filter"}
             ],
             "mark": {
                 "type": "geoshape",
                 "stroke": "white"
             },
             "encoding": {
+                "shape": {"field":"geo", "type":"geojson"},
                 "color": {
                     "field": "Crash_Rate",
                     "title": "Crash Count per 100,000 population",
@@ -72,10 +78,7 @@
                     "scale": {
                         "type": "threshold",
                         "domain": [
-                            40,
-                            60,
-                            80,
-                            100
+                            5,10,15,20
                         ],
                         "range": [
                             "#fee0d2",
@@ -88,7 +91,7 @@
                 },
                 "tooltip": [
                     {
-                        "field": "properties.SA4_NAME16",
+                        "field": "SA4 Name 2016",
                         "type": "nominal",
                         "title": "SA4"
                     },
