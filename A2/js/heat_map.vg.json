@@ -1,28 +1,48 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_2.csv"},
-    
-    "mark": "rect",
-    "width": 300,
-    "height": 200,
-    "encoding": {
-      "x": {
-        "field": "Dayweek",
-        "type": "ordinal"
-      },
-      "y": {
-        "field": "Month",
-        "type": "ordinal"
-      },
-      "color": {
-        "field": "Crash_Count",
-        "type": "quantitative"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_4.csv"
+  },
+  "vconcat": [
+    {
+      "width": 800,
+      "height": 300,
+      "transform": [
+        {"filter": {"param": "brush"}}
+      ],
+      "mark": "rect",
+      "encoding": {
+        "x": {"field": "Hour", "type": "ordinal", "axis": {"labelAngle": 0}},
+        "y": {
+          "field": "Dayweek",
+          "type": "ordinal",
+          "sort": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "title": "Day",
+          "axis": {"labelAngle": 0}
+        },
+        "color": {"field": "Crash_Count", "aggregate": "sum", "type": "quantitative"},
+        "tooltip": [
+          {"field": "Dayweek", "type": "ordinal", "title": "Day"},
+          {"field": "Hour", "type": "ordinal", "format": ","},
+          {"field": "Crash_Count", "aggregate": "sum", "type": "quantitative", "format": ","}
+        ]
       }
     },
-    "config": {
-      "view": {
-        "stroke": "transparent"
+    {
+      "width": 800,
+      "height": 100,
+      "mark": "line",
+      "params": [
+        {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
+      ],
+      "encoding": {
+        "x": {
+          "field": "Year-Month",
+          "timeUnit": "yearmonth",
+          "axis": {"title": "", "grid": false, "format": "%Y"}
+        },
+        "y": {"field": "Crash_Count", "aggregate": "sum", "title": "Count"}
       }
     }
-  }
-  
+  ]
+}

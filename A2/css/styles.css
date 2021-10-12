@@ -5,14 +5,11 @@
 	width: 800px;
 }
 
-#heat_map_2 {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
-	text-align: center;
+#heat_map {
+	margin: auto;
+	left: 350px;
+	height: 1000px;
+	width: 800px;
 }
 
 #bubble_plot {
