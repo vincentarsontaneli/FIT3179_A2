@@ -6,9 +6,19 @@
     "projection": {
         "type": "mercator"
     },
-    "config": {
-        "background": "#F3FAF9"
-    },
+    "params": [
+        {
+            "name": "Year_filter",
+            "value": 2021,
+            "bind": {
+                "input": "range",
+                "min": 2015,
+                "max": 2021,
+                "step": 1,
+                "name": "Year: "
+            }
+        }
+    ],
     "data": {
         "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
         "format": {

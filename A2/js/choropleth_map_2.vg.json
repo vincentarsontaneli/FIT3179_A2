@@ -9,7 +9,7 @@
     "params": [
         {
             "name": "Year_filter",
-            "value": 2015,
+            "value": 2021,
             "bind": {
                 "input": "range",
                 "min": 2015,
@@ -19,18 +19,14 @@
             }
         }
     ],
-    "config": {
-        "background": "#F3FAF9"
-    },
-    "data": {
-        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
-        "format": {
-            "type": "topojson",
-            "feature": "SA4_2016_AUST"
-        }
-    },
     "layer": [
         {
+            "data": {
+                "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "SA4_2016_AUST"
+                }},
             "transform": [
                 {
                     "calculate": "'Data is not available in ' + datum.properties.SA4_NAME16",
@@ -49,18 +45,23 @@
             }
         },
         {
+            "data": {
+                "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+            },
             "transform": [
                 {
-                    "lookup": "properties.SA4_NAME16",
+                    "lookup": "Entity",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
+                            "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
+                            "format": {
+                                "type": "topojson",
+                                "feature": "SA4_2016_AUST"
+                            }
                         },
-                        "key": "SA4",
-                        "fields": [
-                            "Crash_Rate"
-                        ]
-                    }
+                        "key": "properties.SA4_NAME16"
+                    },
+                    "as": "geo"
                 },
                 {"filter": "datum.Year == Year_filter"}
             ],
