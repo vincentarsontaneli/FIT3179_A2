@@ -10,59 +10,55 @@
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
+  <title>FIT3179_A2_30737192</title>
 
 </head>
 
-<body style="background-color:antiquewhite;">
+<body>
 
-  <h1>Fatal Road Transport Crashes in Australia</h1>
-  <p>A fatal road transport crash is a crash accident located in roads and involves at least one death.</p>
-  <p>The period studied is between 01 January 2015 to 31 August 2021.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut facilisis arcu. Quisque imperdiet sed urna vel pellentesque. Vestibulum gravida imperdiet arcu, sed bibendum leo lobortis vitae. Etiam suscipit urna ut lorem feugiat fermentum. Pellentesque fringilla nisi magna, at bibendum dui dictum placerat. Vivamus vel tincidunt tortor. Nullam et magna a odio euismod commodo. Fusce semper eros in tellus pretium facilisis.</p>
-
-  <br>  
-  <br>
-  <br>
-
-  <div class=container>
-    <div id="choropleth_map">
-      <script type="text/javascript">
-        var spec2 = "js/choropleth_map.vg.json";
-        vegaEmbed('#choropleth_map', spec2).then(function (result) {
-        }).catch(console.error);
-      </script>
-    </div>
-  </div>
-
-  <br>  
-  <br>
-  <br>
-
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut facilisis arcu. Quisque imperdiet sed urna vel pellentesque. Vestibulum gravida imperdiet arcu, sed bibendum leo lobortis vitae. Etiam suscipit urna ut lorem feugiat fermentum. Pellentesque fringilla nisi magna, at bibendum dui dictum placerat. Vivamus vel tincidunt tortor. Nullam et magna a odio euismod commodo. Fusce semper eros in tellus pretium facilisis.</p>
-
-  <br>
-
-  <div id="bubble_plot">
+  <h1 align ="center">Fatal Road Transport Crashes <br>in Australia</h1>
+  <h4>A fatal road transport crash recorded in the Australian Road Deaths Database (ARDD)
+     is a crash accident involving road transportations and causes at least one death.</h4>
+  <h4>The period studied is between <b>01 January 2015</b> to <b>31 August 2021</b>.</h4>
+  <h4>This visualisation aims to explore the trends and patterns of fatal road transport crashes in Australia.</h4>
+  
+  <h2>Fatal Crashes per 100,000 population by SA4 from 2015 to 2020</h2>
+  <p>Note: 2021 was omitted given that the available data only covers up to August 2021
+    which makes the crash count for 2021 considerably lower than other years.</p>
+  <div id="choropleth_map" class="vis-container">
     <script type="text/javascript">
-      var spec2 = "js/bubble_plot.vg.json";
-      vegaEmbed('#bubble_plot', spec2).then(function (result) {
+      var spec2 = "js/choropleth_map.vg.json";
+      vegaEmbed('#choropleth_map', spec2).then(function (result) {
       }).catch(console.error);
     </script>
   </div>
+  <h6><b>Note: 2021 was omitted given that the available data only covers up to August 2021, <br>
+    which makes the crash count for 2021 considerably lower than other years.</b>
+  </h6>
 
-  <br>  
-  <br>
-  <br>
-  <br>  
-  <br>
-  <br>
+  <h2>Fatal Crashes vs Average Deaths per Fatal Crash by SA4</h2>
+  <div class = "double-column">
+    <div id="bubble_plot" class="vis-container-left-col">
+      <script type="text/javascript">
+        var spec2 = "js/bubble_plot.vg.json";
+        vegaEmbed('#bubble_plot', spec2).then(function (result) {
+        }).catch(console.error);
+      </script>
+    </div>
+    <div class="side-text"><h5>Note: 2021 was omitted given that the available data only covers up to August 2021</h5></div>
+  </div>  
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut facilisis arcu. Quisque imperdiet sed urna vel pellentesque. Vestibulum gravida imperdiet arcu, sed bibendum leo lobortis vitae. Etiam suscipit urna ut lorem feugiat fermentum. Pellentesque fringilla nisi magna, at bibendum dui dictum placerat. Vivamus vel tincidunt tortor. Nullam et magna a odio euismod commodo. Fusce semper eros in tellus pretium facilisis.</p>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <h6><b>Note: the y-axis starts from 1.00 because each fatal road transport crash involves at least one death, which means the 
+    minimum death-to-crash ratio is 1.00.</b>
+  </h6>
 
-  <br>
-  <br>
-
-  <div id="heat_map">
+  <h3>Fatal Road Transport Crashes in Australia from 2015 to 2021</h3>
+  <div id="heat_map" class="heat-map-container">
     <script type="text/javascript">
       var spec2 = "js/heat_map.vg.json";
       vegaEmbed('#heat_map', spec2).then(function (result) {
@@ -72,7 +68,7 @@
 
   <br>
 
-  <p>Fatal Road Transport Crashes in Australia</p>
+  <p>This visualisation was created by Vincent Arson Taneli using the latest Australian data from</p>
 
   <br>
   <br>

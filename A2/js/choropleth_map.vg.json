@@ -1,19 +1,18 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Road Crashes in Australia (2015-2021)",
-    "width": 1200,
-    "height": 900,
+    "width": "container",
+    "height": 650,
     "projection": {
         "type": "mercator"
     },
     "params": [
         {
-            "name": "Year_filter",
-            "value": 2021,
+            "name": "year_slider",
+            "value": 2020,
             "bind": {
                 "input": "range",
                 "min": 2015,
-                "max": 2021,
+                "max": 2020,
                 "step": 1,
                 "name": "Year: "
             }
@@ -29,7 +28,7 @@
                 }},
             "transform": [
                 {
-                    "calculate": "'Data is not available in ' + datum.properties.SA4_NAME16",
+                    "calculate": "'No fatal road transport crash reported in ' + datum.properties.SA4_NAME16",
                     "as": "note"
                 }
             ],
@@ -63,7 +62,7 @@
                     },
                     "as": "geo"
                 },
-                {"filter": "datum.Year == Year_filter"}
+                {"filter": "datum.Year == year_slider"}
             ],
             "mark": {
                 "type": "geoshape",
@@ -73,7 +72,7 @@
                 "shape": {"field":"geo", "type":"geojson"},
                 "color": {
                     "field": "Crash_Rate",
-                    "title": "Crash Count per 100,000 population",
+                    "title": "Fatal Crashes per 100,000 population",
                     "type": "quantitative",
                     "scale": {
                         "type": "threshold",
@@ -96,8 +95,18 @@
                         "title": "SA4"
                     },
                     {
+                        "field": "State",
+                        "type": "nominal"
+                    },
+                    {
                         "field": "Crash_Rate",
-                        "type": "quantitative"
+                        "type": "quantitative",
+                        "title": "Fatal Crashes per 100,000 population"
+                    },
+                    {
+                        "field": "Fatality_Rate",
+                        "type": "quantitative",
+                        "title": "Deaths per 100,000 population"
                     }
                 ]
             }

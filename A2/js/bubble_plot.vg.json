@@ -1,71 +1,100 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
+    "width": "container",
     "height": 400,
-    "title": "Fatal Crashes vs Average Deaths per Fatal Crash by SA4",
     "data": {
-        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
+        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
     },
     "transform": [
-        {"filter": "state_selection == null || datum.State == state_selection"},
-        {"calculate": "datum.Fatality_Count/datum.Crash_Count",
-        "as": "Average Deaths per Fatal Crash"}
+        {
+            "filter": "state_selection == null || datum.State == state_selection"
+        },
+        {
+            "filter": "datum.Year == year_slider"
+        },
+        {
+            "calculate": "datum.Fatality_Count/datum.Crash_Count",
+            "as": "Average Deaths per Fatal Crash"
+        }
     ],
-    "params":[
+    "params": [
         {
             "name": "state_selection",
             "bind": {
-            "input": "select",
-            "options": [
-            null,
-            "Australian Capital Territory",
-            "New South Wales",
-            "Northern Territory",
-            "Queensland",
-            "South Australia",
-            "Tasmania",
-            "Victoria",
-            "Western Australia"
-            ],
-            "labels":[
-            "Show All",
-            "Australian Capital Territory",
-            "New South Wales",
-            "Northern Territory",
-            "Queensland",
-            "South Australia",
-            "Tasmania",
-            "Victoria",
-            "Western Australia"
-            ],
-            "name": "State Selection: "
+                "input": "select",
+                "options": [
+                    null,
+                    "Australian Capital Territory",
+                    "New South Wales",
+                    "Northern Territory",
+                    "Queensland",
+                    "South Australia",
+                    "Tasmania",
+                    "Victoria",
+                    "Western Australia"
+                ],
+                "labels": [
+                    "Show All",
+                    "Australian Capital Territory",
+                    "New South Wales",
+                    "Northern Territory",
+                    "Queensland",
+                    "South Australia",
+                    "Tasmania",
+                    "Victoria",
+                    "Western Australia"
+                ],
+                "name": "State Selection: "
             }
+        },
+        {
+            "name": "year_slider",
+            "value": 2020,
+            "bind": {
+                "input": "range",
+                "min": 2015,
+                "max": 2020,
+                "step": 1,
+                "name": "Year: "
             }
-        ],
+        }
+    ],
     "encoding": {
         "x": {
             "field": "Crash_Count",
             "type": "quantitative",
             "title": "Fatal Crashes",
-            "scale": {"domain": [0, 180]}
+            "scale": {
+                "domain": [
+                    0,
+                    45
+                ]
+            }
         },
         "y": {
             "field": "Average Deaths per Fatal Crash",
             "type": "quantitative",
-            "scale": {"domain": [1, 1.22]}
+            "scale": {
+                "domain": [
+                    1,
+                    2
+                ]
+            }
         }
     },
     "layer": [
         {
             "selection": {
                 "state_highlight": {
-                "type": "multi",
-                "fields": ["State"],
-                "bind": "legend"
+                    "type": "multi",
+                    "fields": [
+                        "State"
+                    ],
+                    "bind": "legend"
                 }
-                },
+            },
             "mark": "circle",
-            "encoding":{
+            "encoding": {
                 "color": {
                     "field": "State",
                     "type": "nominal",
@@ -89,7 +118,6 @@
                             "#ffbc79",
                             "#c85200",
                             "#57606c"
-        
                         ]
                     }
                 },
@@ -98,25 +126,66 @@
                     "type": "quantitative",
                     "scale": {
                         "type": "threshold",
-                        "domain": [200000, 400000, 600000, 800000],
-                        "range": [50, 125, 200, 300, 400]
-                        },
-                        "legend": {"format": ".1s"}
+                        "domain": [
+                            200000,
+                            400000,
+                            600000,
+                            800000
+                        ],
+                        "range": [
+                            50,
+                            125,
+                            200,
+                            300,
+                            400
+                        ]
+                    },
+                    "legend": {
+                        "format": ".1s"
+                    }
                 },
                 "opacity": {
-                    "condition": {"param": "state_highlight", "value": 0.9},
-                    "value": 0.1   
+                    "condition": {
+                        "param": "state_highlight",
+                        "value": 0.9
                     },
+                    "value": 0.1
+                },
                 "tooltip": [
-                    {"field": "SA4", "type": "nominal"},
-                    {"field": "State", "type": "nominal"},
-                    {"field": "Population", "type": "quantitative", "format": ","},
-                    {"field": "Crash_Count", "title": "Crashes", "type": "quantitative", "format": ","},
-                    {"field": "Fatality_Count", "title": "Deaths", "type": "quantitative", "format": ","},
-                    {"field": "Average Death per Crash", "type": "quantitative", "format": ".2f"}
-                    ]
-            }   
-        }, 
+                    {
+                        "field": "SA4",
+                        "type": "nominal",
+                        "title": "SA4"
+                    },
+                    {
+                        "field": "State",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "Population",
+                        "type": "quantitative",
+                        "format": ","
+                    },
+                    {
+                        "field": "Crash_Count",
+                        "title": "Crashes",
+                        "type": "quantitative",
+                        "format": ","
+                    },
+                    {
+                        "field": "Fatality_Count",
+                        "title": "Deaths",
+                        "type": "quantitative",
+                        "format": ","
+                    },
+                    {
+                        "field": "Average Deaths per Fatal Crash",
+                        "type": "quantitative",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
         {
             "mark": {
                 "type": "text",
@@ -125,18 +194,23 @@
                 "dx": -12,
                 "fontSize": 11.5,
                 "fontStyle": "italic"
+            },
+            "encoding": {
+                "text": {
+                    "field": "SA4",
+                    "type": "nominal"
                 },
-            "encoding":{
-                "text": {"field": "SA4", "type": "nominal"},
-                "color": {"value": "black"},
+                "color": {
+                    "value": "black"
+                },
                 "opacity": {
                     "condition": {
-                    "test": "datum['SA4'] == 'Northern Territory - Outback' || datum['SA4'] =='Melbourne - South East' || datum['SA4'] =='Townsville' || datum['SA4'] =='Wide Bay' || datum['SA4'] =='Cairns'",
-                    "value": 1
+                        "test": "datum['SA4'] == 'Northern Territory - Outback' || datum['SA4'] =='Melbourne - South East' || datum['SA4'] =='Townsville' || datum['SA4'] =='Wide Bay' || datum['SA4'] =='Cairns'",
+                        "value": 1
                     },
                     "value": 0
-                    }
+                }
             }
         }
-    ]             
+    ]
 }

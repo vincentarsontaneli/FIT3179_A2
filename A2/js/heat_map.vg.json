@@ -5,49 +5,171 @@
   },
   "vconcat": [
     {
-      "width": 800,
+      "width": 1150,
       "height": 300,
       "transform": [
-        {"filter": {"param": "brush"}}
+        {
+          "filter": {
+            "param": "brush"
+          }
+        }
       ],
       "mark": "rect",
       "encoding": {
-        "x": {"field": "Hour", "type": "ordinal", "axis": {"labelAngle": 0}},
+        "x": {
+          "field": "Hour",
+          "type": "ordinal",
+          "axis": {
+            "labelAngle": 0
+          }
+        },
         "y": {
           "field": "Dayweek",
           "type": "ordinal",
-          "sort": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "sort": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
           "title": "Day",
-          "axis": {"labelAngle": 0}
+          "axis": {
+            "labelAngle": 0
+          }
         },
-        "color": {"field": "Crash_Count", "aggregate": "sum", "type": "quantitative"},
+        "color": {
+          "field": "Crash_Count",
+          "aggregate": "sum",
+          "title": "Fatal Crashes",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "reds"
+          }
+        },
         "tooltip": [
-          {"field": "Dayweek", "type": "ordinal", "title": "Day"},
-          {"field": "Hour", "type": "ordinal", "format": ","},
-          {"field": "Crash_Count", "aggregate": "sum", "type": "quantitative", "format": ","}
+          {
+            "field": "Dayweek",
+            "type": "ordinal",
+            "title": "Day"
+          },
+          {
+            "field": "Hour",
+            "type": "ordinal",
+            "format": ","
+          },
+          {
+            "field": "Crash_Count",
+            "aggregate": "sum",
+            "title": "Fatal Crashes",
+            "type": "quantitative",
+            "format": ","
+          }
         ]
       }
     },
     {
-      "width": 800,
-      "height": 100,
-      "mark": "line",
-      "params": [
-        {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
-      ],
+      "width": 1150,
+      "height": 150,
       "encoding": {
         "x": {
           "field": "Year-Month",
           "timeUnit": "yearmonth",
-          "axis": {"title": "", "grid": false, "format": "%Y"}
+          "axis": {
+            "title": "",
+            "grid": false,
+            "tickCount": {
+              "interval": "month",
+              "step": 3
+            }
+          }
+        }
+      },
+      "layer": [
+        {
+          "encoding": {
+            "y": {
+              "field": "Crash_Count",
+              "aggregate": "sum",
+              "type": "quantitative",
+              "title": "Fatal Crashes"
+            }
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "line",
+                "stroke": "red"
+              }
+            },
+            {
+              "transform": [
+                {
+                  "filter": {
+                    "param": "hover",
+                    "empty": false
+                  }
+                }
+              ],
+              "mark": {
+                "type": "point"
+              }
+            }
+          ]
         },
-        "y": {"field": "Crash_Count", "aggregate": "sum", "title": "Count"},
-        "tooltip": [
-          {"field": "Month", "type": "ordinal"},
-          {"field": "Year", "type": "ordinal", "format": ","},
-          {"field": "Crash_Count", "aggregate": "sum", "type": "quantitative", "format": ","}
-        ]
-      }
+        {
+          "mark": "rule",
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "value": 0.3,
+                "param": "hover",
+                "empty": false
+              },
+              "value": 0
+            },
+            "tooltip": [
+              {
+                "field": "Year-Month",
+                "type": "temporal",
+                "format": "%b %Y",
+                "title": "Date"
+              },
+              {
+                "field": "Crash_Count",
+                "aggregate": "sum",
+                "type": "quantitative",
+                "title": "Fatal Crashes"
+              }
+            ]
+          },
+          "params": [
+            {
+              "name": "brush",
+              "select": {
+                "type": "interval",
+                "encodings": [
+                  "x"
+                ]
+              }
+            },
+            {
+              "name": "hover",
+              "select": {
+                "type": "point",
+                "fields": [
+                  "Year-Month"
+                ],
+                "nearest": true,
+                "on": "mouseover",
+                "clear": "mouseout"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
