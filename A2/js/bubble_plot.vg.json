@@ -10,7 +10,7 @@
             "filter": "state_selection == null || datum.State == state_selection"
         },
         {
-            "filter": "datum.Year == year_slider"
+            "filter": "year_slider == null || datum.Year == year_slider"
         },
         {
             "calculate": "datum.Fatality_Count/datum.Crash_Count",
@@ -77,7 +77,7 @@
             "scale": {
                 "domain": [
                     1,
-                    2
+                    1.9
                 ]
             }
         }

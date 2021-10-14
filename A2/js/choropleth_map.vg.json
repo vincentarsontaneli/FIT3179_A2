@@ -1,9 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "container",
-    "height": 650,
-    "projection": {
-        "type": "mercator"
+    "data": {
+        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
     },
     "params": [
         {
@@ -18,79 +16,233 @@
             }
         }
     ],
-    "layer": [
-        {
-            "data": {
-                "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
-                "format": {
-                    "type": "topojson",
-                    "feature": "SA4_2016_AUST"
-                }},
-            "transform": [
-                {
-                    "calculate": "'No fatal road transport crash reported in ' + datum.properties.SA4_NAME16",
-                    "as": "note"
-                }
+    "selection": {
+        "state_highlight": {
+            "type": "multi",
+            "fields": [
+                "State"
             ],
-            "mark": {
-                "type": "geoshape",
-                "fill": "lightgray",
-                "stroke": "white"
-            },
-            "encoding": {
-                "tooltip": {
-                    "field": "note"
-                }
-            }
-        },
+            "bind": "legend"
+        }
+    },
+    "hconcat": [
         {
-            "data": {
-                "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+            "width": 710,
+            "height": 600,
+            "projection": {
+                "type": "mercator"
             },
-            "transform": [
+            "layer": [
                 {
-                    "lookup": "SA4 Name 2016",
-                    "from": {
-                        "data": {
-                            "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
-                            "format": {
-                                "type": "topojson",
-                                "feature": "SA4_2016_AUST"
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
+                        "format": {
+                            "type": "topojson",
+                            "feature": "SA4_2016_AUST"
+                        }
+                    },
+                    "transform": [
+                        {
+                            "calculate": "'No fatal road transport crash reported in ' + datum.properties.SA4_NAME16",
+                            "as": "note"
+                        }
+                    ],
+                    "mark": {
+                        "type": "geoshape",
+                        "fill": "lightgray",
+                        "stroke": "white"
+                    },
+                    "encoding": {
+                        "tooltip": {
+                            "field": "note"
+                        }
+                    }
+                },
+                {
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+                    },
+                    "transform": [
+                        {
+                            "lookup": "SA4",
+                            "from": {
+                                "data": {
+                                    "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/js/SA4_2016_AUST.json",
+                                    "format": {
+                                        "type": "topojson",
+                                        "feature": "SA4_2016_AUST"
+                                    }
+                                },
+                                "key": "properties.SA4_NAME16"
+                            },
+                            "as": "geo"
+                        },
+                        {
+                            "filter": "datum.Year == year_slider"
+                        }
+                    ],
+                    "mark": {
+                        "type": "geoshape",
+                        "stroke": "white"
+                    },
+                    "encoding": {
+                        "shape": {
+                            "field": "geo",
+                            "type": "geojson"
+                        },
+                        "color": {
+                            "field": "Crash_Rate",
+                            "title": "Fatal Crashes per 100,000 population",
+                            "type": "quantitative",
+                            "legend": {
+                                "orient": "bottom",
+                                "direction": "horizontal"
+                            },
+                            "scale": {
+                                "type": "threshold",
+                                "domain": [
+                                    5,
+                                    10,
+                                    15,
+                                    20
+                                ],
+                                "range": [
+                                    "#fee0d2",
+                                    "#fcae91",
+                                    "#fb6a4a",
+                                    "#de2d26",
+                                    "#a50f15"
+                                ]
                             }
                         },
-                        "key": "properties.SA4_NAME16"
-                    },
-                    "as": "geo"
+                        "opacity": {
+                            "condition": {
+                                "param": "state_highlight",
+                                "value": 0.9
+                            },
+                            "value": 0.1
+                        },
+                        "tooltip": [
+                            {
+                                "field": "SA4",
+                                "type": "nominal",
+                                "title": "SA4"
+                            },
+                            {
+                                "field": "State",
+                                "type": "nominal"
+                            },
+                            {
+                                "field": "Crash_Rate",
+                                "type": "quantitative",
+                                "title": "Fatal Crashes per 100,000 population"
+                            },
+                            {
+                                "field": "Fatality_Rate",
+                                "type": "quantitative",
+                                "title": "Deaths per 100,000 population"
+                            },
+                            {
+                                "field": "Year"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "width": 300,
+            "height": 300,
+            "transform": [
+                {
+                    "calculate": "parseFloat(datum.Crash_Rate)",
+                    "as": "Crash_Rate"
                 },
-                {"filter": "datum.Year == year_slider"}
+                {
+                    "filter": "datum.Year == year_slider"
+                },
+                {
+                    "window": [
+                        {
+                            "op": "rank",
+                            "as": "rank"
+                        }
+                    ],
+                    "sort": [
+                        {
+                            "field": "Crash_Rate",
+                            "order": "descending"
+                        }
+                    ],
+                    "ignorePeers": true
+                },
+                {
+                    "filter": "datum.rank <= 10"
+                }
             ],
-            "mark": {
-                "type": "geoshape",
-                "stroke": "white"
+            "selection": {
+                "state_highlight": {
+                    "type": "multi",
+                    "fields": [
+                        "State"
+                    ],
+                    "bind": "legend"
+                }
             },
+            "mark": "bar",
             "encoding": {
-                "shape": {"field":"geo", "type":"geojson"},
-                "color": {
+                "x": {
                     "field": "Crash_Rate",
-                    "title": "Fatal Crashes per 100,000 population",
                     "type": "quantitative",
+                    "title": "Fatal Crashes per 100,000 population"
+                },
+                "y": {
+                    "field": "SA4",
+                    "type": "nominal",
+                    "sort": {
+                        "field": "Crash_Rate",
+                        "order": "descending"
+                    }
+                },
+                "color": {
+                    "field": "State",
+                    "type": "nominal",
+                    "legend": {
+                        "orient": "left"
+                    },
                     "scale": {
-                        "type": "threshold",
                         "domain": [
-                            5,10,15,20
+                            "Australian Capital Territory",
+                            "New South Wales",
+                            "Northern Territory",
+                            "Queensland",
+                            "South Australia",
+                            "Tasmania",
+                            "Victoria",
+                            "Western Australia"
                         ],
                         "range": [
-                            "#fee0d2",
-                            "#fcae91",
-                            "#fb6a4a",
-                            "#de2d26",
-                            "#a50f15"
+                            "#a3acb9",
+                            "#fc7d0b",
+                            "#7b848f",
+                            "#1170aa",
+                            "#5fa2ce",
+                            "#ffbc79",
+                            "#c85200",
+                            "#57606c"
                         ]
                     }
                 },
+                "opacity": {
+                    "condition": {
+                        "param": "state_highlight",
+                        "value": 0.9
+                    },
+                    "value": 0.1
+                },
                 "tooltip": [
                     {
-                        "field": "SA4 Name 2016",
+                        "field": "SA4",
                         "type": "nominal",
                         "title": "SA4"
                     },
@@ -107,6 +259,9 @@
                         "field": "Fatality_Rate",
                         "type": "quantitative",
                         "title": "Deaths per 100,000 population"
+                    },
+                    {
+                        "field": "Year"
                     }
                 ]
             }

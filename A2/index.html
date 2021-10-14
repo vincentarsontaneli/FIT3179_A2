@@ -32,7 +32,7 @@
       }).catch(console.error);
     </script>
   </div>
-  <h6><b>Note: 2021 was omitted given that the available data only covers up to August 2021, <br>
+  <h6><b>Note: 2021 was omitted given that the available data only covers up to August 2021,
     which makes the crash count for 2021 considerably lower than other years.</b>
   </h6>
 
@@ -40,19 +40,30 @@
   <div class = "double-column">
     <div id="bubble_plot" class="vis-container-left-col">
       <script type="text/javascript">
-        var spec2 = "js/bubble_plot.vg.json";
+        var spec2 = "js/bubble_plot_2.vg.json";
         vegaEmbed('#bubble_plot', spec2).then(function (result) {
         }).catch(console.error);
       </script>
     </div>
-    <div class="side-text"><h5>Note: 2021 was omitted given that the available data only covers up to August 2021</h5></div>
+    <div class="side-text"><h5>The regression line in the bubble plot shows a slight positive correlation between the number of fatal crashes
+      and the average number of deaths per fatal crash.
+      <br><br>
+      Generally, as the number of fatal crashes increases, more opportunities for higher number of deaths per fatal crash arise
+      which consequently increases the average number of deaths per fatal crash.
+      <br><br>
+      However, the average number of deaths per fatal crash is lesser for more populated SA4s. 
+      Major cities with higher population tend to have better infrastructure safety features,
+      higher level of safety enforcements and faster post-crash emergency responses. This indicates that there 
+      is a greater risk in regional and remote areas.
+      <br><br>
+    </h5>
+  </div>
   </div>  
 
   <br><br><br><br><br>
   <br><br><br><br><br>
   <br><br><br><br><br>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
+  <br><br><br>
   <h6><b>Note: the y-axis starts from 1.00 because each fatal road transport crash involves at least one death, which means the 
     minimum death-to-crash ratio is 1.00.</b>
   </h6>
@@ -66,9 +77,9 @@
     </script>
   </div>
 
-  <br>
+  <br><br><br><br><br>
 
-  <p>This visualisation was created by Vincent Arson Taneli using the latest Australian data from</p>
+  <p class="footer">This visualisation was created by Vincent Arson Taneli using the latest Australian data from</p>
 
   <br>
   <br>
