@@ -78,17 +78,40 @@
     minimum death-to-crash ratio is 1.00.</b>
   </h6>
 
+  <div class = "double-column">
   <h3>Fatal Crashes by Location Type and Time</h3>
-  <div id="heat_map" class="heat-map-container">
+  <div id="heat_map" class="vis-container-right-col">
     <script type="text/javascript">
       var spec2 = "js/heat_map.vg.json";
       vegaEmbed('#heat_map', spec2, {"actions": false}).then(function (result) {
       }).catch(console.error);
     </script>
   </div>
+  <div class="side-text-2"><h5>The regression line in the bubble plot shows a slight positive correlation between the number of fatal crashes
+    and the average number of deaths per fatal crash.
+    <br><br>
+    SA4s in <b><span style="color: #1170aa">Qld</span></b> have alarmingly high death-to-crash ratios compared to
+    SA4s in other states. <b><span style="color: #1170aa">Townsville</span></b> and
+    <b><span style="color: #1170aa">Cairns</span></b> have an an average of 1.20 and 1.19 deaths per fatal crash
+    with almost 60 fatal crashes each.
+    <br><br>
+    However, the average number of deaths per fatal crash is lesser for more populated SA4s.
+    <b><span style="color: #c85200">Victoria (Vic)</span></b> and <b><span style="color: #fc7d0b">NSW</span></b> 
+    have SA4s with large populations and relatively low average deaths such as
+     <b><span style="color: #c85200">Melbourne - South East</span></b>. 
+    Major cities tend to 
+    have more safety enforcements and faster post-crash emergency responses.
+    <br><br>
+  </h5>
+</div>
 
   <br><br><br><br><br>
-
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br>
   <p class="footer">This visualisation was created by Vincent Arson Taneli using the latest Australian data from</p>
 
   <br>

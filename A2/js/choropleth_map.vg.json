@@ -163,6 +163,9 @@
                 {
                     "width": 430,
                     "height": 250,
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+                    },
                     "title": "Top 10 SA4 by Fatal Crashes per 100,000 population",
                     "transform": [
                         {
@@ -171,6 +174,11 @@
                         },
                         {
                             "filter": "datum.Year == year_slider"
+                        },
+                        {
+                            "filter": {
+                                "param": "state_highlight"
+                            }
                         },
                         {
                             "window": [
@@ -228,7 +236,8 @@
                             "field": "State",
                             "type": "nominal",
                             "legend": {
-                                "orient": "left"
+                                "orient": "left",
+                                "title": "State (Click to filter):"
                             },
                             "scale": {
                                 "domain": [
@@ -354,7 +363,8 @@
                             "field": "State",
                             "type": "nominal",
                             "legend": {
-                                "orient": "left"
+                                "orient": "left",
+                                "title": "State (Click to filter):"
                             },
                             "scale": {
                                 "domain": [

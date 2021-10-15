@@ -120,6 +120,9 @@
                             "#c85200",
                             "#57606c"
                         ]
+                    },
+                    "legend": {
+                        "title": "State (Click to filter):"
                     }
                 },
                 "size": {

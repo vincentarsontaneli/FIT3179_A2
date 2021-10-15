@@ -90,8 +90,8 @@ p {
 
 }
 .vis-container-right-col {
-	float: left;
-    width: 60%;
+	float: right;
+    width: 55%;
 }
 
 .double-column{
@@ -102,4 +102,9 @@ p {
 .side-text {
 	float: left;
 	width: 40%;	
+}
+
+.side-text-2 {
+	float: left;
+	width: 43%;	
 }

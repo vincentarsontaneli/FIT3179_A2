@@ -5,74 +5,8 @@
   },
   "vconcat": [
     {
-      "width": 1150,
-      "height": 300,
-      "transform": [
-        {
-          "filter": {
-            "param": "brush"
-          }
-        }
-      ],
-      "mark": "rect",
-      "encoding": {
-        "x": {
-          "field": "Hour",
-          "type": "ordinal",
-          "axis": {
-            "labelAngle": 0
-          }
-        },
-        "y": {
-          "field": "Dayweek",
-          "type": "ordinal",
-          "sort": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "title": "Day",
-          "axis": {
-            "labelAngle": 0
-          }
-        },
-        "color": {
-          "field": "Crash_Count",
-          "aggregate": "sum",
-          "title": "Fatal Crashes",
-          "type": "quantitative",
-          "scale": {
-            "scheme": "reds"
-          }
-        },
-        "tooltip": [
-          {
-            "field": "Dayweek",
-            "type": "ordinal",
-            "title": "Day"
-          },
-          {
-            "field": "Hour",
-            "type": "ordinal",
-            "format": ","
-          },
-          {
-            "field": "Crash_Count",
-            "aggregate": "sum",
-            "title": "Fatal Crashes",
-            "type": "quantitative",
-            "format": ","
-          }
-        ]
-      }
-    },
-    {
-      "width": 1150,
-      "height": 150,
+      "width": 650,
+      "height": 200,
       "encoding": {
         "x": {
           "field": "Year-Month",
@@ -170,6 +104,76 @@
           ]
         }
       ]
+    },
+    {
+      "width": 650,
+      "height": 225,
+      "transform": [
+        {
+          "filter": {
+            "param": "brush"
+          }
+        }
+      ],
+      "mark": "rect",
+      "encoding": {
+        "x": {
+          "field": "Hour",
+          "type": "ordinal",
+          "axis": {
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "Dayweek",
+          "type": "ordinal",
+          "sort": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "title": "Day",
+          "axis": {
+            "labelAngle": 0
+          }
+        },
+        "color": {
+          "field": "Crash_Count",
+          "aggregate": "sum",
+          "title": "Fatal Crashes",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "reds"
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Dayweek",
+            "type": "ordinal",
+            "title": "Day"
+          },
+          {
+            "field": "Hour",
+            "type": "ordinal",
+            "format": ","
+          },
+          {
+            "field": "Crash_Count",
+            "aggregate": "sum",
+            "title": "Fatal Crashes",
+            "type": "quantitative",
+            "format": ","
+          }
+        ]
+      }
     }
   ]
 }
