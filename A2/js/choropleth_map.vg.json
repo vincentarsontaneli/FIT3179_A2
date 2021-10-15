@@ -27,10 +27,18 @@
     },
     "hconcat": [
         {
-            "width": 710,
-            "height": 600,
+            "width": 575,
+            "height": 540,
+            "title": "Fatal Crashes per 100,000 population by SA4 in Australia",
             "projection": {
-                "type": "mercator"
+                "type": "mercator",
+                "center": [
+                    112,
+                    -9
+                ],
+                "scale": {
+                    "expr": "775"
+                }
             },
             "layer": [
                 {
@@ -95,7 +103,7 @@
                             "title": "Fatal Crashes per 100,000 population",
                             "type": "quantitative",
                             "legend": {
-                                "orient": "bottom",
+                                "orient": "bottom-left",
                                 "direction": "horizontal"
                             },
                             "scale": {
@@ -151,120 +159,255 @@
             ]
         },
         {
-            "width": 300,
-            "height": 300,
-            "transform": [
+            "vconcat": [
                 {
-                    "calculate": "parseFloat(datum.Crash_Rate)",
-                    "as": "Crash_Rate"
-                },
-                {
-                    "filter": "datum.Year == year_slider"
-                },
-                {
-                    "window": [
+                    "width": 430,
+                    "height": 250,
+                    "title": "Top 10 SA4 by Fatal Crashes per 100,000 population",
+                    "transform": [
                         {
-                            "op": "rank",
-                            "as": "rank"
+                            "calculate": "parseFloat(datum.Crash_Rate)",
+                            "as": "Crash_Rate"
+                        },
+                        {
+                            "filter": "datum.Year == year_slider"
+                        },
+                        {
+                            "window": [
+                                {
+                                    "op": "rank",
+                                    "as": "rank"
+                                }
+                            ],
+                            "sort": [
+                                {
+                                    "field": "Crash_Rate",
+                                    "order": "descending"
+                                }
+                            ],
+                            "ignorePeers": true
+                        },
+                        {
+                            "filter": "datum.rank <= 10"
                         }
                     ],
-                    "sort": [
+                    "params": [
                         {
-                            "field": "Crash_Rate",
-                            "order": "descending"
+                            "name": "select",
+                            "select": "point"
                         }
                     ],
-                    "ignorePeers": true
-                },
-                {
-                    "filter": "datum.rank <= 10"
-                }
-            ],
-            "selection": {
-                "state_highlight": {
-                    "type": "multi",
-                    "fields": [
-                        "State"
-                    ],
-                    "bind": "legend"
-                }
-            },
-            "mark": "bar",
-            "encoding": {
-                "x": {
-                    "field": "Crash_Rate",
-                    "type": "quantitative",
-                    "title": "Fatal Crashes per 100,000 population"
-                },
-                "y": {
-                    "field": "SA4",
-                    "type": "nominal",
-                    "sort": {
-                        "field": "Crash_Rate",
-                        "order": "descending"
-                    }
-                },
-                "color": {
-                    "field": "State",
-                    "type": "nominal",
-                    "legend": {
-                        "orient": "left"
+                    "selection": {
+                        "state_highlight": {
+                            "type": "multi",
+                            "fields": [
+                                "State"
+                            ],
+                            "bind": "legend"
+                        }
                     },
-                    "scale": {
-                        "domain": [
-                            "Australian Capital Territory",
-                            "New South Wales",
-                            "Northern Territory",
-                            "Queensland",
-                            "South Australia",
-                            "Tasmania",
-                            "Victoria",
-                            "Western Australia"
-                        ],
-                        "range": [
-                            "#a3acb9",
-                            "#fc7d0b",
-                            "#7b848f",
-                            "#1170aa",
-                            "#5fa2ce",
-                            "#ffbc79",
-                            "#c85200",
-                            "#57606c"
+                    "mark": {
+                        "type": "bar",
+                        "cursor": "pointer"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "Crash_Rate",
+                            "type": "quantitative",
+                            "title": "Fatal Crashes per 100,000 population"
+                        },
+                        "y": {
+                            "field": "SA4",
+                            "type": "nominal",
+                            "sort": {
+                                "field": "Crash_Rate",
+                                "order": "descending"
+                            }
+                        },
+                        "color": {
+                            "field": "State",
+                            "type": "nominal",
+                            "legend": {
+                                "orient": "left"
+                            },
+                            "scale": {
+                                "domain": [
+                                    "Australian Capital Territory",
+                                    "New South Wales",
+                                    "Northern Territory",
+                                    "Queensland",
+                                    "South Australia",
+                                    "Tasmania",
+                                    "Victoria",
+                                    "Western Australia"
+                                ],
+                                "range": [
+                                    "#a3acb9",
+                                    "#fc7d0b",
+                                    "#7b848f",
+                                    "#1170aa",
+                                    "#5fa2ce",
+                                    "#ffbc79",
+                                    "#c85200",
+                                    "#57606c"
+                                ]
+                            }
+                        },
+                        "opacity": {
+                            "condition": {
+                                "param": "state_highlight",
+                                "value": 0.9
+                            },
+                            "value": 0.1
+                        },
+                        "tooltip": [
+                            {
+                                "field": "SA4",
+                                "type": "nominal"
+                            },
+                            {
+                                "field": "State",
+                                "type": "nominal"
+                            },
+                            {
+                                "field": "Crash_Rate",
+                                "type": "quantitative",
+                                "title": "Fatal Crashes per 100,000 population"
+                            },
+                            {
+                                "field": "Fatality_Rate",
+                                "type": "quantitative",
+                                "title": "Deaths per 100,000 population"
+                            },
+                            {
+                                "field": "Year"
+                            }
                         ]
                     }
                 },
-                "opacity": {
-                    "condition": {
-                        "param": "state_highlight",
-                        "value": 0.9
+                {
+                    "width": 430,
+                    "height": 215,
+                    "title": "State Ranking by Total Fatal Crashes per 100,000 population",
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
                     },
-                    "value": 0.1
-                },
-                "tooltip": [
-                    {
-                        "field": "SA4",
-                        "type": "nominal",
-                        "title": "SA4"
+                    "transform": [
+                        {
+                            "filter": "datum.Year == year_slider"
+                        },
+                        {
+                            "aggregate": [
+                                {
+                                    "op": "sum",
+                                    "field": "Crash_Rate",
+                                    "as": "Crash_Rate_Sum"
+                                },
+                                {
+                                    "op": "sum",
+                                    "field": "Fatality_Rate",
+                                    "as": "Fatality_Rate_Sum"
+                                },
+                                {
+                                    "op": "mean",
+                                    "field": "Year",
+                                    "as": "Year"
+                                }
+                            ],
+                            "groupby": ["State"]
+                        }
+                    ],
+                    "params": [
+                        {
+                            "name": "select",
+                            "select": "point"
+                        }
+                    ],
+                    "selection": {
+                        "state_highlight": {
+                            "type": "multi",
+                            "fields": [
+                                "State"
+                            ],
+                            "bind": "legend"
+                        }
                     },
-                    {
-                        "field": "State",
-                        "type": "nominal"
+                    "mark": {
+                        "type": "bar",
+                        "cursor": "pointer"
                     },
-                    {
-                        "field": "Crash_Rate",
-                        "type": "quantitative",
-                        "title": "Fatal Crashes per 100,000 population"
-                    },
-                    {
-                        "field": "Fatality_Rate",
-                        "type": "quantitative",
-                        "title": "Deaths per 100,000 population"
-                    },
-                    {
-                        "field": "Year"
+                    "encoding": {
+                        "x": {
+                            "field": "Crash_Rate_Sum",
+                            "type": "quantitative",
+                            "title": "Total Fatal Crashes per 100,000 population"
+                        },
+                        "y": {
+                            "field": "State",
+                            "type": "nominal",
+                            "sort": {
+                                "field": "Crash_Rate_Sum",
+                                "order": "descending"
+                            }
+                        },
+                        "color": {
+                            "field": "State",
+                            "type": "nominal",
+                            "legend": {
+                                "orient": "left"
+                            },
+                            "scale": {
+                                "domain": [
+                                    "Australian Capital Territory",
+                                    "New South Wales",
+                                    "Northern Territory",
+                                    "Queensland",
+                                    "South Australia",
+                                    "Tasmania",
+                                    "Victoria",
+                                    "Western Australia"
+                                ],
+                                "range": [
+                                    "#a3acb9",
+                                    "#fc7d0b",
+                                    "#7b848f",
+                                    "#1170aa",
+                                    "#5fa2ce",
+                                    "#ffbc79",
+                                    "#c85200",
+                                    "#57606c"
+                                ]
+                            }
+                        },
+                        "opacity": {
+                            "condition": {
+                                "param": "state_highlight",
+                                "value": 0.9
+                            },
+                            "value": 0.1
+                        },
+                        "tooltip": [
+                            {
+                                "field": "State",
+                                "type": "nominal"
+                            },
+                            {
+                                "field": "Crash_Rate_Sum",
+                                "type": "quantitative",
+                                "title": "Total Fatal Crashes per 100,000 population"
+                            },
+                            {
+                                "field": "Fatality_Rate_Sum",
+                                "type": "quantitative",
+                                "title": "Total Deaths per 100,000 population"
+                            },
+                            {
+                                "field": "Year"
+                            }
+                        ]
                     }
-                ]
-            }
+                }
+            ]
         }
     ]
 }

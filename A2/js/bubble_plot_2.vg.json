@@ -10,7 +10,9 @@
         {
             "filter": "state_selection == null || datum.State == state_selection"
         },
-        {"filter": "datum.Population > Population_Above"},
+        {
+            "filter": "datum.Population > Population_Above"
+        },
         {
             "calculate": "datum.Fatality_Count/datum.Crash_Count",
             "as": "Average Deaths per Fatal Crash"
@@ -191,7 +193,8 @@
                 "baseline": "middle",
                 "dx": -12,
                 "fontSize": 11.5,
-                "fontStyle": "italic"
+                "fontStyle": "italic",
+                "fontWeight": "bold"
             },
             "encoding": {
                 "text": {
@@ -199,7 +202,30 @@
                     "type": "nominal"
                 },
                 "color": {
-                    "value": "black"
+                    "field": "State",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [
+                            "Australian Capital Territory",
+                            "New South Wales",
+                            "Northern Territory",
+                            "Queensland",
+                            "South Australia",
+                            "Tasmania",
+                            "Victoria",
+                            "Western Australia"
+                        ],
+                        "range": [
+                            "#a3acb9",
+                            "#fc7d0b",
+                            "#7b848f",
+                            "#1170aa",
+                            "#5fa2ce",
+                            "#ffbc79",
+                            "#c85200",
+                            "#57606c"
+                        ]
+                    }
                 },
                 "opacity": {
                     "condition": {
