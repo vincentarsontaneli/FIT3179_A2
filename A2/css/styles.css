@@ -97,12 +97,12 @@ p {
 
 .vis-container-left-col {
 	float: left;
-	width: 60%;
+	width: 58%;
 
 }
 .vis-container-right-col {
 	float: right;
-    width: 55%;
+    width: 50%;
 }
 
 .two-column{
@@ -112,10 +112,10 @@ p {
 
 .side-text {
 	float: left;
-	width: 40%;	
+	width: 42%;	
 }
 
 .side-text-2 {
 	float: left;
-	width: 43%;	
+	width: 48%;	
 }

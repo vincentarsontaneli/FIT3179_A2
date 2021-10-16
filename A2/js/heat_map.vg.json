@@ -1,12 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_4.csv"
+    "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_2.csv"
   },
   "vconcat": [
     {
-      "width": 650,
-      "height": 200,
+      "width": 585,
+      "height": 175,
       "title": "Fatal Crashes in Australia from January 2015 to August 2021 (Highlight to filter)",
       "encoding": {
         "x": {
@@ -107,8 +107,8 @@
       ]
     },
     {
-      "width": 650,
-      "height": 225,
+      "width": 585,
+      "height": 215,
       "title": "Fatal Crashes by Day and Hour",
       "transform": [
         {

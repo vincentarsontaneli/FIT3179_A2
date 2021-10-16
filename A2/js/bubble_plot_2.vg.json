@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "container",
+    "width": 480,
     "height": 400,
     "title": "Fatal Crashes vs Average Deaths per Fatal Crash by SA4",
     "data": {

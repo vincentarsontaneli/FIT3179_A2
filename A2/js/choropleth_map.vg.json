@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_3.csv"
     },
     "params": [
         {
@@ -27,13 +27,13 @@
     },
     "hconcat": [
         {
-            "width": 575,
-            "height": 540,
+            "width": 615,
+            "height": 550,
             "title": "Fatal Crashes per 100,000 population by SA4 in Australia",
             "projection": {
                 "type": "mercator",
                 "center": [
-                    112,
+                    111,
                     -9
                 ],
                 "scale": {
@@ -68,7 +68,7 @@
                 },
                 {
                     "data": {
-                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_3.csv"
                     },
                     "transform": [
                         {
@@ -161,10 +161,10 @@
         {
             "vconcat": [
                 {
-                    "width": 430,
+                    "width": 400,
                     "height": 250,
                     "data": {
-                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_3.csv"
                     },
                     "title": "Top 10 SA4 by Fatal Crashes per 100,000 population",
                     "transform": [
@@ -295,11 +295,11 @@
                     }
                 },
                 {
-                    "width": 430,
+                    "width": 400,
                     "height": 215,
                     "title": "State Ranking by Total Fatal Crashes per 100,000 population",
                     "data": {
-                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+                        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_3.csv"
                     },
                     "transform": [
                         {
