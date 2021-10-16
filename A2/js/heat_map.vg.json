@@ -6,7 +6,7 @@
   "vconcat": [
     {
       "width": 585,
-      "height": 175,
+      "height": 150,
       "title": "Fatal Crashes in Australia from January 2015 to August 2021 (Highlight to filter)",
       "encoding": {
         "x": {
@@ -108,7 +108,7 @@
     },
     {
       "width": 585,
-      "height": 215,
+      "height": 175,
       "title": "Fatal Crashes by Day and Hour",
       "transform": [
         {
