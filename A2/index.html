@@ -46,8 +46,8 @@
       which makes the crash count for 2021 considerably lower than other years.</b>
   </h6>
 
-  <h2>Fatal Crashes vs Average Deaths per Fatal Crash by SA4</h2>
-  <div class="double-column">
+  <div class="two-column">
+    <h2>Fatal Crashes vs Average Deaths per Fatal Crash by SA4</h2>
     <div id="bubble_plot" class="vis-container-left-col">
       <script type="text/javascript">
         var spec2 = "js/bubble_plot_2.vg.json";
@@ -79,37 +79,39 @@
   <br><br><br><br><br>
   <br><br><br><br><br>
   <br><br><br>
+
   <h6 style="color: red;"><b>Note: the y-axis starts from 1.00 because each fatal road transport crash results at least
       one death, which means the
       minimum death-to-crash ratio is 1.00.</b>
   </h6>
 
-  <div class="double-column">
-    <h3>Fatal Crashes By Months, Days and Hours</h3>
-    <div id="heat_map" class="vis-container-right-col">
-      <script type="text/javascript">
-        var spec2 = "js/heat_map.vg.json";
-        vegaEmbed('#heat_map', spec2, { "actions": false }).then(function (result) {
-        }).catch(console.error);
-      </script>
-    </div>
-    <div class="side-text-2">
-      <h5>Since January 2015, the number of fatal road transport crashes in Australia
-        has been fluctuating with no clear upward or downward trend. However the most recent month, August 2021,
-        had one of the lowest total fatal crashes as it experienced a sharp decrease of 29.6% from July 2021.
-        There is also no explicit indication of a seasonal pattern.
-        <br><br>
-        Most fatal crashes occur between 10:00 to 18:00, which is the period when
-        people are most active and likely to be outside walking or driving.
-        <br><br>
-        Fatal crashes also seem to be higher on weekends than weekdays given that people have more free time and
-        are likely to go out late.
-        Fatal crashes between 19:00 to 23:00 on Friday and Saturday and 00:00 to 04:00 on Saturday and Sunday are higher
-        than other days in the same period.
-      </h5>
-    </div>
-    <h7><b>Note: White cells indicate that there is no fatal crash reported during that period.</b>
+  <div class="two-column"></div>
+  <h3>Fatal Crashes By Months, Days and Hours</h3>
+  <div id="heat_map" class="vis-container-right-col">
+    <script type="text/javascript">
+      var spec2 = "js/heat_map.vg.json";
+      vegaEmbed('#heat_map', spec2, { "actions": false }).then(function (result) {
+      }).catch(console.error);
+    </script>
   </div>
+  <div class="side-text-2">
+    <h5>Since January 2015, the number of fatal road transport crashes in Australia
+      has been fluctuating with no clear upward or downward trend. However the most recent month, August 2021,
+      had one of the lowest total fatal crashes as it experienced a sharp decrease of 29.6% from July 2021.
+      There is also no explicit indication of a seasonal pattern.
+      <br><br>
+      Most fatal crashes occur between 10:00 to 18:00, which is the period when
+      people are most active and likely to be outside walking or driving.
+      <br><br>
+      Fatal crashes also seem to be higher on weekends than weekdays given that people have more free time and
+      are likely to go out late.
+      Fatal crashes between 19:00 to 23:00 on Friday and Saturday and 00:00 to 04:00 on Saturday and Sunday are higher
+      than other days in the same period.
+    </h5>
+  </div>
+  </div>
+  <h7><b>Note: White cells indicate that there is no fatal crash reported during that period.</b>
+
   </h7>
   <br><br><br><br><br>
   <br><br><br><br><br>
@@ -118,8 +120,9 @@
   <br><br><br><br><br>
   <br><br><br><br><br>
   <br><br><br><br><br>
-  <br><br>
-  <p class="footer">This visualisation was created by <b>Vincent Arson Taneli</b> using the latest Australian data
+  <br><br><br><br><br>
+  <p class="footer">This visualisation was created by <b><a href="https://github.com/vincenttaneli/FIT3179_A2"
+        style="color: white;">Vincent Arson Taneli</a></b> using the latest Australian data
     from the <br><b><a href="https://www.bitre.gov.au/statistics/safety/fatal_road_crash_database"
         style="color: white;">
         Bureau of Infrastructure and Transport Research Economics</a></b> and
