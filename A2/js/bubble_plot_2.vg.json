@@ -4,7 +4,7 @@
     "height": 400,
     "title": "Fatal Crashes vs Average Deaths per Fatal Crash by SA4",
     "data": {
-        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_5.csv"
+        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped.csv"
     },
     "transform": [
         {

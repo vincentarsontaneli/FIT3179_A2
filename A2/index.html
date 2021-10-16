@@ -16,107 +16,117 @@
 
 <body>
 
-  <h1 align ="center">Fatal Road Transport Crashes <br>in Australia</h1>
+  <h1 align="center">Fatal Road Transport Crashes <br>in Australia</h1>
   <h4>A fatal road transport crash recorded in the Australian Road Deaths Database (ARDD)
-     is a reported crash accident involving at least one road vehicle in a road-related area and causes at least one death.</h4>
-     <h4>A Statistical Area Level 4 (SA4) is the largest sub-state region in the main structure of Australia. </h4>
+    is a reported crash accident involving at least one road vehicle in a road-related area and causes at least one
+    death.</h4>
+  <h4>A Statistical Area Level 4 (SA4) is the largest sub-state region in the main structure of Australia. </h4>
 
-     <h4>The period studied is between <b>01 January 2015</b> to <b>31 August 2021</b>.</h4>
+  <h4>The period studied is between <b>01 January 2015</b> to <b>31 August 2021</b>.</h4>
   <h4>This visualisation aims to explore the trends and patterns of fatal road transport crashes in Australia.</h4>
-  
+
   <h2>Fatal Crashes per 100,000 population by SA4 from 2015 to 2020</h2>
-  <p>From 2015 to 2020, <b><span style="color: #fc7d0b">New South Wales (NSW)</span></b> consistently has the highest total number of fatal crashes
-     per 100,000 population among the states, having a minimum difference of 40 with the second highest state each year, except
-     in 2020 when <b><span style="color: #fc7d0b">NSW</span></b> experienced a large reduction of 27.9% from the previous year.
-     On the other hand, <b><span style="color: #1170aa">Queensland (Qld)</span></b>
-     experienced a large increase of 21.2% from 2019 to 2020 with a peak value of 110.44. 
-     </p>
+  <p>From 2015 to 2020, <b><span style="color: #fc7d0b">New South Wales (NSW)</span></b> consistently has the highest
+    total number of fatal crashes
+    per 100,000 population among the states, having a minimum difference of 40 with the second highest state each year,
+    except
+    in 2020 when <b><span style="color: #fc7d0b">NSW</span></b> experienced a large reduction of 21.8% from the previous
+    year.
+    On the other hand, <b><span style="color: #1170aa">Queensland (Qld)</span></b>
+    experienced a large increase of 21.2% from 2019 to 2020 with a peak value of 110.44.
+  </p>
   <div id="choropleth_map" class="vis-container">
     <script type="text/javascript">
       var spec2 = "js/choropleth_map.vg.json";
-      vegaEmbed('#choropleth_map', spec2, {"actions": false}).then(function (result) {
+      vegaEmbed('#choropleth_map', spec2, { "actions": false }).then(function (result) {
       }).catch(console.error);
     </script>
   </div>
   <h6 style="color: red;"><b>Note: 2021 was omitted given that the available data only covers up to August 2021,
-    which makes the crash count for 2021 considerably lower than other years.</b>
+      which makes the crash count for 2021 considerably lower than other years.</b>
   </h6>
 
   <h2>Fatal Crashes vs Average Deaths per Fatal Crash by SA4</h2>
-  <div class = "double-column">
+  <div class="double-column">
     <div id="bubble_plot" class="vis-container-left-col">
       <script type="text/javascript">
         var spec2 = "js/bubble_plot_2.vg.json";
-        vegaEmbed('#bubble_plot', spec2, {"actions": false}).then(function (result) {
+        vegaEmbed('#bubble_plot', spec2, { "actions": false }).then(function (result) {
         }).catch(console.error);
       </script>
     </div>
-    <div class="side-text"><h5>The regression line in the bubble plot shows a slight positive correlation between the number of fatal crashes
-      and the average number of deaths per fatal crash.
-      <br><br>
-      SA4s in <b><span style="color: #1170aa">Qld</span></b> have alarmingly high death-to-crash ratios compared to
-      SA4s in other states. <b><span style="color: #1170aa">Townsville</span></b> and
-      <b><span style="color: #1170aa">Cairns</span></b> have an an average of 1.20 and 1.19 deaths per fatal crash
-      with almost 60 fatal crashes each.
-      <br><br>
-      However, the average number of deaths per fatal crash is lesser for more populated SA4s.
-      <b><span style="color: #c85200">Victoria (Vic)</span></b> and <b><span style="color: #fc7d0b">NSW</span></b> 
-      have SA4s with large populations and relatively low average deaths such as
-       <b><span style="color: #c85200">Melbourne - South East</span></b>. 
-      Major cities tend to 
-      have more safety enforcements and faster post-crash emergency responses.
-      <br><br>
-    </h5>
+    <div class="side-text">
+      <h5>The regression line in the bubble plot shows a slight positive correlation between the number of fatal crashes
+        and the average number of deaths per fatal crash.
+        <br><br>
+        SA4s in <b><span style="color: #1170aa">Qld</span></b> have alarmingly high death-to-crash ratios compared to
+        SA4s in other states. <b><span style="color: #1170aa">Townsville</span></b> and
+        <b><span style="color: #1170aa">Cairns</span></b> have an an average of 1.20 and 1.19 deaths per fatal crash
+        with almost 60 fatal crashes each.
+        <br><br>
+        However, the average number of deaths per fatal crash is lesser for more populated SA4s.
+        <b><span style="color: #c85200">Victoria (Vic)</span></b> and <b><span style="color: #fc7d0b">NSW</span></b>
+        have SA4s with large populations and relatively low average deaths such as
+        <b><span style="color: #c85200">Melbourne - South East</span></b>.
+        Major cities tend to
+        have more safety enforcements and faster post-crash emergency responses.
+        <br><br>
+      </h5>
+    </div>
   </div>
-  </div>  
 
   <br><br><br><br><br>
   <br><br><br><br><br>
   <br><br><br><br><br>
   <br><br><br>
-  <h6 style="color: red;"><b>Note: the y-axis starts from 1.00 because each fatal road transport crash results at least one death, which means the 
-    minimum death-to-crash ratio is 1.00.</b>
+  <h6 style="color: red;"><b>Note: the y-axis starts from 1.00 because each fatal road transport crash results at least
+      one death, which means the
+      minimum death-to-crash ratio is 1.00.</b>
   </h6>
 
-  <div class = "double-column">
-  <h3>Fatal Crashes by Location Type and Time</h3>
-  <div id="heat_map" class="vis-container-right-col">
-    <script type="text/javascript">
-      var spec2 = "js/heat_map.vg.json";
-      vegaEmbed('#heat_map', spec2, {"actions": false}).then(function (result) {
-      }).catch(console.error);
-    </script>
+  <div class="double-column">
+    <h3>Fatal Crashes By Months, Days and Hours</h3>
+    <div id="heat_map" class="vis-container-right-col">
+      <script type="text/javascript">
+        var spec2 = "js/heat_map.vg.json";
+        vegaEmbed('#heat_map', spec2, { "actions": false }).then(function (result) {
+        }).catch(console.error);
+      </script>
+    </div>
+    <div class="side-text-2">
+      <h5>Since January 2015, the number of fatal road transport crashes in Australia
+        has been fluctuating with no clear upward or downward trend. However the most recent month, August 2021,
+        had one of the lowest total fatal crashes as it experienced a sharp decrease of 29.6% from July 2021.
+        There is also no explicit indication of a seasonal pattern.
+        <br><br>
+        Most fatal crashes occur between 10:00 to 18:00, which is the period when
+        people are most active and likely to be outside walking or driving.
+        <br><br>
+        Fatal crashes also seem to be higher on weekends than weekdays given that people have more free time and
+        are likely to go out late.
+        Fatal crashes between 19:00 to 23:00 on Friday and Saturday and 00:00 to 04:00 on Saturday and Sunday are higher
+        than other days in the same period.
+      </h5>
+    </div>
+    <h7><b>Note: White cells indicate that there is no fatal crash reported during that period.</b>
   </div>
-  <div class="side-text-2"><h5>The regression line in the bubble plot shows a slight positive correlation between the number of fatal crashes
-    and the average number of deaths per fatal crash.
-    <br><br>
-    SA4s in <b><span style="color: #1170aa">Qld</span></b> have alarmingly high death-to-crash ratios compared to
-    SA4s in other states. <b><span style="color: #1170aa">Townsville</span></b> and
-    <b><span style="color: #1170aa">Cairns</span></b> have an an average of 1.20 and 1.19 deaths per fatal crash
-    with almost 60 fatal crashes each.
-    <br><br>
-    However, the average number of deaths per fatal crash is lesser for more populated SA4s.
-    <b><span style="color: #c85200">Victoria (Vic)</span></b> and <b><span style="color: #fc7d0b">NSW</span></b> 
-    have SA4s with large populations and relatively low average deaths such as
-     <b><span style="color: #c85200">Melbourne - South East</span></b>. 
-    Major cities tend to 
-    have more safety enforcements and faster post-crash emergency responses.
-    <br><br>
-  </h5>
-</div>
-
+  </h7>
   <br><br><br><br><br>
   <br><br><br><br><br>
   <br><br><br><br><br>
   <br><br><br><br><br>
   <br><br><br><br><br>
   <br><br><br><br><br>
-  <br><br><br><br>
-  <p class="footer">This visualisation was created by Vincent Arson Taneli using the latest Australian data from</p>
-
-  <br>
-  <br>
-  <br>
+  <br><br><br><br><br>
+  <br><br>
+  <p class="footer">This visualisation was created by <b>Vincent Arson Taneli</b> using the latest Australian data
+    from the <br><b><a href="https://www.bitre.gov.au/statistics/safety/fatal_road_crash_database"
+        style="color: white;">
+        Bureau of Infrastructure and Transport Research Economics</a></b> and
+    <b><a href="https://stat.data.abs.gov.au/Index.aspx" style="color: white;">
+        Australian Bureau of Statistics</a>
+    </b>.
+  </p>
 
 </body>
 

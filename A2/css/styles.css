@@ -69,11 +69,22 @@ h6 {
 	padding-right: 43em;
   }
 
+h7 {
+    font-size: 1em;
+	font-weight: normal;
+	margin-left: 60em;
+	float: right;
+  }
+
 .footer {
     font-size: 1em;
 	font-weight: normal;
+	color: white;
+	padding-top: .75em;
+	padding-bottom: .75em;
 	margin-left:auto;
 	margin-right:auto;
+	background-color: darkred;
   }
 
 p {

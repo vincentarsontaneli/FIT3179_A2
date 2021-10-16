@@ -1,18 +1,19 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_4.csv"
+  },
   "vconcat": [
     {
       "width": 650,
       "height": 200,
-      "data": {
-        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_10.csv"
-      },
+      "title": "Fatal Crashes in Australia from January 2015 to August 2021 (Highlight to filter)",
       "encoding": {
         "x": {
           "field": "Year-Month",
           "timeUnit": "yearmonth",
+          "title": "Month and Year",
           "axis": {
-            "title": "",
             "grid": false,
             "tickCount": {
               "interval": "month",
@@ -25,7 +26,7 @@
         {
           "encoding": {
             "y": {
-              "field": "Crash_Rate",
+              "field": "Crash_Count",
               "aggregate": "sum",
               "type": "quantitative",
               "title": "Fatal Crashes"
@@ -34,13 +35,8 @@
           "layer": [
             {
               "mark": {
-                "type": "area"
-              },
-              "encoding": {
-                "color":{
-                  "field": "National Remoteness Areas",
-                            "type": "nominal"
-                }
+                "type": "line",
+                "stroke": "red"
               }
             },
             {
@@ -113,9 +109,7 @@
     {
       "width": 650,
       "height": 225,
-      "data": {
-        "url": "https://raw.githubusercontent.com/vincenttaneli/FIT3179_A2/main/A2/data/data_grouped_4.csv"
-      },
+      "title": "Fatal Crashes by Day and Hour",
       "transform": [
         {
           "filter": {
@@ -123,65 +117,69 @@
           }
         }
       ],
-      "mark": "rect",
-      "encoding": {
-        "x": {
-          "field": "Hour",
-          "type": "ordinal",
-          "axis": {
-            "labelAngle": 0
+      "layer": [
+        {
+          "mark": "rect",
+          "encoding": {
+            "x": {
+              "field": "Hour",
+              "type": "ordinal",
+              "axis": {
+                "labelAngle": 0
+              }
+            },
+            "y": {
+              "field": "Dayweek",
+              "type": "ordinal",
+              "sort": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "title": "Day",
+              "axis": {
+                "labelAngle": 0
+              }
+            },
+            "color": {
+              "field": "Crash_Count",
+              "aggregate": "sum",
+              "title": "Fatal Crashes",
+              "type": "quantitative",
+              "scale": {
+                "scheme": "reds"
+              },
+              "legend": {
+                "orient": "bottom",
+                "direction": "horizontal"
+              }
+            },
+            "tooltip": [
+              {
+                "field": "Dayweek",
+                "type": "ordinal",
+                "title": "Day"
+              },
+              {
+                "field": "Hour",
+                "type": "ordinal",
+                "format": ","
+              },
+              {
+                "field": "Crash_Count",
+                "aggregate": "sum",
+                "title": "Fatal Crashes",
+                "type": "quantitative",
+                "format": ","
+              }
+            ]
           }
-        },
-        "y": {
-          "field": "Dayweek",
-          "type": "ordinal",
-          "sort": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "title": "Day",
-          "axis": {
-            "labelAngle": 0
-          }
-        },
-        "color": {
-          "field": "Crash_Count",
-          "aggregate": "sum",
-          "title": "Fatal Crashes",
-          "type": "quantitative",
-          "scale": {
-            "scheme": "reds"
-          },
-          "legend": {
-            "orient": "bottom",
-            "direction": "horizontal"
-          }
-        },
-        "tooltip": [
-          {
-            "field": "Dayweek",
-            "type": "ordinal",
-            "title": "Day"
-          },
-          {
-            "field": "Hour",
-            "type": "ordinal",
-            "format": ","
-          },
-          {
-            "field": "Crash_Count",
-            "aggregate": "sum",
-            "title": "Fatal Crashes",
-            "type": "quantitative",
-            "format": ","
-          }
-        ]
-      }
+        }
+      ]
     }
   ]
 }
